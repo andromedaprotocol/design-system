@@ -1,6 +1,6 @@
 {
   "name": "@andromeda-design-system/theme",
-  "version": "0.4.0",
+  "version": "0.4.1",
   "sideEffects": false,
   "license": "MIT",
   "main": "dist/cjs/index.js",
@@ -38,8 +38,8 @@
     "react": "^17.0.2"
   },
   "dependencies": {
-    "@emotion/react": "^11.5.0",
     "@andromeda-design-system/utils": "^0.1.0",
+    "@emotion/react": "^11.5.0",
     "lodash.set": "^4.3.2"
   },
   "peerDependencies": {
