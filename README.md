@@ -10,7 +10,7 @@ Collection of Accessible React UI Components using TailwindCSS.
 
 ![](docs/public/themes/screenshot.png)
 
-- Documentation: [https://andromedaprotocol.github.io/design-system/](https://andromedaprotocol.github.io/design-system/)
+- Documentation: [https://andromedaprotocol.github.io/andromeda-design-system/](https://andromedaprotocol.github.io/andromeda-design-system/)
 - NPM: [andromeda-design-system/react](https://www.npmjs.com/package/andromeda-design-system/react)
 
 ## ✨ Features
