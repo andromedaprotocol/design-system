@@ -31,7 +31,7 @@ import {
   useMessage,
   useNotification,
   cx,
-} from "@andromeda-protocol/design-system/react";
+} from "andromeda-design-system/react";
 import {
   Menu,
   Listbox,
@@ -327,7 +327,7 @@ function DialogDemo() {
       <div className={cx("px-3 py-2 flex-1")}>
         <p className="mb-4 text-sm font-normal text-muted">
           To delete your project, please enter the name of your project{" "}
-          <b>pepelele</b>. Once deleted this project will be unrecoverable.
+          <b>Andromeda</b>. Once deleted this project will be unrecoverable.
         </p>
 
         <FormControl>

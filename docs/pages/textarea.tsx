@@ -75,7 +75,7 @@ const demoList = [
 
 const textareaComponent = {
   name: "Textarea",
-  importer: `import { Textarea } from "@andromeda-protocol/design-system/react"`,
+  importer: `import { Textarea } from "andromeda-design-system/react"`,
   demoList,
   propList,
 };

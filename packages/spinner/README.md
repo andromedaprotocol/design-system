@@ -1,5 +1,5 @@
 ## Installation
 
 ```sh
-yarn add @andromeda-protocol/design-system/spinner
+yarn add andromeda-design-system/spinner
 ```

@@ -185,7 +185,7 @@ const demoList = [
 
 const switchComponent = {
   name: "Switch",
-  importer: 'import { Switch } from "@andromeda-protocol/design-system/react"',
+  importer: 'import { Switch } from "andromeda-design-system/react"',
   demoList,
   propList,
 };

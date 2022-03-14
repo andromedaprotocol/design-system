@@ -1,6 +1,6 @@
-import { Link, LinkProps } from "@andromeda-protocol/design-system/link";
-import { cx, getValidChildren, __DEV__ } from "@andromeda-protocol/design-system/utils";
-import { DefaultProps } from "@andromeda-protocol/design-system/theme";
+import { Link, LinkProps } from "andromeda-design-system/link";
+import { cx, getValidChildren, __DEV__ } from "andromeda-design-system/utils";
+import { DefaultProps } from "andromeda-design-system/theme";
 import * as React from "react";
 import { cloneElement } from "react";
 

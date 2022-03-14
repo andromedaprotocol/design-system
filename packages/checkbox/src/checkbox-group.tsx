@@ -1,10 +1,6 @@
 import { useId } from "@reach/auto-id";
-import { DefaultProps } from "@andromeda-protocol/design-system/theme";
-import {
-  cx,
-  getValidChildren,
-  __DEV__,
-} from "@andromeda-protocol/design-system/utils";
+import { DefaultProps } from "andromeda-design-system/theme";
+import { cx, getValidChildren, __DEV__ } from "andromeda-design-system/utils";
 import * as React from "react";
 import { cloneElement, useRef, useState } from "react";
 

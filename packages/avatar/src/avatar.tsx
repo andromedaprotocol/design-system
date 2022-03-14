@@ -1,6 +1,6 @@
-import { useImage } from "@andromeda-protocol/design-system/image";
-import { DefaultProps } from "@andromeda-protocol/design-system/theme";
-import { cx, __DEV__ } from "@andromeda-protocol/design-system/utils";
+import { useImage } from "andromeda-design-system/image";
+import { DefaultProps } from "andromeda-design-system/theme";
+import { cx, __DEV__ } from "andromeda-design-system/utils";
 import * as React from "react";
 
 import { useAvatarClass, useAvatarNameClass } from "./styles";

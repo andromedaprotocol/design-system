@@ -155,7 +155,7 @@ const demoList = [
               />
               <div className="flex-1 px-3 py-2">
                 <p className="mb-4 text-sm font-normal text-muted">
-                  To delete your project, please enter the name of your project <b>pepelele</b>. 
+                  To delete your project, please enter the name of your project <b>Andromeda</b>. 
                   Once deleted this project will be unrecoverable.
                 </p>
 
@@ -194,7 +194,7 @@ const demoList = [
 const dialogComponent = {
   name: "Dialog",
   importer: `import { Dialog, Transition } from "@headlessui/react";
-import { cx } from "@andromeda-protocol/design-system/react";`,
+import { cx } from "andromeda-design-system/react";`,
   demoList,
   propList,
 };

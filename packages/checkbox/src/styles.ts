@@ -1,5 +1,5 @@
-import { createMemoClass } from "@andromeda-protocol/design-system/theme";
-import { cx } from "@andromeda-protocol/design-system/utils";
+import { createMemoClass } from "andromeda-design-system/theme";
+import { cx } from "andromeda-design-system/utils";
 
 export const useCheckboxLabelClass = createMemoClass((props) => {
   const sizes = {

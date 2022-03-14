@@ -1,5 +1,5 @@
 ## Installation
 
 ```sh
-yarn add @andromeda-protocol/design-system/notification
+yarn add andromeda-design-system/notification
 ```

@@ -1,4 +1,4 @@
-import { Button } from "@andromeda-protocol/design-system/button";
+import { Button } from "andromeda-design-system/button";
 import {
   Icon,
   InfoIcon,
@@ -6,12 +6,9 @@ import {
   XCricleIcon,
   CheckCircleIcon,
   ExclamationIcon,
-} from "@andromeda-protocol/design-system/icon";
-import {
-  createToast,
-  useToastOptions,
-} from "@andromeda-protocol/design-system/toast";
-import { cx as clsx, __DEV__ } from "@andromeda-protocol/design-system/utils";
+} from "andromeda-design-system/icon";
+import { createToast, useToastOptions } from "andromeda-design-system/toast";
+import { cx as clsx, __DEV__ } from "andromeda-design-system/utils";
 import * as React from "react";
 
 const statuses = {

@@ -1,7 +1,7 @@
-import { useFormControl } from "@andromeda-protocol/design-system/forms";
-import { DefaultProps } from "@andromeda-protocol/design-system/theme";
-import { cx, __DEV__ } from "@andromeda-protocol/design-system/utils";
-import VisuallyHidden from "@andromeda-protocol/design-system/visually-hidden";
+import { useFormControl } from "andromeda-design-system/forms";
+import { DefaultProps } from "andromeda-design-system/theme";
+import { cx, __DEV__ } from "andromeda-design-system/utils";
+import VisuallyHidden from "andromeda-design-system/visually-hidden";
 import * as React from "react";
 
 import { useSwitchClass, useSwitchBoxClass } from "./styles";

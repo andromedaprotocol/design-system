@@ -1,5 +1,5 @@
 {
-  "name": "@andromeda-protocol/design-system/utils",
+  "name": "andromeda-design-system/utils",
   "version": "0.2.1",
   "sideEffects": false,
   "license": "MIT",

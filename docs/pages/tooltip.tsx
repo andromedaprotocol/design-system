@@ -64,7 +64,7 @@ const demoList = [
 const tooltipComponent = {
   name: "Tooltip",
   importer: `import * as Tooltip from "@radix-ui/react-tooltip";
-import { cx } from "@andromeda-protocol/design-system/react";`,
+import { cx } from "andromeda-design-system/react";`,
   demoList,
   propList,
 };

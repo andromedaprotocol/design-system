@@ -55,7 +55,7 @@ const demoList = [
 
 const spinnerComponent = {
   name: "Spinner",
-  importer: `import { Spinner } from "@andromeda-protocol/design-system/react"`,
+  importer: `import { Spinner } from "andromeda-design-system/react"`,
   demoList,
   propList,
 };

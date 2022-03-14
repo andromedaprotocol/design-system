@@ -1,10 +1,6 @@
-import { useFormControl } from "@andromeda-protocol/design-system/forms";
-import {
-  cx,
-  useForkRef,
-  __DEV__,
-} from "@andromeda-protocol/design-system/utils";
-import { DefaultProps } from "@andromeda-protocol/design-system/theme";
+import { useFormControl } from "andromeda-design-system/forms";
+import { cx, useForkRef, __DEV__ } from "andromeda-design-system/utils";
+import { DefaultProps } from "andromeda-design-system/theme";
 import * as React from "react";
 import { useEffect, useRef } from "react";
 

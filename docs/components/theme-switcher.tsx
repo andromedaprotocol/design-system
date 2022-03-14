@@ -1,10 +1,5 @@
 import { Popover, RadioGroup, Transition } from "@headlessui/react";
-import {
-  cx,
-  Divider,
-  Switch,
-  Select,
-} from "@andromeda-protocol/design-system/react";
+import { cx, Divider, Switch, Select } from "andromeda-design-system/react";
 import * as React from "react";
 
 import {

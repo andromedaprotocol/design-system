@@ -3,7 +3,7 @@ import {
   AndromedaDesignSystemProvider,
   extendTheme,
   AndromedaDesignSystemProviderProps,
-} from "@andromeda-protocol/design-system/react";
+} from "andromeda-design-system/react";
 
 import { light, dark, midnight, pale, dawn, bee, cool } from "@utils/themes";
 

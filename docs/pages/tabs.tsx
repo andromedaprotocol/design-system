@@ -407,7 +407,7 @@ const demoList = [
 const tabsComponent = {
   name: "Tabs",
   importer: `import * as Tabs from "@radix-ui/react-tabs";
-import { cx } from "@andromeda-protocol/design-system/react";`,
+import { cx } from "andromeda-design-system/react";`,
   demoList,
   propList,
 };

@@ -11,7 +11,7 @@
  */
 
  import * as React from "react";
- import { __DEV__ } from "@andromeda-protocol/design-system/utils";
+ import { __DEV__ } from "andromeda-design-system/utils";
  import PropTypes from "prop-types";
  
  /**

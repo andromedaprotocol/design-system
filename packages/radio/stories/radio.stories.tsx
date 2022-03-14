@@ -2,7 +2,7 @@ import {
   FormControl,
   FormHelperText,
   FormLabel,
-} from "@andromeda-protocol/design-system/forms";
+} from "andromeda-design-system/forms";
 import { Radio } from "../src";
 
 export default {

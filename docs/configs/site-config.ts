@@ -13,8 +13,8 @@ const siteConfig = {
       "Collection of Accessible React UI Components using TailwindCSS.",
     siteUrl: "https://andromedaprotocol.github.io/design-system",
     twitter: {
-      handle: "@andromeda-protocol/design-system",
-      site: "@andromeda-protocol/design-system",
+      handle: "andromeda-design-system",
+      site: "andromeda-design-system",
       cardType: "summary_large_image",
     },
     openGraph: {

@@ -1,6 +1,6 @@
-import { cx, __DEV__ } from "@andromeda-protocol/design-system/utils";
-import { Icon, XIcon } from "@andromeda-protocol/design-system/icon";
-import { DefaultProps } from "@andromeda-protocol/design-system/theme";
+import { cx, __DEV__ } from "andromeda-design-system/utils";
+import { Icon, XIcon } from "andromeda-design-system/icon";
+import { DefaultProps } from "andromeda-design-system/theme";
 import * as React from "react";
 
 import { useAlertClass, useAlertCloseButton } from "./styles";

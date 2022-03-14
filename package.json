@@ -1,5 +1,5 @@
 {
-  "name": "@andromeda-protocol/design-system",
+  "name": "andromeda-design-system",
   "private": true,
   "version": "1.0.0",
   "workspaces": {
@@ -26,7 +26,7 @@
     "storybook": "start-storybook -p 6006",
     "build-storybook": "build-storybook",
     "release": "changeset publish",
-    "docs": "yarn workspace @andromeda-protocol/design-system/docs",
+    "docs": "yarn workspace andromeda-design-system/docs",
     "docs:dev": "yarn docs dev",
     "docs:start": "yarn docs start"
   },
@@ -34,7 +34,7 @@
     "**/react": "17.0.2",
     "**/react-dom": "17.0.2"
   },
-  "author": "pepelele",
+  "author": "Andromeda",
   "license": "MIT",
   "devDependencies": {
     "@babel/cli": "^7.14.5",

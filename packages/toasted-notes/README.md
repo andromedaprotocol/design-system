@@ -1,5 +1,5 @@
 ## Installation
 
 ```sh
-yarn add @andromeda-protocol/design-system/toasted-notes
+yarn add andromeda-design-system/toasted-notes
 ```

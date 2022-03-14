@@ -1,4 +1,4 @@
-import { Button } from "@andromeda-protocol/design-system/button";
+import { Button } from "andromeda-design-system/button";
 import { useNotification } from "../src";
 
 export default {

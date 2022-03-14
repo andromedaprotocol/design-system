@@ -417,7 +417,7 @@ const demoList = [
 const tabsComponent = {
   name: "Tab",
   importer: `import { Tab } from "@headlessui/react";
-import { cx } from "@andromeda-protocol/design-system/react";`,
+import { cx } from "andromeda-design-system/react";`,
   demoList,
   propList,
 };

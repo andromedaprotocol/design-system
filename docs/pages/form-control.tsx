@@ -149,7 +149,7 @@ const formControlComponent = {
   FormLabel,
   FormHelperText,
   FormErrorMessage,
-} from "@andromeda-protocol/design-system/react"`,
+} from "andromeda-design-system/react"`,
   demoList,
   propList,
 };

@@ -187,7 +187,7 @@ const demoList = [
 
 const inputComponent = {
   name: "Input",
-  importer: `import { Input } from "@andromeda-protocol/design-system/react"`,
+  importer: `import { Input } from "andromeda-design-system/react"`,
   demoList,
   propList,
 };

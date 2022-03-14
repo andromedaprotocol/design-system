@@ -1,5 +1,5 @@
 import colors from "tailwindcss/colors";
-import { ColorScheme } from "@andromeda-protocol/design-system/react";
+import { ColorScheme } from "andromeda-design-system/react";
 // light theme
 export const light: ColorScheme = {
   id: "light",

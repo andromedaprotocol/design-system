@@ -1,4 +1,4 @@
-import { cx, IconButton } from "@andromeda-protocol/design-system/react";
+import { cx, IconButton } from "andromeda-design-system/react";
 import * as React from "react";
 import { useRouter } from "next/router";
 import Link from "next/link";

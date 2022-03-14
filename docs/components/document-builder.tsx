@@ -1,5 +1,5 @@
 import * as Tabs from "@radix-ui/react-tabs";
-import { Link } from "@andromeda-protocol/design-system/react";
+import { Link } from "andromeda-design-system/react";
 import * as React from "react";
 import NextLink from "next/link";
 

@@ -1,6 +1,6 @@
-import { Spinner } from "@andromeda-protocol/design-system/spinner";
-import { DefaultProps } from "@andromeda-protocol/design-system/theme";
-import { cx, __DEV__ } from "@andromeda-protocol/design-system/utils";
+import { Spinner } from "andromeda-design-system/spinner";
+import { DefaultProps } from "andromeda-design-system/theme";
+import { cx, __DEV__ } from "andromeda-design-system/utils";
 import * as React from "react";
 
 import { useButtonClass } from "./styles";

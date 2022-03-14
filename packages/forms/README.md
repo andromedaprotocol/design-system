@@ -1,5 +1,5 @@
 ## Installation
 
 ```sh
-yarn add @andromeda-protocol/design-system/forms
+yarn add andromeda-design-system/forms
 ```

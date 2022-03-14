@@ -23,7 +23,7 @@ const demoList = [
 
 const kbdComponent = {
   name: "Kbd",
-  importer: `import { Kbd } from "@andromeda-protocol/design-system/react"`,
+  importer: `import { Kbd } from "andromeda-design-system/react"`,
   demoList,
 };
 
