@@ -1,4 +1,4 @@
-import type { WithCSSVar, Dict } from "andromeda-design-system/utils";
+import type { WithCSSVar, Dict } from "@andromeda-design-system/utils";
 
 import { createThemeVars } from "./create-theme-vars";
 import { extractTokens, omitVars } from "./theme-tokens";

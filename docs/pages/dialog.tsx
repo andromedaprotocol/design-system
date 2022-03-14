@@ -194,7 +194,7 @@ const demoList = [
 const dialogComponent = {
   name: "Dialog",
   importer: `import { Dialog, Transition } from "@headlessui/react";
-import { cx } from "andromeda-design-system/react";`,
+import { cx } from "@andromeda-design-system/react";`,
   demoList,
   propList,
 };

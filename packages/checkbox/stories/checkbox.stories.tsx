@@ -2,7 +2,7 @@ import {
   FormControl,
   FormHelperText,
   FormLabel,
-} from "andromeda-design-system/forms";
+} from "@andromeda-design-system/forms";
 import { Checkbox } from "../src";
 
 export default {

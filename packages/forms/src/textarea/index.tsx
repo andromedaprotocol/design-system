@@ -1,4 +1,4 @@
-import { cx, __DEV__ } from "andromeda-design-system/utils";
+import { cx, __DEV__ } from "@andromeda-design-system/utils";
 import * as React from "react";
 
 import { IInputProps, OmittedTypes } from "../input/input";

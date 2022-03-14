@@ -1,5 +1,5 @@
-import { DefaultProps } from "andromeda-design-system/theme";
-import { omit, __DEV__ } from "andromeda-design-system/utils";
+import { DefaultProps } from "@andromeda-design-system/theme";
+import { omit, __DEV__ } from "@andromeda-design-system/utils";
 import * as React from "react";
 import { useImage, UseImageProps } from "./use-image";
 

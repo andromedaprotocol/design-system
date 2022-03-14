@@ -73,7 +73,7 @@ const demoList = [
 
 const imageComponent = {
   name: "Image",
-  importer: `import { Image } from "andromeda-design-system/react"`,
+  importer: `import { Image } from "@andromeda-design-system/react"`,
   demoList,
   propList,
 };

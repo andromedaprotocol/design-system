@@ -1,4 +1,4 @@
-import { Dict, pick } from "andromeda-design-system/utils";
+import { Dict, pick } from "@andromeda-design-system/utils";
 
 const tokens = ["colors", "cursor", "rounded", "density"] as const;
 

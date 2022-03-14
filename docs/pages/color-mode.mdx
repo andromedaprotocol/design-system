@@ -13,7 +13,7 @@ import * as React from "react";
 import {
   AndromedaDesignSystemProvider,
   Button,
-} from "andromeda-design-system/react";
+} from "@andromeda-design-system/react";
 
 function App() {
   return (
@@ -27,7 +27,7 @@ function App() {
 
 ## Adding Color
 
-To add other colors edit the `colors` option in the andromeda-design-system/core plugin of tailwindcss.
+To add other colors edit the `colors` option in the @andromeda-design-system/core plugin of tailwindcss.
 
 ```js
 // tailwind.config.js
@@ -46,7 +46,7 @@ module.exports = {
   // add Andromeda Design System plugin
   plugins: [
     require("@tailwindcss/forms"),
-    require("andromeda-design-system/core")({
+    require("@andromeda-design-system/core")({
       colors: ["pink", "warning"],
     }),
     // ...
@@ -59,7 +59,7 @@ import * as React from "react";
 import {
   AndromedaDesignSystemProvider,
   Button,
-} from "andromeda-design-system/react";
+} from "@andromeda-design-system/react";
 
 function App() {
   return (

@@ -93,7 +93,7 @@ const demoList = [
 
 const messageComponent = {
   name: "Message",
-  importer: `import { useMessage } from "andromeda-design-system/react"`,
+  importer: `import { useMessage } from "@andromeda-design-system/react"`,
   demoList,
   propList,
 };

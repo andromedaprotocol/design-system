@@ -1,5 +1,5 @@
 {
-  "name": "andromeda-design-system/checkbox",
+  "name": "@andromeda-design-system/checkbox",
   "version": "0.2.8",
   "sideEffects": false,
   "license": "MIT",
@@ -38,9 +38,9 @@
   },
   "dependencies": {
     "@reach/auto-id": "^0.15.0",
-    "andromeda-design-system/forms": "0.3.2",
-    "andromeda-design-system/theme": "0.4.0",
-    "andromeda-design-system/utils": "^0.1.0"
+    "@andromeda-design-system/forms": "0.3.2",
+    "@andromeda-design-system/theme": "0.4.0",
+    "@andromeda-design-system/utils": "^0.1.0"
   },
   "peerDependencies": {
     "react": ">=16.8.6"

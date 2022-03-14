@@ -1,5 +1,5 @@
 import "../styles/globals.css";
-// import "andromeda-design-system/core/dist/andromeda-design-system.css";
+// import "@andromeda-design-system/core/dist/andromeda-design-system.css";
 import * as React from "react";
 import { useEffect } from "react";
 import { AppProps } from "next/app";

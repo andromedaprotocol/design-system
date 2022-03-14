@@ -1,5 +1,5 @@
-import { createMemoClass } from "andromeda-design-system/theme";
-import { cx } from "andromeda-design-system/utils";
+import { createMemoClass } from "@andromeda-design-system/theme";
+import { cx } from "@andromeda-design-system/utils";
 
 const sizes = {
   xs: "w-3 h-3",

@@ -3,15 +3,15 @@
 <div align="center">
 Collection of Accessible React UI Components using TailwindCSS.
 
-[![npm latest package](https://img.shields.io/npm/v/andromeda-design-system/react/latest.svg)](https://www.npmjs.com/package/andromeda-design-system/react)
-[![npm downloads](https://img.shields.io/npm/dm/andromeda-design-system/react.svg)](https://www.npmjs.com/package/andromeda-design-system/react)
+[![npm latest package](https://img.shields.io/npm/v/@andromeda-design-system/react/latest.svg)](https://www.npmjs.com/package/@andromeda-design-system/react)
+[![npm downloads](https://img.shields.io/npm/dm/@andromeda-design-system/react.svg)](https://www.npmjs.com/package/@andromeda-design-system/react)
 
 </div>
 
 ![](docs/public/themes/screenshot.png)
 
-- Documentation: [https://andromedaprotocol.github.io/andromeda-design-system/](https://andromedaprotocol.github.io/andromeda-design-system/)
-- NPM: [andromeda-design-system/react](https://www.npmjs.com/package/andromeda-design-system/react)
+- Documentation: [https://andromedaprotocol.github.io/design-system/](https://andromedaprotocol.github.io/design-system/)
+- NPM: [@andromeda-design-system/react](https://www.npmjs.com/package/@andromeda-design-system/react)
 
 ## ✨ Features
 
@@ -23,13 +23,13 @@ Collection of Accessible React UI Components using TailwindCSS.
 ## Installation
 
 ```
-npm i andromeda-design-system/core andromeda-design-system/react @tailwindcss/forms
+npm i @andromeda-design-system/core @andromeda-design-system/react @tailwindcss/forms
 ```
 
 **Yarn**
 
 ```
-yarn add andromeda-design-system/core andromeda-design-system/react @tailwindcss/forms
+yarn add @andromeda-design-system/core @andromeda-design-system/react @tailwindcss/forms
 ```
 
 ## Development

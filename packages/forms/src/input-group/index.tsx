@@ -1,5 +1,5 @@
-import { DefaultProps } from "andromeda-design-system/theme";
-import { cx, getValidChildren, __DEV__ } from "andromeda-design-system/utils";
+import { DefaultProps } from "@andromeda-design-system/theme";
+import { cx, getValidChildren, __DEV__ } from "@andromeda-design-system/utils";
 import * as React from "react";
 
 import { Input, InputProps } from "../input/input";

@@ -1,7 +1,7 @@
 import {
   AndromedaDesignSystemProvider,
   extendTheme,
-} from "andromeda-design-system/react";
+} from "@andromeda-design-system/react";
 import { useState, useMemo } from "react";
 import { withPerformance } from "storybook-addon-performance";
 import { light, dark, midnight, pale, dawn, bee, cool } from "./themes";

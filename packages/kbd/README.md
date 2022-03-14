@@ -1,5 +1,5 @@
 ## Installation
 
 ```sh
-yarn add andromeda-design-system/kbd
+yarn add @andromeda-design-system/kbd
 ```

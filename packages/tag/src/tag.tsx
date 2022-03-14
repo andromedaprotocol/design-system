@@ -1,6 +1,6 @@
-import { DefaultProps } from "andromeda-design-system/theme";
-import { Icon, XIcon } from "andromeda-design-system/icon";
-import { cx, __DEV__ } from "andromeda-design-system/utils";
+import { DefaultProps } from "@andromeda-design-system/theme";
+import { Icon, XIcon } from "@andromeda-design-system/icon";
+import { cx, __DEV__ } from "@andromeda-design-system/utils";
 import * as React from "react";
 
 import { useTagClass } from "./styles";

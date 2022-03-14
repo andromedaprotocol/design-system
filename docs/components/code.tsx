@@ -1,4 +1,4 @@
-import { cx } from "andromeda-design-system/react";
+import { cx } from "@andromeda-design-system/react";
 import * as React from "react";
 
 import Editor from "@libs/react-codex";

@@ -1,5 +1,5 @@
-import { DefaultProps } from "andromeda-design-system/theme";
-import { cx, __DEV__ } from "andromeda-design-system/utils";
+import { DefaultProps } from "@andromeda-design-system/theme";
+import { cx, __DEV__ } from "@andromeda-design-system/utils";
 import * as React from "react";
 
 import { useFormControl } from "../form-control";

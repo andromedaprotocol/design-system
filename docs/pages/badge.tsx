@@ -92,7 +92,7 @@ const demoList = [
 
 const badgeComponent = {
   name: "Badge",
-  importer: `import { Badge } from "andromeda-design-system/react"`,
+  importer: `import { Badge } from "@andromeda-design-system/react"`,
   demoList,
   propList,
 };

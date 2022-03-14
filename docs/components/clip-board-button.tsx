@@ -3,7 +3,7 @@ import {
   IconButton,
   Icon,
   IconButtonProps,
-} from "andromeda-design-system/react";
+} from "@andromeda-design-system/react";
 import * as React from "react";
 import useClipboard from "react-use-clipboard";
 

@@ -1,4 +1,4 @@
-import { FormControl, FormLabel } from "andromeda-design-system/forms";
+import { FormControl, FormLabel } from "@andromeda-design-system/forms";
 import { Switch } from "../src";
 
 export default {

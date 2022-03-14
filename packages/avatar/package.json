@@ -1,5 +1,5 @@
 {
-  "name": "andromeda-design-system/avatar",
+  "name": "@andromeda-design-system/avatar",
   "version": "0.2.1",
   "sideEffects": false,
   "license": "MIT",
@@ -37,9 +37,9 @@
     "react": "^17.0.2"
   },
   "dependencies": {
-    "andromeda-design-system/image": "0.1.7",
-    "andromeda-design-system/theme": "0.4.0",
-    "andromeda-design-system/utils": "^0.1.0"
+    "@andromeda-design-system/image": "0.1.7",
+    "@andromeda-design-system/theme": "0.4.0",
+    "@andromeda-design-system/utils": "^0.1.0"
   },
   "peerDependencies": {
     "react": ">=16.8.6"

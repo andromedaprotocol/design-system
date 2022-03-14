@@ -1,4 +1,4 @@
-import { DeepPartial } from "andromeda-design-system/utils";
+import { DeepPartial } from "@andromeda-design-system/utils";
 
 export type RecursiveProperty<Nested = string | number> =
   | RecursiveObject<Nested>

@@ -1,5 +1,5 @@
-import { cx } from "andromeda-design-system/utils";
-import { createMemoClass } from "andromeda-design-system/theme";
+import { cx } from "@andromeda-design-system/utils";
+import { createMemoClass } from "@andromeda-design-system/theme";
 
 const variants = {
   solid: "dot-solid",

@@ -1,4 +1,4 @@
-import { Dict, walkObject } from "andromeda-design-system/utils";
+import { Dict, walkObject } from "@andromeda-design-system/utils";
 
 import { ThemeScale } from "./theme-tokens";
 import { cssVar } from "./css-var";

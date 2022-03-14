@@ -324,7 +324,7 @@ const demoList = [
 
 const radioComponent = {
   name: "Radio",
-  importer: 'import { Radio } from "andromeda-design-system/react"',
+  importer: 'import { Radio } from "@andromeda-design-system/react"',
   demoList,
   propList,
 };

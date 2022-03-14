@@ -1,6 +1,6 @@
-import { useFormControl } from "andromeda-design-system/forms";
-import { cx, __DEV__ } from "andromeda-design-system/utils";
-import { DefaultProps } from "andromeda-design-system/theme";
+import { useFormControl } from "@andromeda-design-system/forms";
+import { cx, __DEV__ } from "@andromeda-design-system/utils";
+import { DefaultProps } from "@andromeda-design-system/theme";
 import * as React from "react";
 
 import { useRadioClass, useRadioLabelClass } from "./styles";

@@ -6,7 +6,7 @@ module.exports = {
   mode: "jit",
   purge: [
     // ...
-    "./node_modules/andromeda-design-system/**/*.{js,ts,jsx,tsx}", 
+    "./node_modules/@andromeda-design-system/**/*.{js,ts,jsx,tsx}", 
   ],
   darkMode: "class", // or 'media' or 'class'
   theme: {
@@ -22,7 +22,7 @@ module.exports = {
   // add plugin
   plugins: [
     require("@tailwindcss/forms"),
-    require("andromeda-design-system/core")({
+    require("@andromeda-design-system/core")({
       colors: ["orange"],
     }),
     // ...
@@ -37,7 +37,7 @@ export const tabsEndClosedTWFile = {
   mode: "jit",
   purge: [
     // ...
-    "./node_modules/andromeda-design-system/**/*.{js,ts,jsx,tsx}", 
+    "./node_modules/@andromeda-design-system/**/*.{js,ts,jsx,tsx}", 
   ],
   darkMode: "class", // or 'media' or 'class'
   theme: {
@@ -53,7 +53,7 @@ export const tabsEndClosedTWFile = {
   // add plugin
   plugins: [
     require("@tailwindcss/forms"),
-    require("andromeda-design-system/core"),
+    require("@andromeda-design-system/core"),
     // ...
   ],
 };`,

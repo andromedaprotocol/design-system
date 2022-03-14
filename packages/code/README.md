@@ -1,5 +1,5 @@
 ## Installation
 
 ```sh
-yarn add andromeda-design-system/code
+yarn add @andromeda-design-system/code
 ```

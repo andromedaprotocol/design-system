@@ -1,6 +1,6 @@
-import { DefaultProps } from "andromeda-design-system/theme";
-import { cx, __DEV__ } from "andromeda-design-system/utils";
-import VisuallyHidden from "andromeda-design-system/visually-hidden";
+import { DefaultProps } from "@andromeda-design-system/theme";
+import { cx, __DEV__ } from "@andromeda-design-system/utils";
+import VisuallyHidden from "@andromeda-design-system/visually-hidden";
 import * as React from "react";
 
 import { QuestionCircleIcon } from "./core";
