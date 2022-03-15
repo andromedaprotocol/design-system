@@ -2,6 +2,8 @@ import { Popover, RadioGroup, Transition } from "@headlessui/react";
 import { cx, Divider, Switch, Select } from "@andromedaprotocol/react";
 import * as React from "react";
 
+import { prefix } from "@utils/prefix";
+
 import {
   useTheme,
   themes,
@@ -29,13 +31,13 @@ export function ThemSwitcher() {
             <div className="flex flex-row items-center flex-1 space-x-2">
               <span className="relative inline-flex items-center justify-center flex-shrink-0 w-8 h-8 align-top rounded-base bg-neutral-800">
                 <img
-                  className="object-cover w-full h-full rounded-base"
-                  src="/andromeda-design-system.svg"
+                  className="w-full h-full rounded-base fill-white"
+                  src={`${prefix}/andromeda-design-system.svg`}
                   alt="logo"
                 />
               </span>
               <span className="font-semibold text-neutral-100">
-                Andromeda Design System
+                ⟜ Design System ⟢
               </span>
             </div>
             <div className="text-lg text-neutral-100">
