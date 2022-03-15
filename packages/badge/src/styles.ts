@@ -1,13 +1,21 @@
 import { createMemoClass } from "@andromedaprotocol/theme";
 import { cx } from "@andromedaprotocol/utils";
 
-const variantClasses = {
+type variantOptions = {
+  [key: string]: string;
+};
+
+type sizeOptions = {
+  [key: string]: string | number;
+};
+
+const variantClasses: variantOptions = {
   solid: "badge-solid",
   outline: "badge-outline",
   light: "badge-light",
 };
 
-const sizes = {
+const sizes: sizeOptions = {
   sm: "badge-sm",
   md: "badge-md",
 };

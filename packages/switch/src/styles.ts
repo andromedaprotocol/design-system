@@ -1,8 +1,12 @@
 import { createMemoClass } from "@andromedaprotocol/theme";
 import { cx } from "@andromedaprotocol/utils";
 
+type sizeOptions = {
+  [key: string]: string | number;
+};
+
 export const useSwitchBoxClass = createMemoClass((props) => {
-  const sizes = {
+  const sizes: sizeOptions = {
     sm: "form-switch-box-sm",
     md: "form-switch-box-md",
     lg: "form-switch-box-lg",
@@ -15,7 +19,7 @@ export const useSwitchBoxClass = createMemoClass((props) => {
 });
 
 export const useSwitchClass = createMemoClass((props) => {
-  const sizes = {
+  const sizes: sizeOptions = {
     sm: "form-switch-sm",
     md: "form-switch-md",
     lg: "form-switch-lg",

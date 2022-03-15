@@ -1,7 +1,11 @@
 import { createMemoClass } from "@andromedaprotocol/theme";
 import { cx } from "@andromedaprotocol/utils";
 
-const sizes = {
+type sizeOptions = {
+  [key: string]: string | number;
+};
+
+const sizes: sizeOptions = {
   xs: "w-3 h-3",
   sm: "w-4 h-4",
   md: "w-6 h-6",

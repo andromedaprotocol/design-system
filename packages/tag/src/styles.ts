@@ -1,13 +1,21 @@
 import { cx } from "@andromedaprotocol/utils";
 import { createMemoClass } from "@andromedaprotocol/theme";
 
-const variants = {
+type sizeOptions = {
+  [key: string]: string | number;
+};
+
+type variantOptions = {
+  [key: string]: string;
+};
+
+const variants: variantOptions = {
   solid: "tag-solid",
   outline: "tag-outline",
   light: "tag-light",
 };
 
-const sizes = {
+const sizes: sizeOptions = {
   sm: "tag-sm",
   md: "tag-md",
   lg: "tag-lg",

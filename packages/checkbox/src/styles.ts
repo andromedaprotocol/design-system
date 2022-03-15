@@ -1,8 +1,12 @@
 import { createMemoClass } from "@andromedaprotocol/theme";
 import { cx } from "@andromedaprotocol/utils";
 
+type sizeOptions = {
+  [key: string]: string | number;
+};
+
 export const useCheckboxLabelClass = createMemoClass((props) => {
-  const sizes = {
+  const sizes: sizeOptions = {
     sm: "form-checkbox-label-sm",
     md: "form-checkbox-label-md",
     lg: "form-checkbox-label-lg",
@@ -15,7 +19,7 @@ export const useCheckboxLabelClass = createMemoClass((props) => {
 });
 
 export const useCheckboxClass = createMemoClass((props) => {
-  const sizes = {
+  const sizes: sizeOptions = {
     sm: "form-checkbox-sm",
     md: "form-checkbox-md",
     lg: "form-checkbox-lg",

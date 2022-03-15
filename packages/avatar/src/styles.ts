@@ -1,8 +1,12 @@
 import { cx } from "@andromedaprotocol/utils";
 import { createMemoClass } from "@andromedaprotocol/theme";
 
+type sizeOptions = {
+  [key: string]: string | number;
+};
+
 export const useAvatarNameClass = createMemoClass((props) => {
-  const sizes = {
+  const sizes: sizeOptions = {
     "2xs": "avatar-name-2xs",
     xs: "avatar-name-xs",
     sm: "avatar-name-sm",
@@ -19,7 +23,7 @@ export const useAvatarNameClass = createMemoClass((props) => {
 });
 
 export const useAvatarClass = createMemoClass((props) => {
-  const sizes = {
+  const sizes: sizeOptions = {
     "2xs": "avatar-2xs",
     xs: "avatar-xs",
     sm: "avatar-sm",

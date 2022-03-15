@@ -6,6 +6,10 @@ import { InputProps } from "../input/input";
 
 type Placement = "left" | "right";
 
+type sizeOptions = {
+  [key: string]: string | number;
+};
+
 interface IInputElementProps extends DefaultProps {
   /* Placement of the input element */
   placement?: Placement;
@@ -17,7 +21,7 @@ interface IInputElementProps extends DefaultProps {
   disabledPointerEvents?: boolean;
 }
 
-const inputSizes = {
+const inputSizes: sizeOptions = {
   xl: "form-input-element-xl",
   lg: "form-input-element-lg",
   md: "form-input-element-md",

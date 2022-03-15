@@ -1,8 +1,12 @@
 import { createMemoClass } from "@andromedaprotocol/theme";
 import { cx } from "@andromedaprotocol/utils";
 
+type sizeOptions = {
+  [key: string]: string | number;
+};
+
 export const useRadioLabelClass = createMemoClass((props) => {
-  const sizes = {
+  const sizes: sizeOptions = {
     sm: "form-radio-label-sm",
     md: "form-radio-label-md",
     lg: "form-radio-label-lg",
@@ -15,7 +19,7 @@ export const useRadioLabelClass = createMemoClass((props) => {
 });
 
 export const useRadioClass = createMemoClass((props) => {
-  const sizes = {
+  const sizes: sizeOptions = {
     sm: "form-radio-sm",
     md: "form-radio-md",
     lg: "form-radio-lg",

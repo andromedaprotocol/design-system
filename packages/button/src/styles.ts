@@ -1,8 +1,16 @@
 import { createMemoClass } from "@andromedaprotocol/theme";
 import { cx } from "@andromedaprotocol/utils";
 
+type variantOptions = {
+  [key: string]: string;
+};
+
+type sizeOptions = {
+  [key: string]: string | number;
+};
+
 export const useButtonClass = createMemoClass((props) => {
-  const variantClasses = {
+  const variantClasses: variantOptions = {
     outline: "btn-outline",
     solid: "btn-solid",
     ghost: "btn-ghost",
@@ -10,7 +18,7 @@ export const useButtonClass = createMemoClass((props) => {
     link: "btn-link",
   };
 
-  const sizes = {
+  const sizes: sizeOptions = {
     xs: "btn-xs",
     sm: "btn-sm",
     md: "btn-md",

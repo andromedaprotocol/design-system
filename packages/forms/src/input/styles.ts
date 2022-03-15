@@ -1,13 +1,21 @@
 import { createMemoClass } from "@andromedaprotocol/theme";
 import { cx } from "@andromedaprotocol/utils";
 
+type sizeOptions = {
+  [key: string]: string | number;
+};
+
+type variantOptions = {
+  [key: string]: string;
+};
+
 export const useInputClass = createMemoClass((props) => {
-  const variantClasses = {
+  const variantClasses: variantOptions = {
     outline: "form-field-outline",
     solid: "form-field-solid",
   };
 
-  const sizes = {
+  const sizes: sizeOptions = {
     xs: "form-field-xs",
     sm: "form-field-sm",
     md: "form-field-md",

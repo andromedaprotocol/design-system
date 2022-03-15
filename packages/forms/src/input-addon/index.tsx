@@ -6,6 +6,10 @@ import { InputProps } from "../input/input";
 
 type Placement = "left" | "right";
 
+type sizeOptions = {
+  [key: string]: string | number;
+};
+
 export interface IInputAddonProps extends DefaultProps {
   /* Placement of the input addon */
   placement?: Placement;
@@ -18,7 +22,7 @@ const _placement = {
   right: "form-input-addon-right",
 };
 
-const sizes = {
+const sizes: sizeOptions = {
   xs: "form-input-addon-xs",
   sm: "form-input-addon-sm",
   md: "form-input-addon-md",
