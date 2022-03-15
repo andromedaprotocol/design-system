@@ -87,7 +87,11 @@ if (__DEV__) {
   DefaultAvatar.displayName = "DefaultAvatar";
 }
 
-const sizes = {
+type sizeOptions = {
+  [key: string]: string | number;
+};
+
+const sizes: sizeOptions = {
   "2xs": 4,
   xs: 5,
   sm: 6,
@@ -99,7 +103,7 @@ const sizes = {
   full: "full",
 };
 
-const baseSizes = {
+const baseSizes: sizeOptions = {
   4: "1rem",
   5: "1.25rem",
   6: "1.5rem",
