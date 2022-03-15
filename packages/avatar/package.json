@@ -1,6 +1,6 @@
 {
   "name": "@andromedaprotocol/avatar",
-  "version": "0.2.7",
+  "version": "0.2.8",
   "sideEffects": false,
   "license": "MIT",
   "main": "dist/cjs/index.js",
@@ -38,7 +38,7 @@
   },
   "dependencies": {
     "@andromedaprotocol/image": "0.2.2",
-    "@andromedaprotocol/theme": "0.4.8",
+    "@andromedaprotocol/theme": "0.4.9",
     "@andromedaprotocol/utils": "^0.2.5"
   },
   "peerDependencies": {

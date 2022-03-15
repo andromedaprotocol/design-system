@@ -1,6 +1,6 @@
 {
   "name": "@andromedaprotocol/dot",
-  "version": "0.2.6",
+  "version": "0.2.7",
   "sideEffects": false,
   "license": "MIT",
   "main": "dist/cjs/index.js",
@@ -37,7 +37,7 @@
     "react": "^17.0.2"
   },
   "dependencies": {
-    "@andromedaprotocol/theme": "0.4.8",
+    "@andromedaprotocol/theme": "0.4.9",
     "@andromedaprotocol/utils": "^0.2.5"
   },
   "peerDependencies": {

@@ -1,6 +1,6 @@
 {
   "name": "@andromedaprotocol/spinner",
-  "version": "0.2.3",
+  "version": "0.2.4",
   "sideEffects": false,
   "license": "MIT",
   "main": "dist/cjs/index.js",
@@ -37,7 +37,7 @@
     "react": "^17.0.1"
   },
   "dependencies": {
-    "@andromedaprotocol/theme": "0.4.8",
+    "@andromedaprotocol/theme": "0.4.9",
     "@andromedaprotocol/utils": "^0.2.5"
   },
   "peerDependencies": {
