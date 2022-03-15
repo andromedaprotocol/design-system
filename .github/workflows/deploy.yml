@@ -22,6 +22,11 @@ jobs:
           NEXT_PUBLIC_BASE_PATH: "/design-system"
         with:
           cmd: docs:export # will run `yarn build` command
+
+      # Creates a .nojekyll file to disable github jekyll
+      - name: Creating ".nojekyll" file
+        run: sudo touch ./docs/out/.nojekyll
+
       - name: Deploy 🚀
         uses: JamesIves/github-pages-deploy-action@v4.2.5
         with:
