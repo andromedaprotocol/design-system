@@ -3,7 +3,7 @@ import * as React from "react";
 import { useRouter } from "next/router";
 import Link from "next/link";
 
-import { prefix } from "@utils/prefix.js";
+import { prefix } from "@utils/prefix";
 
 import { mainNavigation, Navigation } from "@components/navigation";
 import {
