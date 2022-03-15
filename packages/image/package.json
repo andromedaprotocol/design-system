@@ -1,6 +1,6 @@
 {
-  "name": "@andromedaprotocol/theme",
-  "version": "0.4.3",
+  "name": "@andromedaprotocol/image",
+  "version": "0.2.1",
   "sideEffects": false,
   "license": "MIT",
   "main": "dist/cjs/index.js",
@@ -34,13 +34,11 @@
     "lint:types": "tsc --noEmit"
   },
   "devDependencies": {
-    "@types/lodash.set": "^4.3.6",
     "react": "^17.0.2"
   },
   "dependencies": {
-    "@andromedaprotocol/utils": "^0.2.5",
-    "@emotion/react": "^11.5.0",
-    "lodash.set": "^4.3.2"
+    "@andromedaprotocol/theme": "0.4.0",
+    "@andromedaprotocol/utils": "^0.2.5"
   },
   "peerDependencies": {
     "react": ">=16.8.6"
