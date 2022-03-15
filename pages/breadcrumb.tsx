@@ -138,7 +138,7 @@ const demoList = [
 
 const breadcrumbComponent = {
   name: "Breadcrumb",
-  importer: `import { Breadcrumb } from "@andromeda-design-system/react"`,
+  importer: `import { Breadcrumb } from "@andromedaprotocol/react"`,
   demoList,
   propList,
 };

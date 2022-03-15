@@ -131,7 +131,7 @@ const demoList = [
 
 const selectComponent = {
   name: "Select",
-  importer: `import { Select } from "@andromeda-design-system/react"`,
+  importer: `import { Select } from "@andromedaprotocol/react"`,
   demoList,
   propList,
 };

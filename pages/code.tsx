@@ -22,7 +22,7 @@ const demoList = [
 
 const codeComponent = {
   name: "Code",
-  importer: `import { Code } from "@andromeda-design-system/react"`,
+  importer: `import { Code } from "@andromedaprotocol/react"`,
   demoList,
 };
 

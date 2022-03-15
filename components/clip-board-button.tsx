@@ -1,9 +1,5 @@
 import { DuplicateIcon, CheckIcon } from "@heroicons/react/outline";
-import {
-  IconButton,
-  Icon,
-  IconButtonProps,
-} from "@andromeda-design-system/react";
+import { IconButton, Icon, IconButtonProps } from "@andromedaprotocol/react";
 import * as React from "react";
 import useClipboard from "react-use-clipboard";
 

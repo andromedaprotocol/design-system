@@ -152,7 +152,7 @@ const demoList = [
 const contextComponent = {
   name: "ContextMenu",
   importer: `import * as ContextMenu from "@radix-ui/react-context-menu";
-import { cx } from "@andromeda-design-system/react";`,
+import { cx } from "@andromedaprotocol/react";`,
   demoList,
   propList,
 };

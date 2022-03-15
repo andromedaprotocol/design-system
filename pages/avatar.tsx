@@ -146,7 +146,7 @@ const demoList = [
 
 const avatarComponent = {
   name: "Avatar",
-  importer: `import { Avatar } from "@andromeda-design-system/react"`,
+  importer: `import { Avatar } from "@andromedaprotocol/react"`,
   demoList,
   propList,
 };

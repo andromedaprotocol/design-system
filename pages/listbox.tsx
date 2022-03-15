@@ -275,7 +275,7 @@ const demoList = [
 const listboxComponent = {
   name: "Listbox",
   importer: `import { Listbox, Transition } from "@headlessui/react";
-import { cx } from "@andromeda-design-system/react";`,
+import { cx } from "@andromedaprotocol/react";`,
   demoList,
   propList,
 };

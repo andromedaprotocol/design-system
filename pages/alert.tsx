@@ -97,7 +97,7 @@ const demoList = [
 
 const alertComponent = {
   name: "Alert",
-  importer: `import { Alert } from "@andromeda-design-system/react"`,
+  importer: `import { Alert } from "@andromedaprotocol/react"`,
   demoList,
   propList,
 };
