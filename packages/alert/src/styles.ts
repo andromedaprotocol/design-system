@@ -1,7 +1,11 @@
 import { cx } from "@andromedaprotocol/utils";
 import { createMemoClass } from "@andromedaprotocol/theme";
 
-const variantClasses = {
+type variantOptions = {
+  [key: string]: string;
+};
+
+const variantClasses: variantOptions = {
   subtle: "alert-subtle",
   solid: "alert-solid",
   "left-accent": "alert-left-accent",
