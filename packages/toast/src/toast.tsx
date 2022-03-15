@@ -1,5 +1,5 @@
-import { toaster, Position } from "@andromedaprotocol/toasted-notes";
-import { DefaultProps } from "@andromedaprotocol/theme";
+import { toaster, Position } from "@andromeda-design-system/toasted-notes";
+import { DefaultProps } from "@andromeda-design-system/theme";
 import * as React from "react";
 import { useCallback } from "react";
 

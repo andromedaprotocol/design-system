@@ -5,4 +5,4 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 
 ## 0.2.2 (2022-03-14)
 
-**Note:** Version bump only for package @andromedaprotocol/toasted-notes
+**Note:** Version bump only for package @andromeda-design-system/toasted-notes

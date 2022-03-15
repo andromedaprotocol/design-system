@@ -1,5 +1,5 @@
 {
-  "name": "@andromedaprotocol/toast",
+  "name": "@andromeda-design-system/toast",
   "version": "0.2.1",
   "sideEffects": false,
   "license": "MIT",
@@ -37,8 +37,8 @@
     "react": "^17.0.1"
   },
   "dependencies": {
-    "@andromedaprotocol/theme": "0.4.0",
-    "@andromedaprotocol/toasted-notes": "^0.2.1"
+    "@andromeda-design-system/theme": "0.4.0",
+    "@andromeda-design-system/toasted-notes": "^0.2.1"
   },
   "peerDependencies": {
     "react": ">=16.8.6"
