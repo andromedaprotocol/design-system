@@ -35,12 +35,6 @@ export const mainNavigation = [
     path: "/theming",
   },
   {
-    icon: null,
-    title: "Themes Gallery",
-    path: "/themes-gallery",
-    hidden: true,
-  },
-  {
     icon: ColorSwatchIcon,
     title: "Color Mode",
     path: "/color-mode",

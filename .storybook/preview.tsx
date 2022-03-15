@@ -4,7 +4,7 @@ import {
 } from "@andromedaprotocol/react";
 import { useState, useMemo } from "react";
 import { withPerformance } from "storybook-addon-performance";
-import { light, dark, midnight, pale, dawn, bee, cool } from "./themes";
+import { light, dark } from "./themes";
 
 import "./styles.css";
 
@@ -21,11 +21,6 @@ const withAndromedaDesignSystem = (StoryFn: Function) => {
         colorSchemes: {
           light,
           dark,
-          midnight,
-          pale,
-          dawn,
-          bee,
-          cool,
         },
       }),
     [colorScheme]

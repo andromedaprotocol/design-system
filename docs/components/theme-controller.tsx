@@ -5,7 +5,7 @@ import {
   AndromedaDesignSystemProviderProps,
 } from "@andromedaprotocol/react";
 
-import { light, dark, midnight, pale, dawn, bee, cool } from "@utils/themes";
+import { light, dark } from "@utils/themes";
 
 export type ThemeContextType = {
   colorScheme?: string;
@@ -32,36 +32,6 @@ export const themes = [
     id: "dark",
     backgroundColor: dark.colors.bg.base,
     primaryColor: dark.colors.primary["500"],
-  },
-  {
-    name: "Midnight",
-    id: "midnight",
-    backgroundColor: midnight.colors.bg.base,
-    primaryColor: midnight.colors.primary["500"],
-  },
-  {
-    name: "Pale",
-    id: "pale",
-    backgroundColor: pale.colors.bg.base,
-    primaryColor: pale.colors.primary["500"],
-  },
-  {
-    name: "Dawn",
-    id: "dawn",
-    backgroundColor: dawn.colors.bg.base,
-    primaryColor: dawn.colors.primary["500"],
-  },
-  {
-    name: "Bee",
-    id: "bee",
-    backgroundColor: bee.colors.bg.base,
-    primaryColor: bee.colors.primary["500"],
-  },
-  {
-    name: "Cool",
-    id: "cool",
-    backgroundColor: cool.colors.bg.base,
-    primaryColor: cool.colors.primary["500"],
   },
 ];
 
@@ -95,11 +65,6 @@ function ThemeController({ children }: { children: React.ReactNode }) {
       colorSchemes: {
         light,
         dark,
-        midnight,
-        pale,
-        dawn,
-        bee,
-        cool,
       },
     });
   }, [cursorPointer, radius]);
