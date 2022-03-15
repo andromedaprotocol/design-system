@@ -1,3 +1,5 @@
+/* tslint:disable */
+
 import { Link, LinkProps } from "@andromedaprotocol/link";
 import { cx, getValidChildren, __DEV__ } from "@andromedaprotocol/utils";
 import { DefaultProps } from "@andromedaprotocol/theme";
