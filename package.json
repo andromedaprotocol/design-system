@@ -28,7 +28,8 @@
     "release": "changeset publish",
     "docs": "yarn workspace @andromedaprotocol/docs",
     "docs:dev": "yarn docs dev",
-    "docs:start": "yarn docs start"
+    "docs:start": "yarn docs start",
+    "docs:export": "yarn docs export"
   },
   "resolutions": {
     "**/react": "17.0.2",

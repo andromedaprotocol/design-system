@@ -9,6 +9,14 @@
   dependencies:
     "@jridgewell/trace-mapping" "^0.3.0"
 
+"@andromedaprotocol/image@0.2.2":
+  version "0.2.2"
+  resolved "https://registry.yarnpkg.com/@andromedaprotocol/image/-/image-0.2.2.tgz#3c8bfd80a007470f0c43bf04093f9aa329b3c469"
+  integrity sha512-qSQXjyeYDM7Vd7dVCNwiDjKYXoHHILVPr1griBdVohrKzuFfJhxmJvVhNRyjzQoZLkqUpfT6N2rv8XfbWoQqBQ==
+  dependencies:
+    "@andromedaprotocol/theme" "0.4.8"
+    "@andromedaprotocol/utils" "^0.2.5"
+
 "@babel/cli@^7.14.5":
   version "7.17.6"
   resolved "https://registry.yarnpkg.com/@babel/cli/-/cli-7.17.6.tgz#169e5935f1795f0b62ded5a2accafeedfe5c5363"
@@ -10415,7 +10423,7 @@ react-textarea-autosize@^8.3.0:
     use-composed-ref "^1.0.0"
     use-latest "^1.0.0"
 
-react@17.0.2, react@^17.0.2:
+react@17.0.2, react@^17.0.1, react@^17.0.2:
   version "17.0.2"
   resolved "https://registry.yarnpkg.com/react/-/react-17.0.2.tgz#d0b5cc516d29eb3eee383f75b62864cfb6800037"
   integrity sha512-gnhPt75i/dq/z3/6q/0asP78D0u592D5L1pd7M8P+dck6Fu/jJeL6iVVK23fptSUZj8Vjf++7wXA8UNclGQcbA==
