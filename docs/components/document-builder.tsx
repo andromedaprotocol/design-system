@@ -124,7 +124,7 @@ export default function DocumentBuilder({ component }: DocumentBuilderProps) {
                           <React.Fragment key={idx}>
                             <li className="flex flex-wrap mt-4">
                               <b className="mr-2">{prop.property}</b>
-                              <span className="text-teal-500">
+                              <span className="text-purple-500">
                                 [{prop.type.join(", ")}]
                               </span>
                               <span aria-hidden="true" className="mx-2">

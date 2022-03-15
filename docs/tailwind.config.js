@@ -60,7 +60,7 @@ module.exports = {
         },
       }),
       colors: {
-        teal: colors.teal,
+        purple: colors.purple,
         orange: colors.orange,
       },
       fontSize: {
