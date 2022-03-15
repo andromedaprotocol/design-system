@@ -14,6 +14,9 @@ jobs:
           cmd: install # will run `yarn install` command
       - uses: borales/actions-yarn@v2.3.0
         with:
+          cmd: boot # will run `yarn boot` command
+      - uses: borales/actions-yarn@v2.3.0
+        with:
           cmd: docs:export # will run `yarn build` command
       - name: Deploy 🚀
         uses: JamesIves/github-pages-deploy-action@v4.2.5
