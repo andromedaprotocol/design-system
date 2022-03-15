@@ -7,26 +7,6 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 
 **Note:** Version bump only for package @andromedaprotocol/core
 
-
-
-
-
 ## [0.6.6](https://github.com/andromeda-protocol/design-system/compare/@andromedaprotocol/core@0.6.5...@andromedaprotocol/core@0.6.6) (2022-03-15)
 
 **Note:** Version bump only for package @andromedaprotocol/core
-
-
-
-
-
-## 0.6.5 (2022-03-15)
-
-**Note:** Version bump only for package @andromedaprotocol/core
-
-
-
-
-
-## 0.6.1 (2022-03-14)
-
-**Note:** Version bump only for package @andromeda-design-system/core
