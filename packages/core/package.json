@@ -30,5 +30,6 @@
     "postcss": "^8.3.4",
     "postcss-import": "^14.0.2",
     "tailwindcss": "^2.2.4"
-  }
+  },
+  "gitHead": "e8371c137603a5ce511b948ad5b58cd40b7a6d83"
 }
