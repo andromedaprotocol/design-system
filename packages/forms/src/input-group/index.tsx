@@ -18,7 +18,7 @@ export interface InputGroupProps
     IInputGroupProps {}
 
 type sizeOptions = {
-  [key: string]: string | number;
+  [key: string]: string;
 };
 
 const inputSizes: sizeOptions = {
