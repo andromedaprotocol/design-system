@@ -1,6 +1,6 @@
 {
   "name": "@andromedaprotocol/docs",
-  "version": "0.10.3",
+  "version": "0.10.4",
   "private": true,
   "scripts": {
     "type-check": "tsc",
@@ -11,7 +11,7 @@
     "start": "next start"
   },
   "dependencies": {
-    "@andromedaprotocol/core": "0.6.5",
+    "@andromedaprotocol/core": "0.6.6",
     "@andromedaprotocol/react": "^0.2.1",
     "@headlessui/react": "1.4.0",
     "@heroicons/react": "^1.0.1",
