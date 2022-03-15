@@ -3,6 +3,8 @@ import * as React from "react";
 import { useRouter } from "next/router";
 import Link from "next/link";
 
+import { prefix } from "@utils/prefix.js";
+
 import { mainNavigation, Navigation } from "@components/navigation";
 import {
   NavigationContext,
@@ -76,7 +78,7 @@ function Header() {
             <a className="relative inline-flex items-center justify-center flex-shrink-0 w-8 h-8 align-top rounded-base bg-neutral-800">
               <img
                 className="object-cover w-full h-full rounded-base"
-                src="/andromeda-design-system-logo.svg"
+                src={`${prefix}/andromeda-design-system-logo.svg`}
                 alt="logo"
               />
             </a>
