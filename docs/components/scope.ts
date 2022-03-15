@@ -34,7 +34,7 @@ import {
   useMessage,
   useNotification,
   cx,
-} from "@andromeda-design-system/react";
+} from "@andromedaprotocol/react";
 import {
   Menu,
   Listbox,

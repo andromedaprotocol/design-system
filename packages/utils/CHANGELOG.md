@@ -5,12 +5,8 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 
 ## 0.2.3 (2022-03-15)
 
-**Note:** Version bump only for package @andromeda-design-system/utils
-
-
-
-
+**Note:** Version bump only for package @andromedaprotocol/utils
 
 ## 0.2.2 (2022-03-14)
 
-**Note:** Version bump only for package @andromeda-design-system/utils
+**Note:** Version bump only for package @andromedaprotocol/utils

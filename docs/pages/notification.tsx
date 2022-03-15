@@ -140,7 +140,7 @@ const demoList = [
 
 const notificationComponent = {
   name: "Notification",
-  importer: `import { useNotification } from "@andromeda-design-system/react"`,
+  importer: `import { useNotification } from "@andromedaprotocol/react"`,
   demoList,
   propList,
 };

@@ -1,4 +1,4 @@
-import { ColorScheme, colors } from "@andromeda-design-system/react";
+import { ColorScheme, colors } from "@andromedaprotocol/react";
 
 // light theme
 export const light: ColorScheme = {

@@ -223,7 +223,7 @@ const demoList = [
 const disclosureComponent = {
   name: "Disclosure",
   importer: `import { Disclosure } from "@headlessui/react";
-import { cx } from "@andromeda-design-system/react";`,
+import { cx } from "@andromedaprotocol/react";`,
   demoList,
   propList,
 };

@@ -262,7 +262,7 @@ const demoList = [
 
 const component = {
   name: "Button",
-  importer: 'import { Button } from "@andromeda-design-system/react"',
+  importer: 'import { Button } from "@andromedaprotocol/react"',
   demoList,
   propList,
 };

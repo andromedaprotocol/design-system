@@ -313,7 +313,7 @@ const demoList = [
 
 const checkboxComponent = {
   name: "Checkbox",
-  importer: 'import { Checkbox } from "@andromeda-design-system/react"',
+  importer: 'import { Checkbox } from "@andromedaprotocol/react"',
   demoList,
   propList,
 };

@@ -55,7 +55,7 @@ const demoList = [
 
 const linkComponent = {
   name: "Link",
-  importer: `import { Link } from "@andromeda-design-system/react"`,
+  importer: `import { Link } from "@andromedaprotocol/react"`,
   demoList,
   propList,
 };

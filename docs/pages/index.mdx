@@ -7,11 +7,11 @@ Andromeda Design System works out of the box with create-react-app (including Ty
 To install the Andromeda Design System run the following within your project directory.
 
 ```bash
-npm i @andromeda-design-system/core @andromeda-design-system/react @tailwindcss/forms
+npm i @andromedaprotocol/core @andromedaprotocol/react @tailwindcss/forms
 
 # OR
 
-yarn add @andromeda-design-system/core @andromeda-design-system/react @tailwindcss/forms
+yarn add @andromedaprotocol/core @andromedaprotocol/react @tailwindcss/forms
 ```
 
 ## Configuration
@@ -26,7 +26,7 @@ module.exports = {
   mode: "jit",
   purge: [
     // ...
-    "./node_modules/@andromeda-design-system/**/*.{js,ts,jsx,tsx}",
+    "./node_modules/@andromedaprotocol/**/*.{js,ts,jsx,tsx}",
   ],
   darkMode: "class", // or 'media' or 'class'
   theme: {
@@ -35,10 +35,7 @@ module.exports = {
   variants: {
     extend: {},
   },
-  plugins: [
-    require("@tailwindcss/forms"),
-    require("@andromeda-design-system/core"),
-  ],
+  plugins: [require("@tailwindcss/forms"), require("@andromedaprotocol/core")],
 };
 ```
 
@@ -53,7 +50,7 @@ import * as React from "react";
 import {
   AndromedaDesignSystemProvider,
   Button,
-} from "@andromeda-design-system/react";
+} from "@andromedaprotocol/react";
 
 function App() {
   return (

@@ -145,7 +145,7 @@ const demoList = [
 
 const tagComponent = {
   name: "Tag",
-  importer: `import { Tag } from "@andromeda-design-system/react"`,
+  importer: `import { Tag } from "@andromedaprotocol/react"`,
   demoList,
   propList,
 };

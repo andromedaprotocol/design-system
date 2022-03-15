@@ -88,7 +88,7 @@ const demoList = [
 
 const iconButtonComponent = {
   name: "IconButton",
-  importer: `import { IconButton } from "@andromeda-design-system/react"`,
+  importer: `import { IconButton } from "@andromedaprotocol/react"`,
   demoList,
   propList,
 };

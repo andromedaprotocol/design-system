@@ -1,5 +1,5 @@
 {
-  "name": "@andromeda-design-system/utils",
+  "name": "@andromedaprotocol/utils",
   "version": "0.2.3",
   "sideEffects": false,
   "license": "MIT",
@@ -43,5 +43,6 @@
   },
   "peerDependencies": {
     "react": ">=16.8.6"
-  }
+  },
+  "gitHead": "90ac53d39126d97f331dd2666c44f93e72ccf006"
 }
