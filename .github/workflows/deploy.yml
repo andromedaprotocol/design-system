@@ -14,12 +14,12 @@ jobs:
           cmd: install # will run `yarn install` command
       - uses: borales/actions-yarn@v2.3.0
         env:
-          NEXT_PUBLIC_BASE_PATH: "/design-system"
+          NEXT_PUBLIC_BASE_PATH: /design-system/
         with:
           cmd: boot # will run `yarn boot` command
       - uses: borales/actions-yarn@v2.3.0
         env:
-          NEXT_PUBLIC_BASE_PATH: "/design-system"
+          NEXT_PUBLIC_BASE_PATH: /design-system/
         with:
           cmd: docs:export # will run `yarn build` command
       - name: Deploy 🚀
