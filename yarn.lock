@@ -17,6 +17,15 @@
     "@andromedaprotocol/theme" "0.4.8"
     "@andromedaprotocol/utils" "^0.2.5"
 
+"@andromedaprotocol/theme@0.4.8":
+  version "0.4.8"
+  resolved "https://registry.yarnpkg.com/@andromedaprotocol/theme/-/theme-0.4.8.tgz#81d18631373c5fec96c3eb12d79990a33f12a743"
+  integrity sha512-u+14K7rCBMaE0IQruvToG8PEWeiQHHzK0W8YODcL0NK2NZVZs0Nh/3uaRu8cYMK/q3dXoEPJDd26cWrIKpzEKw==
+  dependencies:
+    "@andromedaprotocol/utils" "^0.2.5"
+    "@emotion/react" "^11.5.0"
+    lodash.set "^4.3.2"
+
 "@babel/cli@^7.14.5":
   version "7.17.6"
   resolved "https://registry.yarnpkg.com/@babel/cli/-/cli-7.17.6.tgz#169e5935f1795f0b62ded5a2accafeedfe5c5363"
