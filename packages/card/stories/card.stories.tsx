@@ -10,7 +10,7 @@ export default {
 
 export const basic = () => (
   <div className="flex flex-col space-y-2">
-    <Card className="w-auto p-5 border-[1px] shadow-md rounded-lg border-grey-200">
+    <Card>
       <p>Card</p>
     </Card>
   </div>

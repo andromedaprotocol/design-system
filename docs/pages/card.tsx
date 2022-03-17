@@ -9,8 +9,8 @@ const demoList = [
     files: [
       {
         name: "card.tsx",
-        code: `<div className="flex flex-col space-y-2">
-  <Card className="w-auto p-5 border-[1px] shadow-md rounded-lg border-grey-200">
+        code: `<div className="flex flex-wrap w-full p-8 space-x-4">
+  <Card>
     <p>Card</p>
   </Card>
 </div>`,

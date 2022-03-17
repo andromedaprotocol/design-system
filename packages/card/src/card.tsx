@@ -20,7 +20,7 @@ const Card = React.forwardRef<HTMLElement, CardProps>(
     return (
       <div
         aria-label="Card"
-        className={cx("Card", className)}
+        className={cx("w-auto p-5 border-[1px] shadow-md rounded-lg border-grey-200", className)}
       >
         {children}
       </div>
