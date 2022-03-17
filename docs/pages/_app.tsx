@@ -15,7 +15,8 @@ import ThemeController from "@components/theme-controller";
 import Layout from "@layouts/layout";
 import { getSeo } from "@utils/seo";
 import * as gtag from "@libs/gtag";
-
+import { Card } from "@andromedaprotocol/react";
+import { Alert } from "@andromedaprotocol/react"
 function MyApp({ Component, pageProps }: AppProps) {
   const router = useRouter();
   const seo = getSeo();

@@ -35,6 +35,10 @@ const forms = [
     key: "textarea",
     title: "Textarea",
   },
+  {
+    key: "card",
+    title: "Card",
+  },
 ];
 
 const data = [
