@@ -1,6 +1,6 @@
 {
   "name": "@andromedaprotocol/react",
-  "version": "0.2.4",
+  "version": "0.2.5",
   "sideEffects": false,
   "license": "MIT",
   "main": "dist/cjs/index.js",
@@ -43,7 +43,7 @@
     "@andromedaprotocol/badge": "0.2.9",
     "@andromedaprotocol/breadcrumb": "0.2.11",
     "@andromedaprotocol/button": "0.2.8",
-    "@andromedaprotocol/card": "0.2.2",
+    "@andromedaprotocol/card": "0.2.3",
     "@andromedaprotocol/checkbox": "0.2.10",
     "@andromedaprotocol/code": "0.2.9",
     "@andromedaprotocol/divider": "0.2.8",
