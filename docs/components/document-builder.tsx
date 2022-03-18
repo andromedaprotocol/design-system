@@ -5,7 +5,6 @@ import NextLink from "next/link";
 
 import { IDE } from "./ide";
 import { CodeBlock } from "./code-block";
-
 export type File = {
   name: string;
   code: string;

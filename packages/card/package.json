@@ -1,6 +1,6 @@
 {
-  "name": "@andromedaprotocol/react",
-  "version": "0.2.3",
+  "name": "@andromedaprotocol/card",
+  "version": "0.2.1",
   "sideEffects": false,
   "license": "MIT",
   "main": "dist/cjs/index.js",
@@ -34,36 +34,14 @@
     "lint:types": "tsc --noEmit"
   },
   "devDependencies": {
-    "react": "^17.0.2",
-    "react-dom": "^17.0.2"
+    "react": "^17.0.2"
   },
   "dependencies": {
-    "@andromedaprotocol/alert": "0.2.8",
-    "@andromedaprotocol/avatar": "0.2.8",
-    "@andromedaprotocol/badge": "0.2.9",
-    "@andromedaprotocol/breadcrumb": "0.2.11",
-    "@andromedaprotocol/button": "0.2.8",
-    "@andromedaprotocol/checkbox": "0.2.10",
-    "@andromedaprotocol/card": "0.2.1",
-    "@andromedaprotocol/code": "0.2.9",
-    "@andromedaprotocol/divider": "0.2.8",
-    "@andromedaprotocol/dot": "0.2.7",
-    "@andromedaprotocol/forms": "0.3.4",
-    "@andromedaprotocol/icon": "0.2.7",
-    "@andromedaprotocol/image": "0.2.5",
-    "@andromedaprotocol/kbd": "0.2.3",
     "@andromedaprotocol/link": "0.2.3",
-    "@andromedaprotocol/message": "0.2.3",
-    "@andromedaprotocol/notification": "0.2.3",
-    "@andromedaprotocol/radio": "0.2.3",
-    "@andromedaprotocol/spinner": "0.2.4",
-    "@andromedaprotocol/switch": "0.2.3",
-    "@andromedaprotocol/tag": "0.2.3",
     "@andromedaprotocol/theme": "0.4.9",
     "@andromedaprotocol/utils": "^0.2.5"
   },
   "peerDependencies": {
-    "react": ">=16.8.6",
-    "react-dom": ">=16.8.6"
+    "react": ">=16.8.6"
   }
 }
