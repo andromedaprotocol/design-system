@@ -11,7 +11,10 @@ export default {
 export const basic = () => (
   <div className="flex flex-col space-y-2">
     <Card>
-      <p>Card</p>
+      <p>Card Default</p>
+    </Card>
+    <Card variant="outlined">
+      <p>Card Outlined</p>
     </Card>
   </div>
 );

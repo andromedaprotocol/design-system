@@ -1,3 +1,10 @@
+const layout = [
+  {
+    key: "card",
+    title: "Card",
+  },
+];
+
 const forms = [
   {
     key: "button",
@@ -34,10 +41,6 @@ const forms = [
   {
     key: "textarea",
     title: "Textarea",
-  },
-  {
-    key: "card",
-    title: "Card",
   },
 ];
 
@@ -160,6 +163,10 @@ const radix = [
 ];
 
 const components = [
+  {
+    heading: "Layout",
+    components: layout,
+  },
   {
     heading: "Forms",
     components: forms,
