@@ -3,6 +3,7 @@ import { useForm } from "react-hook-form";
 
 import {
   Card,
+  DisplayText,
   Button,
   Checkbox,
   FormControl,
@@ -94,6 +95,7 @@ const scope = {
   // Components
   cx,
   Card,
+  DisplayText,
   Button,
   Checkbox,
   FormControl,

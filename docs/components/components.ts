@@ -46,6 +46,10 @@ const forms = [
 
 const data = [
   {
+    key: "display-text",
+    title: "DisplayText",
+  },
+  {
     key: "badge",
     title: "Badge",
   },
