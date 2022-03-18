@@ -42,6 +42,10 @@ const forms = [
     key: "textarea",
     title: "Textarea",
   },
+  {
+    key: "datatable",
+    title: "DataTable",
+  },
 ];
 
 const data = [
