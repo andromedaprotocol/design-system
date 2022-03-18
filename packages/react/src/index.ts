@@ -5,6 +5,7 @@ export * from "@andromedaprotocol/breadcrumb";
 export * from "@andromedaprotocol/button";
 export * from "@andromedaprotocol/checkbox";
 export * from "@andromedaprotocol/code";
+export * from "@andromedaprotocol/card";
 export * from "@andromedaprotocol/divider";
 export * from "@andromedaprotocol/dot";
 export * from "@andromedaprotocol/forms";
