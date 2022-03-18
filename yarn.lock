@@ -9,6 +9,15 @@
   dependencies:
     "@jridgewell/trace-mapping" "^0.3.0"
 
+"@andromedaprotocol/display-text@0.1.1":
+  version "0.1.1"
+  resolved "https://registry.yarnpkg.com/@andromedaprotocol/display-text/-/display-text-0.1.1.tgz#58c8528dcb6c580749d31d6861108ce71f7d895b"
+  integrity sha512-HXh/tELWaV3nkttTDPnOE8I5dIqiHPKz1dmkKNFkEym+6zURP5FXZq/yztz3w6X3e1zROESO3hsOoRUvujDWzQ==
+  dependencies:
+    "@andromedaprotocol/link" "0.2.3"
+    "@andromedaprotocol/theme" "0.4.9"
+    "@andromedaprotocol/utils" "^0.2.5"
+
 "@andromedaprotocol/image@0.2.2":
   version "0.2.2"
   resolved "https://registry.yarnpkg.com/@andromedaprotocol/image/-/image-0.2.2.tgz#3c8bfd80a007470f0c43bf04093f9aa329b3c469"
