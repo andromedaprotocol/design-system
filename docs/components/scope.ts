@@ -2,6 +2,7 @@ import * as React from "react";
 import { useForm } from "react-hook-form";
 
 import {
+  Card,
   Button,
   Checkbox,
   FormControl,
@@ -92,6 +93,7 @@ const scope = {
   ShieldCheckIcon,
   // Components
   cx,
+  Card,
   Button,
   Checkbox,
   FormControl,
