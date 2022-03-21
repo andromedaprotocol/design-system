@@ -47,6 +47,7 @@
     "@andromedaprotocol/checkbox": "0.2.10",
     "@andromedaprotocol/code": "0.2.9",
     "@andromedaprotocol/display-text": "0.1.1",
+    "@andromedaprotocol/text": "0.1.1",
     "@andromedaprotocol/divider": "0.2.8",
     "@andromedaprotocol/dot": "0.2.7",
     "@andromedaprotocol/forms": "0.3.4",
