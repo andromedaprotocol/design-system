@@ -1,6 +1,6 @@
 {
   "name": "@andromedaprotocol/react",
-  "version": "0.2.11",
+  "version": "0.2.12",
   "sideEffects": false,
   "license": "MIT",
   "main": "dist/cjs/index.js",
@@ -47,7 +47,6 @@
     "@andromedaprotocol/checkbox": "0.2.10",
     "@andromedaprotocol/code": "0.2.9",
     "@andromedaprotocol/display-text": "0.1.1",
-    "@andromedaprotocol/text": "0.1.1",
     "@andromedaprotocol/divider": "0.2.8",
     "@andromedaprotocol/dot": "0.2.7",
     "@andromedaprotocol/forms": "0.3.4",
@@ -61,6 +60,7 @@
     "@andromedaprotocol/spinner": "0.2.4",
     "@andromedaprotocol/switch": "0.2.3",
     "@andromedaprotocol/tag": "0.2.3",
+    "@andromedaprotocol/text": "0.1.1",
     "@andromedaprotocol/theme": "0.4.9",
     "@andromedaprotocol/utils": "^0.2.5"
   },
