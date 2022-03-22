@@ -5,6 +5,17 @@ const layout = [
   },
 ];
 
+const typography = [
+  {
+    key: "display-text",
+    title: "DisplayText",
+  },
+  {
+    key: "text",
+    title: "Text",
+  },
+];
+
 const forms = [
   {
     key: "button",
@@ -43,16 +54,12 @@ const forms = [
     title: "Textarea",
   },
   {
-    key: "datatable",
-    title: "DataTable",
+    key: "table",
+    title: "Table",
   },
 ];
 
 const data = [
-  {
-    key: "display-text",
-    title: "DisplayText",
-  },
   {
     key: "badge",
     title: "Badge",
@@ -174,6 +181,10 @@ const components = [
   {
     heading: "Layout",
     components: layout,
+  },
+  {
+    heading: "Typography",
+    components: typography,
   },
   {
     heading: "Forms",

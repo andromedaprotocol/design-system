@@ -20,6 +20,7 @@ export * from "@andromedaprotocol/radio";
 export * from "@andromedaprotocol/spinner";
 export * from "@andromedaprotocol/switch";
 export * from "@andromedaprotocol/tag";
-export * from "@andromedaprotocol/datatable";
+export * from "@andromedaprotocol/table";
+export * from "@andromedaprotocol/text";
 export * from "@andromedaprotocol/theme";
 export * from "@andromedaprotocol/utils";
