@@ -61,6 +61,10 @@ const forms = [
 
 const data = [
   {
+    key: "table",
+    title: "Table",
+  },
+  {
     key: "badge",
     title: "Badge",
   },
