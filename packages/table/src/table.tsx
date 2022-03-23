@@ -1,8 +1,10 @@
 import { cssVar } from "@andromedaprotocol/theme";
 import { cx, __DEV__ } from "@andromedaprotocol/utils";
 import * as React from "react";
+import {useTableClass} from './styles';
 
 export interface TableProps extends  React.HTMLAttributes<HTMLTableElement>{
+  variant ?: "simple" | "striped" | "unstyled";
   size?: "sm" | "md" | "lg";
   children?:React.ReactNode;
 }
@@ -13,19 +15,21 @@ export const Table = React.forwardRef<HTMLTableElement, TableProps>((props, ref)
     className,
     "aria-label": ariaLabel,
     children,
+    variant = "striped",
     ...rest
   } = props;
+  const classes = useTableClass({variant})
   return (
-    <div className={`border-gray-200 ${size === 'sm' ? 'max-w-screen-sm' : size === 'lg' ? 'w-full' : 'max-w-screen-md'} rounded-[12px] border-[1px] p-3`}>
+    // <div className={`border-gray-200 ${size === 'sm' ? 'max-w-screen-sm' : size === 'lg' ? 'w-full' : 'max-w-screen-md'} rounded-[12px] border-[1px] p-3`}>
       <table
         ref={ref}
         aria-label={ariaLabel}
-        className={cx('w-full', className)}
+        className={cx('w-full border-[1px] border-gray-200 drop-shadow-sm text-gray-500 font-inter',classes, className)}
         {...rest}
       >
         {children}
       </table>
-    </div>
+    // </div>
   )
 });
 
@@ -48,7 +52,7 @@ export const TableCaption = React.forwardRef<HTMLTableElement, TableCaptionProps
       <caption
         {...rest}
         ref={ref}
-        className = {cx('px-6 py-2 mt-4', className)}
+        className = {cx('px-6 py-2 border-[1px] border-gray-200', className)}
         style={{captionSide : placement }}
       />
     )
@@ -71,7 +75,7 @@ export const Thead = React.forwardRef<HTMLTableElement, TableHeadProps>(
       ...rest
     } = props
   return (
-    <thead className={cx('', className)}>{children}</thead>
+    <thead className={cx('text-xs font-medium children:first-of-type:children:bg-white', className)}>{children}</thead>
   )
 })
 
@@ -88,7 +92,7 @@ export const Tbody = React.forwardRef<HTMLTableElement,TableBodyProps>(
       ...rest
     } = props
   return (
-    <tbody className={cx('border-t border-grey-200', className)}>{children}</tbody>
+    <tbody className={cx('text-sm font-normal', className)}>{children}</tbody>
   )
 })
 
@@ -105,7 +109,7 @@ export const Tfoot = React.forwardRef<HTMLTableElement,TableFooterProps>(
       ...rest
     } = props
   return (
-    <tfoot className={cx('', className)}>{children}</tfoot>
+    <tfoot className={cx('text-xs font-medium', className)}>{children}</tfoot>
   )
 })
 
@@ -120,6 +124,7 @@ export const Tr = React.forwardRef<HTMLTableElement,TableRowProps>(
       children,
       ...rest
     } = props
+
   return (
     <tr className={cx('px-6 py-3', className)}>{children}</tr>
   )
@@ -139,7 +144,7 @@ export const Td = React.forwardRef<HTMLTableElement,TableCellProps>(
       ...rest
     } = props
   return (
-    <td className={cx('px-6 py-3 border-b border-grey-200 ' + (isNumeric && isNumeric ? 'text-right' : 'text-left'), className)}>{children}</td>
+    <td className={cx('px-6 py-3 ' + (isNumeric && isNumeric ? 'text-right' : 'text-left'), className)}>{children}</td>
   )
 })
 

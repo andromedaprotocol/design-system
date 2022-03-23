@@ -62,5 +62,8 @@
     "storybook-addon-performance": "^0.16.0",
     "tailwindcss": "^2.2.19",
     "typescript": "^4.3.2"
+  },
+  "dependencies": {
+    "tailwindcss-children": "^2.1.0"
   }
 }
