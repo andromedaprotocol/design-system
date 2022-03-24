@@ -10,9 +10,10 @@ export default {
 
 export const basic = () => (
   <div className="flex space-x-6">
-    <Icon as={InfoIcon} label="info" className="w-6 h-6 text-blue-500" />
-    <Icon as={XCricleIcon} label="x-circle" className="w-6 h-6 text-green-500" />
-    <Icon as={CheckCircleIcon} label="check-circle" className="w-6 h-6 text-red-500" />
-    <Icon as={ExclamationIcon} label="exclamationI" className="w-6 h-6 text-yellow-500" />
+    <Icon label="info" className="w-6 h-6 text-blue-500" name='Info' />
+    <Icon label="info" className="w-6 h-6 text-blue-500" name='CheckCircle'/>
+    <Icon label="info" className="w-6 h-6 text-blue-500" name='Gift'/>
+    <Icon label="info" className="w-6 h-6 text-blue-500" name='Coins'/>
+    <Icon label="info" className="w-6 h-6 text-blue-500" name='Copy'/>
   </div>
 );

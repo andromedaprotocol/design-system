@@ -2,11 +2,10 @@ import { DefaultProps } from "@andromedaprotocol/theme";
 import { cx, __DEV__ } from "@andromedaprotocol/utils";
 import VisuallyHidden from "@andromedaprotocol/visually-hidden";
 import * as React from "react";
-
 import { QuestionCircleIcon } from "./core";
 
 export interface IconProps extends DefaultProps {
-  as?: React.ElementType;
+  name:string;
   inline?: boolean;
   role?: string;
   color?: string;
@@ -18,8 +17,19 @@ export interface IconProps extends DefaultProps {
 }
 
 export const Icon = React.forwardRef<any, IconProps>((props, ref) => {
+  const fileName = props.name;
+  const [IconComponent, setIconComponent] = React.useState<any>();
+  
+  React.useEffect(() => {
+    loadModule();
+  }, [])
+
+  const loadModule = async () => {
+    const Info = await (await import('lucide-react'))[fileName];
+    setIconComponent(Info);
+  } 
+  
   const {
-    as: Comp = QuestionCircleIcon,
     inline = true,
     className,
     role = "presentation",
@@ -29,15 +39,12 @@ export const Icon = React.forwardRef<any, IconProps>((props, ref) => {
 
   return (
     <>
-      <Comp
-        ref={ref}
+      {IconComponent && <IconComponent 
         className={cx(inline ? "icon-inline" : "icon-block", className)}
         role={role}
         aria-hidden={true}
         focusable={false}
-        {...rest}
-      />
-      <VisuallyHidden>{label}</VisuallyHidden>
+        {...rest}/>}
     </>
   );
 });
