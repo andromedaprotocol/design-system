@@ -37,7 +37,7 @@ export const basic = () => (
         <Td>
           <div className="flex flex-row">
             <Checkbox/>
-            <div className="ml-2"><Icon as={InfoIcon} label="info" className="text-blue-500 w-9 h-9" /></div>
+            <div className="ml-2"><Icon name='Info' label="info" className="text-blue-500 w-9 h-9" /></div>
             <div className="flex flex-col ml-2">
               <div className="font-bold text-black">Tech requirements.pdf</div>
               <div>200 KB</div>
@@ -52,7 +52,7 @@ export const basic = () => (
         <Td>
           <div className="flex flex-row">
             <Checkbox/>
-            <div className="ml-2"><Icon as={InfoIcon} label="info" className="text-blue-500 w-9 h-9" /></div>
+            <div className="ml-2"><Icon name='Info' label="info" className="text-blue-500 w-9 h-9" /></div>
             <div className="flex flex-col ml-2">
               <div className="font-bold text-black">Tech requirements.pdf</div>
               <div>200 KB</div>
@@ -67,7 +67,7 @@ export const basic = () => (
         <Td>
           <div className="flex flex-row">
             <Checkbox/>
-            <div className="ml-2"><Icon as={InfoIcon} label="info" className="text-blue-500 w-9 h-9" /></div>
+            <div className="ml-2"><Icon name='Info' label="info" className="text-blue-500 w-9 h-9" /></div>
             <div className="flex flex-col ml-2">
               <div className="font-bold text-black">Tech requirements.pdf</div>
               <div>200 KB</div>
@@ -82,7 +82,7 @@ export const basic = () => (
         <Td>
           <div className="flex flex-row">
             <Checkbox/>
-            <div className="ml-2"><Icon as={InfoIcon} label="info" className="text-blue-500 w-9 h-9" /></div>
+            <div className="ml-2"><Icon name='Info' label="info" className="text-blue-500 w-9 h-9" /></div>
             <div className="flex flex-col ml-2">
               <div className="font-bold text-black">Tech requirements.pdf</div>
               <div>200 KB</div>

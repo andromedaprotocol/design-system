@@ -14,6 +14,7 @@ export const basic = () => (
     <Icon label="info" className="w-6 h-6 text-blue-500" name='CheckCircle'/>
     <Icon label="info" className="w-6 h-6 text-blue-500" name='Gift'/>
     <Icon label="info" className="w-6 h-6 text-blue-500" name='Coins'/>
+    <Icon label="Globe" className="w-6 h-6 text-blue-500" name='Globe'/>
     <Icon label="info" className="w-6 h-6 text-blue-500" name='Copy'/>
   </div>
 );

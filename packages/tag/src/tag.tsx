@@ -24,7 +24,7 @@ export const TagCloseButton = React.forwardRef<
     aria-disabled={disabled}
     {...props}
   >
-    <Icon as={XIcon} label="x" className={cx("w-3.5 h-3.5", iconClassName)} />
+    <Icon name='Info' label="x" className={cx("w-3.5 h-3.5", iconClassName)} />
   </button>
 ));
 

@@ -25,9 +25,14 @@ export const Icon = React.forwardRef<any, IconProps>((props, ref) => {
   }, [])
 
   const loadModule = async () => {
-    const Info = await (await import('lucide-react'))[fileName];
-    setIconComponent(Info);
-  } 
+    const lucideComponent = await (await import('lucide-react'))[fileName];
+    if(!lucideComponent){
+      const customComponent = await import('./lib/' + fileName);
+      setIconComponent(customComponent);
+    } else {
+      setIconComponent(lucideComponent);
+    }
+  }   
   
   const {
     inline = true,
