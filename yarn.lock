@@ -106,13 +106,6 @@
     "@andromedaprotocol/theme" "0.4.9"
     "@andromedaprotocol/utils" "^0.2.5"
 
-"@andromedaprotocol/table@0.2.1":
-  version "0.2.7"
-  dependencies:
-    "@andromedaprotocol/link" "0.2.3"
-    "@andromedaprotocol/theme" "0.4.9"
-    "@andromedaprotocol/utils" "^0.2.5"
-
 "@andromedaprotocol/tag@0.2.3":
   version "0.2.3"
   resolved "https://registry.yarnpkg.com/@andromedaprotocol/tag/-/tag-0.2.3.tgz#42b3f64d2fba2823cf659873620943d69ec2c337"
