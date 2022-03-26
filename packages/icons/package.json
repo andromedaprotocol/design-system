@@ -1,6 +1,6 @@
 {
   "name": "@andromedaprotocol/icons",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "sideEffects": false,
   "license": "MIT",
   "main": "dist/cjs/index.js",
@@ -21,12 +21,12 @@
   },
   "scripts": {
     "figma": "node ./scripts/figma.js",
-    "prebuild": "rimraf src && rimraf dist",
+    "prebuild": "rimraf src && rimraf dist && yarn svgr",
     "start": "nodemon --watch src --exec yarn build -e ts,tsx",
     "build": "concurrently yarn:build:*",
     "test": "jest --env=jsdom --passWithNoTests",
     "lint": "concurrently yarn:lint:*",
-    "version": "yarn svgr && yarn build",
+    "version": "yarn build",
     "build:esm": "cross-env BABEL_ENV=esm babel src --root-mode upward --extensions .ts,.tsx -d dist/esm --source-maps",
     "build:cjs": "cross-env BABEL_ENV=cjs babel src --root-mode upward --extensions .ts,.tsx -d dist/cjs --source-maps",
     "build:types": "tsc --emitDeclarationOnly --declaration --declarationDir dist/types",
