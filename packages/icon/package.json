@@ -1,6 +1,6 @@
 {
   "name": "@andromedaprotocol/icon",
-  "version": "0.2.9",
+  "version": "0.2.10",
   "sideEffects": false,
   "license": "MIT",
   "main": "dist/cjs/index.js",
