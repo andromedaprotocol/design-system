@@ -13,22 +13,22 @@ import * as React from "react";
 
 const statuses = {
   info: {
-    icon: "InfoIcon",
+    icon: InfoIcon,
     cx: "notification-icon-info",
     label: "info",
   },
   success: {
-    icon: "CheckCircleIcon",
+    icon: CheckCircleIcon,
     cx: "notification-icon-success",
     label: "check-circle",
   },
   error: {
-    icon: "XCircleIcon",
+    icon: XCircleIcon,
     cx: "notification-icon-error",
     label: "x-circle",
   },
   warning: {
-    icon: "ExclamationIcon",
+    icon: ExclamationIcon,
     cx: "notification-icon-warning",
     label: "exclamationIcon",
   },
@@ -95,7 +95,7 @@ const Notification = React.forwardRef<HTMLDivElement, NotificationProps>(
                 customCloseIcon
               ) : (
                 <Icon
-                  as="XIcon"
+                  as={XIcon}
                   label="x"
                   className="text-current align-text-bottom h-3.5 w-3.5"
                 />
