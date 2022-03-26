@@ -53,9 +53,17 @@ const forms = [
     key: "textarea",
     title: "Textarea",
   },
+  {
+    key: "table",
+    title: "Table",
+  },
 ];
 
 const data = [
+  {
+    key: "table",
+    title: "Table",
+  },
   {
     key: "badge",
     title: "Badge",
