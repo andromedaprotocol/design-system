@@ -1,6 +1,6 @@
 {
   "name": "@andromedaprotocol/react",
-  "version": "0.2.13",
+  "version": "0.2.14",
   "sideEffects": false,
   "license": "MIT",
   "main": "dist/cjs/index.js",
@@ -44,7 +44,6 @@
     "@andromedaprotocol/breadcrumb": "0.2.11",
     "@andromedaprotocol/button": "0.2.8",
     "@andromedaprotocol/card": "0.2.4",
-    "@andromedaprotocol/table": "0.2.1",
     "@andromedaprotocol/checkbox": "0.2.10",
     "@andromedaprotocol/code": "0.2.9",
     "@andromedaprotocol/display-text": "0.1.1",
@@ -60,6 +59,7 @@
     "@andromedaprotocol/radio": "0.2.3",
     "@andromedaprotocol/spinner": "0.2.4",
     "@andromedaprotocol/switch": "0.2.3",
+    "@andromedaprotocol/table": "0.2.1",
     "@andromedaprotocol/tag": "0.2.3",
     "@andromedaprotocol/text": "0.1.1",
     "@andromedaprotocol/theme": "0.4.9",

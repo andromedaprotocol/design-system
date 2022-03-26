@@ -1,15 +1,6 @@
-import {
-  Table,
-  Thead,
-  Tbody,
-  TableCaption,
-  Tfoot,
-  Td,
-  Th,
-  Tr,
-} from "../src";
-import { Checkbox } from '@andromedaprotocol/react'
-import { Icon } from "@andromedaprotocol/react"
+import { Table, Thead, Tbody, TableCaption, Tfoot, Td, Th, Tr } from "../src";
+import { Checkbox } from "@andromedaprotocol/react";
+import { Icon } from "@andromedaprotocol/react";
 import { InfoIcon } from "@andromedaprotocol/icon";
 
 export default {
@@ -24,7 +15,7 @@ export const basic = () => (
     <Thead>
       <Tr>
         <Th>
-          <Checkbox className="mr-2"/>
+          <Checkbox className="mr-2" />
           File name
         </Th>
         <Th>To convert</Th>
@@ -36,8 +27,14 @@ export const basic = () => (
       <Tr>
         <Td>
           <div className="flex flex-row">
-            <Checkbox/>
-            <div className="ml-2"><Icon name='Info' label="info" className="text-blue-500 w-9 h-9" /></div>
+            <Checkbox />
+            <div className="ml-2">
+              <Icon
+                name="Info"
+                label="info"
+                className="text-blue-500 w-9 h-9"
+              />
+            </div>
             <div className="flex flex-col ml-2">
               <div className="font-bold text-black">Tech requirements.pdf</div>
               <div>200 KB</div>
@@ -51,8 +48,14 @@ export const basic = () => (
       <Tr>
         <Td>
           <div className="flex flex-row">
-            <Checkbox/>
-            <div className="ml-2"><Icon name='Info' label="info" className="text-blue-500 w-9 h-9" /></div>
+            <Checkbox />
+            <div className="ml-2">
+              <Icon
+                as={InfoIcon}
+                label="info"
+                className="text-blue-500 w-9 h-9"
+              />
+            </div>
             <div className="flex flex-col ml-2">
               <div className="font-bold text-black">Tech requirements.pdf</div>
               <div>200 KB</div>
@@ -66,8 +69,14 @@ export const basic = () => (
       <Tr>
         <Td>
           <div className="flex flex-row">
-            <Checkbox/>
-            <div className="ml-2"><Icon name='Info' label="info" className="text-blue-500 w-9 h-9" /></div>
+            <Checkbox />
+            <div className="ml-2">
+              <Icon
+                as={InfoIcon}
+                label="info"
+                className="text-blue-500 w-9 h-9"
+              />
+            </div>
             <div className="flex flex-col ml-2">
               <div className="font-bold text-black">Tech requirements.pdf</div>
               <div>200 KB</div>
@@ -81,8 +90,14 @@ export const basic = () => (
       <Tr>
         <Td>
           <div className="flex flex-row">
-            <Checkbox/>
-            <div className="ml-2"><Icon name='Info' label="info" className="text-blue-500 w-9 h-9" /></div>
+            <Checkbox />
+            <div className="ml-2">
+              <Icon
+                as={InfoIcon}
+                label="info"
+                className="text-blue-500 w-9 h-9"
+              />
+            </div>
             <div className="flex flex-col ml-2">
               <div className="font-bold text-black">Tech requirements.pdf</div>
               <div>200 KB</div>
@@ -96,5 +111,3 @@ export const basic = () => (
     </Tbody>
   </Table>
 );
-
-

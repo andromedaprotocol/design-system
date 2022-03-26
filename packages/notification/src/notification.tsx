@@ -3,7 +3,7 @@ import {
   Icon,
   InfoIcon,
   XIcon,
-  XCricleIcon,
+  XCircleIcon,
   CheckCircleIcon,
   ExclamationIcon,
 } from "@andromedaprotocol/icon";
@@ -13,22 +13,22 @@ import * as React from "react";
 
 const statuses = {
   info: {
-    icon: 'Info',
+    icon: "InfoIcon",
     cx: "notification-icon-info",
     label: "info",
   },
   success: {
-    icon: 'CheckCircle',
+    icon: "CheckCircleIcon",
     cx: "notification-icon-success",
     label: "check-circle",
   },
   error: {
-    icon: 'XCricle',
+    icon: "XCircleIcon",
     cx: "notification-icon-error",
     label: "x-circle",
   },
   warning: {
-    icon: 'Exclamation',
+    icon: "ExclamationIcon",
     cx: "notification-icon-warning",
     label: "exclamationIcon",
   },
@@ -62,7 +62,7 @@ const Notification = React.forwardRef<HTMLDivElement, NotificationProps>(
             {customIcon ? (
               customIcon
             ) : (
-              <Icon label={label} name={customIcon || icon} className="w-5 h-5" />
+              <Icon label={label} as={customIcon || icon} className="w-5 h-5" />
             )}
           </span>
         )}
@@ -95,7 +95,7 @@ const Notification = React.forwardRef<HTMLDivElement, NotificationProps>(
                 customCloseIcon
               ) : (
                 <Icon
-                  name='XIcon'
+                  as="XIcon"
                   label="x"
                   className="text-current align-text-bottom h-3.5 w-3.5"
                 />
