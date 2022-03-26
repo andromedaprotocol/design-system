@@ -34,6 +34,7 @@ import {
   ExclamationIcon,
   Alert,
   Spinner,
+  Table,
   useMessage,
   useNotification,
   cx,
@@ -127,6 +128,7 @@ const scope = {
   ExclamationIcon,
   Alert,
   Spinner,
+  Table,
   useMessage,
   useNotification,
   // headlessui

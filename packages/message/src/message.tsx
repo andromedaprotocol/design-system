@@ -11,22 +11,22 @@ import * as React from "react";
 
 const statuses = {
   info: {
-    icon: InfoIcon,
+    icon: 'Info',
     cx: "message-icon-info",
     label: "info",
   },
   success: {
-    icon: CheckCircleIcon,
+    icon: 'CheckCircle',
     cx: "message-icon-success",
     label: "check-circle",
   },
   error: {
-    icon: XCricleIcon,
+    icon: 'XCricle',
     cx: "message-icon-error",
     label: "x-circle",
   },
   warning: {
-    icon: ExclamationIcon,
+    icon: 'Exclamation',
     cx: "message-icon-warning",
     label: "exclamationIcon",
   },
@@ -52,7 +52,7 @@ const Message = React.forwardRef<HTMLDivElement, MessageProps>(
             customIcon
           ) : (
             <Icon
-              as={icon}
+              name={icon}
               label={label}
               className={clsx("message-icon w-5 h-5", cx)}
             />
