@@ -1,4 +1,5 @@
-import { Icon, InfoIcon, XCricleIcon, CheckCircleIcon, ExclamationIcon } from "../src";
+import { Icon } from "../src";
+import { Globe } from "@andromedaprotocol/icons";
 
 export default {
   title: "Icon",
@@ -10,11 +11,6 @@ export default {
 
 export const basic = () => (
   <div className="flex space-x-6">
-    <Icon label="info" className="w-6 h-6 text-blue-500" name='Info' />
-    <Icon label="info" className="w-6 h-6 text-blue-500" name='CheckCircle'/>
-    <Icon label="info" className="w-6 h-6 text-blue-500" name='Gift'/>
-    <Icon label="info" className="w-6 h-6 text-blue-500" name='Coins'/>
-    <Icon label="Globe" className="w-6 h-6 text-blue-500" name='Globe'/>
-    <Icon label="info" className="w-6 h-6 text-blue-500" name='Copy'/>
+    <Icon as={Globe} label="info" className="w-6 h-6 text-blue-500" />
   </div>
 );
