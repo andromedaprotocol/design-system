@@ -9,6 +9,15 @@
   dependencies:
     "@jridgewell/trace-mapping" "^0.3.0"
 
+"@andromedaprotocol/alert@0.2.14":
+  version "0.2.14"
+  resolved "https://registry.yarnpkg.com/@andromedaprotocol/alert/-/alert-0.2.14.tgz#b49e872def72ec127bddaf4fed407d7a4e38a8eb"
+  integrity sha512-vs3HqHEvegpv3fzk/YLImmqkkoHRiWZFKPIwsXzQoC8UC6BD71IN6KIY1Xsp+WnZZSyc2amjjBiCttAB6/GTgw==
+  dependencies:
+    "@andromedaprotocol/icon" "0.2.7"
+    "@andromedaprotocol/theme" "0.4.9"
+    "@andromedaprotocol/utils" "^0.2.5"
+
 "@andromedaprotocol/alert@0.2.8":
   version "0.2.8"
   resolved "https://registry.yarnpkg.com/@andromedaprotocol/alert/-/alert-0.2.8.tgz#51d3fba2a757cf3453b4929e2f993b46c9bd8ac6"
@@ -64,10 +73,31 @@
     "@andromedaprotocol/toast" "0.2.3"
     "@andromedaprotocol/utils" "^0.2.5"
 
+"@andromedaprotocol/message@0.2.9":
+  version "0.2.9"
+  resolved "https://registry.yarnpkg.com/@andromedaprotocol/message/-/message-0.2.9.tgz#05b65c096fe51d7f472bc77995acb2701608c9ab"
+  integrity sha512-3nJCMrogPkHq4G+pU2UhFkId8cHsa5Fh6GEv8otgrsHA7h6ZstFa4VTcAjKe2q9rGqk1ydQLQloQSkQXdhUqFw==
+  dependencies:
+    "@andromedaprotocol/icon" "0.2.7"
+    "@andromedaprotocol/theme" "0.4.9"
+    "@andromedaprotocol/toast" "0.2.3"
+    "@andromedaprotocol/utils" "^0.2.5"
+
 "@andromedaprotocol/notification@0.2.3":
   version "0.2.3"
   resolved "https://registry.yarnpkg.com/@andromedaprotocol/notification/-/notification-0.2.3.tgz#d8e14b9016443ea012059f1de111336f2266260b"
   integrity sha512-c6Y0Ai7onVDmE30PYsOb0Vf+L8CqpRLdwB2JNXvCkYL2zl0og/wsZj6LJWtVIBHXYw6TGlpsUmpBIqdPVCnIKg==
+  dependencies:
+    "@andromedaprotocol/button" "0.2.8"
+    "@andromedaprotocol/icon" "0.2.7"
+    "@andromedaprotocol/theme" "0.4.9"
+    "@andromedaprotocol/toast" "0.2.3"
+    "@andromedaprotocol/utils" "^0.2.5"
+
+"@andromedaprotocol/notification@0.2.9":
+  version "0.2.9"
+  resolved "https://registry.yarnpkg.com/@andromedaprotocol/notification/-/notification-0.2.9.tgz#6ea69fd042d408d7c7dbf11177ed09ad24ab17bb"
+  integrity sha512-AHwrneDT9zQjX/DSbsdcHjxKWCB1OvqwNzVUfVQB1RIBnvZrohUqeZQ1/Bax13caZ1wfTGfnykE42HKfTAOhnw==
   dependencies:
     "@andromedaprotocol/button" "0.2.8"
     "@andromedaprotocol/icon" "0.2.7"
@@ -110,6 +140,15 @@
   version "0.2.3"
   resolved "https://registry.yarnpkg.com/@andromedaprotocol/tag/-/tag-0.2.3.tgz#42b3f64d2fba2823cf659873620943d69ec2c337"
   integrity sha512-YEk+YjYe19RYW3I8bKVS8s/Xxe0ub9Kzb7E1C85lL6OWN5/R7gg7qXAfBXQjF52WuLzCi88FV2oa+OTpS+/FNg==
+  dependencies:
+    "@andromedaprotocol/icon" "0.2.7"
+    "@andromedaprotocol/theme" "0.4.9"
+    "@andromedaprotocol/utils" "^0.2.5"
+
+"@andromedaprotocol/tag@0.2.6":
+  version "0.2.6"
+  resolved "https://registry.yarnpkg.com/@andromedaprotocol/tag/-/tag-0.2.6.tgz#7924681f86b71b30e2f755bd4a0a3cb9b8d11698"
+  integrity sha512-CPXoUW9r/hyGwUh5b/jqhk3X3zIUOCiaWfPHKRZbwLdOFnRBywNZmGrSz1zZsiFnge4V+5an++WZUIREIceeAg==
   dependencies:
     "@andromedaprotocol/icon" "0.2.7"
     "@andromedaprotocol/theme" "0.4.9"
