@@ -1,4 +1,4 @@
-import { Table, Thead, Tbody, TableCaption, Tfoot, Td, Th, Tr } from "../src";
+import { Table, Thead, Tbody, Tfoot, Td, Th, Tr } from "../src";
 import { Checkbox } from "@andromedaprotocol/react";
 import { Icon } from "@andromedaprotocol/react";
 import { InfoIcon } from "@andromedaprotocol/icon";
@@ -30,7 +30,7 @@ export const basic = () => (
             <Checkbox />
             <div className="ml-2">
               <Icon
-                name="Info"
+                as={InfoIcon}
                 label="info"
                 className="text-blue-500 w-9 h-9"
               />

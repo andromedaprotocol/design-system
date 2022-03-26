@@ -37,6 +37,7 @@
   },
   "devDependencies": {
     "@tailwindcss/forms": "^0.3.3",
+    "tailwindcss-children": "^2.1.0",
     "@tailwindcss/typography": "^0.4.1",
     "@types/mdx-js__react": "^1.5.3",
     "@types/react": "17.0.11",
