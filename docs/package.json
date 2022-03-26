@@ -1,6 +1,6 @@
 {
   "name": "@andromedaprotocol/docs",
-  "version": "0.10.15",
+  "version": "0.10.16",
   "private": true,
   "scripts": {
     "type-check": "tsc",
