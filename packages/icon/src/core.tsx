@@ -68,7 +68,7 @@ export const CheckCircleIcon = React.forwardRef<SVGSVGElement, IconProps>(
   }
 );
 
-export const XCricleIcon = React.forwardRef<SVGSVGElement, IconProps>(
+export const XCircleIcon = React.forwardRef<SVGSVGElement, IconProps>(
   ({ color = "currentColor", ...rest }, ref) => {
     return (
       <svg

@@ -1,3 +1,5 @@
+.env
+
 # local changelog cache (lerna-changelog)
 .changelog/
 

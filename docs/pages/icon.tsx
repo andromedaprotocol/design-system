@@ -49,7 +49,7 @@ const demoList = [
         code: `<div className="flex flex-wrap w-full p-8 space-x-4">
   <Icon as={InfoIcon} label="info" className="w-6 h-6 text-blue-500" />
   <Icon as={CheckCircleIcon} label="check-circle" className="w-6 h-6 text-green-500" />
-  <Icon as={XCricleIcon} label="x-circle" className="w-6 h-6 text-red-500" />
+  <Icon as={XCircleIcon} label="x-circle" className="w-6 h-6 text-red-500" />
   <Icon as={ExclamationIcon} label="exclamationIcon" className="w-6 h-6 text-yellow-500" />
 </div>`,
         readOnly: false,

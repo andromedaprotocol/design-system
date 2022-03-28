@@ -53,13 +53,13 @@ const forms = [
     key: "textarea",
     title: "Textarea",
   },
+];
+
+const data = [
   {
     key: "table",
     title: "Table",
   },
-];
-
-const data = [
   {
     key: "badge",
     title: "Badge",

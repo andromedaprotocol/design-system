@@ -23,7 +23,7 @@ import {
   Dot,
   Image,
   InfoIcon,
-  XCricleIcon,
+  XCircleIcon,
   CheckCircleIcon,
   ExclamationIcon,
   Alert,

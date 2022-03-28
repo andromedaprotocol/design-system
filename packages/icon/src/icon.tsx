@@ -1,10 +1,12 @@
+import * as React from "react";
 import { DefaultProps } from "@andromedaprotocol/theme";
 import { cx, __DEV__ } from "@andromedaprotocol/utils";
-import * as React from "react";
-import { Fallback } from "./lib";
+import VisuallyHidden from "@andromedaprotocol/visually-hidden";
+
+import { QuestionCircleIcon } from "./core";
 
 export interface IconProps extends DefaultProps {
-  name:string;
+  as?: React.ElementType;
   inline?: boolean;
   role?: string;
   color?: string;
@@ -16,30 +18,8 @@ export interface IconProps extends DefaultProps {
 }
 
 export const Icon = React.forwardRef<any, IconProps>((props, ref) => {
-  const fileName = props.name;
-  const [IconComponent, setIconComponent] = React.useState<any>();
-  React.useEffect(() => {
-    loadModule();
-  }, [])
-
-  const loadModule = async () => {
-    let flg = 0;
-    try {
-      const lucideComponent = (await import('lucide-react'))[fileName];
-      if(!lucideComponent){
-        flg = 1;
-        const CustomComponent = (await import('./lib/' + fileName));
-        setIconComponent(CustomComponent[fileName]);
-      } else {
-        flg = 1;
-        setIconComponent(lucideComponent);
-      }
-    } catch (error) {
-      setIconComponent(Fallback);
-    }
-  }   
-  
   const {
+    as: Comp = QuestionCircleIcon,
     inline = true,
     className,
     role = "presentation",
@@ -49,14 +29,15 @@ export const Icon = React.forwardRef<any, IconProps>((props, ref) => {
 
   return (
     <>
-      {
-        IconComponent && <IconComponent 
+      <Comp
+        ref={ref}
         className={cx(inline ? "icon-inline" : "icon-block", className)}
         role={role}
         aria-hidden={true}
         focusable={false}
-        {...rest}/>
-      }
+        {...rest}
+      />
+      <VisuallyHidden>{label}</VisuallyHidden>
     </>
   );
 });

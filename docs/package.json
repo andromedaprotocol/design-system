@@ -1,6 +1,6 @@
 {
   "name": "@andromedaprotocol/docs",
-  "version": "0.10.15",
+  "version": "0.10.21",
   "private": true,
   "scripts": {
     "type-check": "tsc",
@@ -13,7 +13,7 @@
   },
   "dependencies": {
     "@andromedaprotocol/core": "0.6.13",
-    "@andromedaprotocol/react": "0.2.13",
+    "@andromedaprotocol/react": "0.2.20",
     "@headlessui/react": "1.4.0",
     "@heroicons/react": "^1.0.1",
     "@mdx-js/loader": "^1.6.22",
@@ -37,6 +37,7 @@
   },
   "devDependencies": {
     "@tailwindcss/forms": "^0.3.3",
+    "tailwindcss-children": "^2.1.0",
     "@tailwindcss/typography": "^0.4.1",
     "@types/mdx-js__react": "^1.5.3",
     "@types/react": "17.0.11",

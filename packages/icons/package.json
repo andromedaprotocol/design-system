@@ -1,6 +1,6 @@
 {
-  "name": "@andromedaprotocol/notification",
-  "version": "0.2.11",
+  "name": "@andromedaprotocol/icons",
+  "version": "0.1.7",
   "sideEffects": false,
   "license": "MIT",
   "main": "dist/cjs/index.js",
@@ -20,6 +20,7 @@
     "access": "public"
   },
   "scripts": {
+    "figma": "node ./scripts/figma.js",
     "prebuild": "rimraf dist",
     "start": "nodemon --watch src --exec yarn build -e ts,tsx",
     "build": "concurrently yarn:build:*",
@@ -31,19 +32,24 @@
     "build:types": "tsc --emitDeclarationOnly --declaration --declarationDir dist/types",
     "test:cov": "yarn test --coverage",
     "lint:src": "eslint src --ext .ts,.tsx --config ../../.eslintrc",
-    "lint:types": "tsc --noEmit"
+    "lint:types": "tsc --noEmit",
+    "svgr": "rimraf src && svgr -d src/ assets/ --typescript --memo --icon --svg-props fill=currentColor"
   },
   "devDependencies": {
+    "@svgr/cli": "^6.2.1",
     "react": "^17.0.2"
   },
   "dependencies": {
-    "@andromedaprotocol/button": "0.2.15",
-    "@andromedaprotocol/icon": "0.2.14",
     "@andromedaprotocol/theme": "0.4.9",
-    "@andromedaprotocol/toast": "0.2.3",
-    "@andromedaprotocol/utils": "^0.2.5"
+    "@andromedaprotocol/utils": "^0.2.5",
+    "@andromedaprotocol/visually-hidden": "^0.2.4"
   },
   "peerDependencies": {
     "react": ">=16.8.6"
+  },
+  "svgr": {
+    "ref": true,
+    "typescript": true,
+    "memo": true
   }
 }
