@@ -29,6 +29,7 @@
     "docs": "yarn workspace @andromedaprotocol/docs",
     "docs:dev": "yarn docs dev",
     "docs:start": "yarn docs start",
+    "generate": "ts-node --project scripts/tsconfig.json scripts/generate.ts",
     "docs:export": "yarn docs export"
   },
   "resolutions": {
