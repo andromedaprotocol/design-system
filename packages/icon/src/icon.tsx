@@ -1,9 +1,11 @@
 import * as React from "react";
 import { DefaultProps } from "@andromedaprotocol/theme";
 import { cx, __DEV__ } from "@andromedaprotocol/utils";
-import VisuallyHidden from "@andromedaprotocol/visually-hidden";
-
+// import VisuallyHidden from "@andromedaprotocol/visually-hidden";
+import { IconNameMapper } from "./IconNameMapper";
 import { QuestionCircleIcon } from "./core";
+import { Fallback } from "./lib";
+import { Cpu } from "lucide-react";
 
 export interface IconProps extends DefaultProps {
   as?: React.ElementType;
@@ -15,11 +17,13 @@ export interface IconProps extends DefaultProps {
    * reader users, similar to `alt` text for `img` tags.
    */
   label: string;
+  name:string;
 }
 
 export const Icon = React.forwardRef<any, IconProps>((props, ref) => {
   const {
     as: Comp = QuestionCircleIcon,
+    name,
     inline = true,
     className,
     role = "presentation",
@@ -27,18 +31,27 @@ export const Icon = React.forwardRef<any, IconProps>((props, ref) => {
     ...rest
   } = props;
 
+  const [IconComponent, setIconComponent] = React.useState<any>();
+
+  const loadModule = async () => {
+    const icon = (await import('./lib'))[(IconNameMapper[name] === undefined ? 'Fallback' : IconNameMapper[name]) ];
+    setIconComponent(icon);
+  }
+  React.useEffect(() => {
+    loadModule();
+  })
+
   return (
     <>
-      <Comp
-        ref={ref}
-        className={cx(inline ? "icon-inline" : "icon-block", className)}
-        role={role}
-        aria-hidden={true}
-        focusable={false}
-        {...rest}
-      />
-      <VisuallyHidden>{label}</VisuallyHidden>
-    </>
+    {
+      IconComponent && <IconComponent 
+      className={cx(inline ? "icon-inline" : "icon-block", className)}
+      role={role}
+      aria-hidden={true}
+      focusable={false}
+      {...rest}/>
+    }
+  </>
   );
 });
 

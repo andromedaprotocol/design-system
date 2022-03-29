@@ -37,15 +37,12 @@ fs.readdir(path.join(__dirname, ICON_DIR), (err, files) => {
     const iconObj = parse(icon);
     
     const fileName = file.split('.')[0];
-    
-    console.log('File name = ', fileName)
-    ICON_NAMES.push(fileName)
 
     const componentName = changeCase(fileName, {
       input: 'kebab-case',
       output: 'PascalCase',
     });
-    const componentFile = `${fileName}.tsx`;
+    const componentFile = `${componentName}.tsx`;
 
     const viewBox = getViewBox(iconObj);
 
@@ -66,8 +63,8 @@ fs.readdir(path.join(__dirname, ICON_DIR), (err, files) => {
       iconTemplate(data)
     );
     
-    fs.appendFileSync(path.join(__dirname, SRC_ICON_MAPPER), `  ${fileName} : '${fileName}'`);
-    fs.appendFileSync(SRC_ICON_INDEX, `export * from './${fileName}';\n`);
+    fs.appendFileSync(path.join(__dirname, SRC_ICON_MAPPER), `  ${fileName} : '${componentName}'`);
+    fs.appendFileSync(SRC_ICON_INDEX, `export * from './${componentName}';\n`);
   });
 
   fs.appendFileSync(path.join(__dirname, SRC_ICON_MAPPER), `\n}`);

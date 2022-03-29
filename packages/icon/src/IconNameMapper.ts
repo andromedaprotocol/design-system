@@ -1,4 +1,4 @@
 export const IconNameMapper = {
-  Fallback : 'Fallback',
-  Vector : 'Vector'
+  fallback : 'Fallback',
+  vector : 'Vector'
 }
