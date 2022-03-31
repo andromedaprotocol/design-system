@@ -152,6 +152,7 @@ export const light = () => (
     <Button
       variant="light"
       rightIcon={<Announcement className="w-5 h-5 ml-1 text-sm" />}
+      color="secondary"
     >
       Button
     </Button>
