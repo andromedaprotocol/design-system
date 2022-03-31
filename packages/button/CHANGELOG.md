@@ -3,6 +3,14 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [0.2.16](https://github.com/andromedaprotocol/design-system/compare/@andromedaprotocol/button@0.2.15...@andromedaprotocol/button@0.2.16) (2022-03-31)
+
+**Note:** Version bump only for package @andromedaprotocol/button
+
+
+
+
+
 ## [0.2.15](https://github.com/andromedaprotocol/design-system/compare/@andromedaprotocol/button@0.2.8...@andromedaprotocol/button@0.2.15) (2022-03-26)
 
 **Note:** Version bump only for package @andromedaprotocol/button
