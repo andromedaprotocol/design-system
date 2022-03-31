@@ -13,8 +13,7 @@ interface IIconButtonProps extends Omit<ButtonProps, OmittedProps> {
 }
 
 export interface IconButtonProps
-  extends React.HTMLAttributes<HTMLButtonElement>,
-    IIconButtonProps {
+  extends IIconButtonProps {
   /**
    * A11y: A label that describes the button
    */
@@ -37,13 +36,9 @@ export const IconButton = React.forwardRef<HTMLButtonElement, IconButtonProps>(
      * Passing the icon as prop or children should work
      */
     const element = icon || children;
-    const _children = React.isValidElement(element)
-      ? React.cloneElement(element as any, {})
-      : null;
-
     return (
-      <Button className={classes} ref={ref} aria-label={ariaLabel} {...rest}>
-        {_children}
+      <Button className={classes} ref={ref}  aria-label={ariaLabel} {...rest}>
+        {children}
       </Button>
     );
   }

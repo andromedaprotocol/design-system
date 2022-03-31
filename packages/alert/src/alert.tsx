@@ -41,7 +41,7 @@ export const AlertCloseButton = React.forwardRef<
       className={cx(classes, className)}
     >
       <Icon
-        as={XIcon}
+        name="xicon"
         label="x"
         className="inline-block w-4 h-4 text-current align-text-bottom fill-current"
       />

@@ -11,6 +11,6 @@ export default {
 
 export const basic = () => (
   <div className="flex space-x-6">
-    <Icon as={Globe} label="info" className="w-6 h-6 text-blue-500" />
+    <Icon name="vector" label="info" className="w-6 h-6 text-blue-500" />
   </div>
 );

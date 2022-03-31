@@ -52,7 +52,7 @@ const Message = React.forwardRef<HTMLDivElement, MessageProps>(
             customIcon
           ) : (
             <Icon
-              as={icon}
+              name="icon"
               label={label}
               className={clsx("message-icon w-5 h-5", cx)}
             />

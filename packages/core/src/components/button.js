@@ -211,7 +211,7 @@ function buttonLight(colors) {
 function buttonLink(colors) {
   return {
     "&-link": {
-      "@apply h-auto p-0 leading-normal text-neutral-600 hover:underline active:text-neutral-700": {},
+      "@apply leading-normal text-neutral-600 hover:underline active:text-neutral-700": {},
       "@apply focus:z-base focus:ring-2 focus:ring-primary-500": {},
       // dark colors
       "@apply dark:text-neutral-200": {},
@@ -275,9 +275,9 @@ function buttonSize() {
     },
 
     "&-xl": {
+      padding: "var(--vc-density-button-xl-px)",
       paddingRight: "var(--vc-density-button-xl-px)",
       paddingLeft: "var(--vc-density-button-xl-px)",
-      px: "var(--vc-density-button-xl-px)",
       fontSize: "var(--vc-density-button-xl-fontSize)",
       lineHeight: "var(--vc-density-button-xl-lineHeight)",
       height: "var(--vc-density-button-xl-height)",

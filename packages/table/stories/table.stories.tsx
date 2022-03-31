@@ -30,7 +30,7 @@ export const basic = () => (
             <Checkbox />
             <div className="ml-2">
               <Icon
-                as={InfoIcon}
+                name="info"
                 label="info"
                 className="text-blue-500 w-9 h-9"
               />
@@ -51,7 +51,7 @@ export const basic = () => (
             <Checkbox />
             <div className="ml-2">
               <Icon
-                as={InfoIcon}
+                name="info"
                 label="info"
                 className="text-blue-500 w-9 h-9"
               />
@@ -72,7 +72,7 @@ export const basic = () => (
             <Checkbox />
             <div className="ml-2">
               <Icon
-                as={InfoIcon}
+                name="info"
                 label="info"
                 className="text-blue-500 w-9 h-9"
               />
@@ -93,7 +93,7 @@ export const basic = () => (
             <Checkbox />
             <div className="ml-2">
               <Icon
-                as={InfoIcon}
+                name="info"
                 label="info"
                 className="text-blue-500 w-9 h-9"
               />

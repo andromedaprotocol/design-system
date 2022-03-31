@@ -12,7 +12,8 @@ export default {
 export const outline = () => (
   <div className="flex space-x-2">
     <IconButton>
-      <Announcement size={16} />
+      <div className="ml-1 mr-1">Button</div>
+      <Announcement className="mr-1" size={16} />
     </IconButton>
 
     <IconButton color="primary">
