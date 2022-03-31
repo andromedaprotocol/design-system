@@ -129,7 +129,7 @@ export const ghost = () => (
 
 export const light = () => (
   <div className="flex space-x-2">
-    <Button variant="light">Button</Button>
+    <Button variant="light" color="primary">Button</Button>
     <Button variant="light" color="primary">
       Button
     </Button>
