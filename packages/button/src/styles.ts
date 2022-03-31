@@ -5,6 +5,10 @@ type variantOptions = {
   [key: string]: string;
 };
 
+type colorOptions = {
+  [key: string]: string;
+};
+
 type sizeOptions = {
   [key: string]: string | number;
 };
@@ -18,6 +22,13 @@ export const useButtonClass = createMemoClass((props) => {
     link: "btn-link",
   };
 
+  const colors: colorOptions = {
+    primary : "bg-primary-500 hover:bg-primary-600 text-white",
+    secondary : "bg-red-500 hover:bg-red-600 text-white",
+    orange : "bg-orange-500 hover:bg-orange-600 text-white",
+    gray : "bg-gray-500 hover:bg-gray-600",
+  }
+
   const sizes: sizeOptions = {
     xs: "btn-xs",
     sm: "btn-sm",
@@ -29,6 +40,7 @@ export const useButtonClass = createMemoClass((props) => {
   const classes = cx(
     "btn",
     sizes[props.size],
+    colors[props.color],
     variantClasses[props.variant],
     props.disabled && "btn-disabled"
   );

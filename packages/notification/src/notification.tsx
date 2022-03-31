@@ -62,7 +62,7 @@ const Notification = React.forwardRef<HTMLDivElement, NotificationProps>(
             {customIcon ? (
               customIcon
             ) : (
-              <Icon label={label} as={customIcon || icon} className="w-5 h-5" />
+              <Icon label={label} name={`${customIcon || icon}`} className="w-5 h-5" />
             )}
           </span>
         )}
@@ -95,7 +95,7 @@ const Notification = React.forwardRef<HTMLDivElement, NotificationProps>(
                 customCloseIcon
               ) : (
                 <Icon
-                  as={XIcon}
+                  name="xicon"
                   label="x"
                   className="text-current align-text-bottom h-3.5 w-3.5"
                 />

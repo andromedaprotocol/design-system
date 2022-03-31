@@ -13,7 +13,7 @@ export const outline = () => (
   <div className="flex space-x-2">
     <Button>Button</Button>
     <Button color="primary">Button</Button>
-    <Button color="orange">Button</Button>
+    <Button color="secondary">Button</Button>
     <Button leftIcon={<Announcement className="w-5 h-5 mr-1 text-sm" />}>
       Button
     </Button>
