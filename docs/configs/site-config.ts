@@ -28,7 +28,8 @@ const siteConfig = {
         "Andromeda Design System: Collection of Accessible React UI Components using TailwindCSS.",
       images: [
         {
-          url: "https://andromedaprotocol.github.io/design-system/og-image.png",
+          url:
+            "https://andromedaprotocol.github.io/design-system/fb-og-image.png?v=1",
           width: 1200,
           height: 627,
           alt:
@@ -36,7 +37,7 @@ const siteConfig = {
         },
         {
           url:
-            "https://andromedaprotocol.github.io/design-system/twitter-og-image.png",
+            "https://andromedaprotocol.github.io/design-system/twitter-og-image.png?v=1",
           width: 1012,
           height: 506,
           alt:
