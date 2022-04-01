@@ -1,11 +1,19 @@
 import React from "react";
-import { SVGProps } from "react";
 import { IconProps } from "@andromedaprotocol/icon";
 
 export const Slack = React.forwardRef<SVGSVGElement, IconProps>(
   ({ color = "currentColor", ...props }, ref) => {
     return (
-        <svg fill="currentcolor" stroke={color} {...props} ref={ref}>
+      <svg
+        viewBox="0 0 24 24"
+        fill="none"
+        stroke={color}
+        stroke-width="2"
+        stroke-linecap="round"
+        stroke-linejoin="round"
+        {...props} 
+        ref={ref}
+      >
           <rect  x='13' y='2' width='3' height='8' rx='1.5'/>
           <path  d='M19 8.5V10h1.5A1.5 1.5 0 1019 8.5'/>
           <rect  x='8' y='14' width='3' height='8' rx='1.5'/>

@@ -1,11 +1,19 @@
 import React from "react";
-import { SVGProps } from "react";
 import { IconProps } from "@andromedaprotocol/icon";
 
 export const HandMetal = React.forwardRef<SVGSVGElement, IconProps>(
   ({ color = "currentColor", ...props }, ref) => {
     return (
-        <svg fill="currentcolor" stroke={color} {...props} ref={ref}>
+      <svg
+        viewBox="0 0 24 24"
+        fill="none"
+        stroke={color}
+        stroke-width="2"
+        stroke-linecap="round"
+        stroke-linejoin="round"
+        {...props} 
+        ref={ref}
+      >
           <path  d='M18 12.5V10a2 2 0 00-2-2v0a2 2 0 00-2 2v1.4'/>
           <path  d='M14 11V9a2 2 0 10-4 0v2'/>
           <path  d='M10 10.5V5a2 2 0 10-4 0v9'/>

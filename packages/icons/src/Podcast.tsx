@@ -1,11 +1,19 @@
 import React from "react";
-import { SVGProps } from "react";
 import { IconProps } from "@andromedaprotocol/icon";
 
 export const Podcast = React.forwardRef<SVGSVGElement, IconProps>(
   ({ color = "currentColor", ...props }, ref) => {
     return (
-        <svg fill="currentcolor" stroke={color} {...props} ref={ref}>
+      <svg
+        viewBox="0 0 24 24"
+        fill="none"
+        stroke={color}
+        stroke-width="2"
+        stroke-linecap="round"
+        stroke-linejoin="round"
+        {...props} 
+        ref={ref}
+      >
           <circle  cx='12' cy='11' r='1'/>
           <path  d='M17.03 18.46a9 9 0 10-10.02.03'/>
           <path  d='M16.06 13.91a5 5 0 10-7.97.2'/>

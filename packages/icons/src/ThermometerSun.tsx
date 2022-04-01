@@ -1,11 +1,19 @@
 import React from "react";
-import { SVGProps } from "react";
 import { IconProps } from "@andromedaprotocol/icon";
 
 export const ThermometerSun = React.forwardRef<SVGSVGElement, IconProps>(
   ({ color = "currentColor", ...props }, ref) => {
     return (
-        <svg fill="currentcolor" stroke={color} {...props} ref={ref}>
+      <svg
+        viewBox="0 0 24 24"
+        fill="none"
+        stroke={color}
+        stroke-width="2"
+        stroke-linecap="round"
+        stroke-linejoin="round"
+        {...props} 
+        ref={ref}
+      >
           <path  d='M12 9a4 4 0 00-2 7.5'/>
           <path  d='M12 3v2'/>
           <path  d='M6.6 18.4l-1.4 1.4'/>

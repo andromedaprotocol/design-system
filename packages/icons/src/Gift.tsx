@@ -1,11 +1,19 @@
 import React from "react";
-import { SVGProps } from "react";
 import { IconProps } from "@andromedaprotocol/icon";
 
 export const Gift = React.forwardRef<SVGSVGElement, IconProps>(
   ({ color = "currentColor", ...props }, ref) => {
     return (
-        <svg fill="currentcolor" stroke={color} {...props} ref={ref}>
+      <svg
+        viewBox="0 0 24 24"
+        fill="none"
+        stroke={color}
+        stroke-width="2"
+        stroke-linecap="round"
+        stroke-linejoin="round"
+        {...props} 
+        ref={ref}
+      >
           <polyline  points='20 12 20 22 4 22 4 12'/>
           <rect  x='2' y='7' width='20' height='5'/>
           <line  x1='12' y1='22' x2='12' y2='7'/>
