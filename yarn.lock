@@ -9,26 +9,6 @@
   dependencies:
     "@jridgewell/trace-mapping" "^0.3.0"
 
-"@andromedaprotocol/icon@0.2.27":
-  version "0.2.27"
-  resolved "https://registry.yarnpkg.com/@andromedaprotocol/icon/-/icon-0.2.27.tgz#ed9fe9ee36423d55ec89e0f1013759d0a2eaa5d5"
-  integrity sha512-puysA+sPD5IP+YLlwx5qcEAlkp2Sg6Wpfyp6bEKXKj/4JwIcNYiSwnTmn8smwOHmdKrIVZ//ons0JVvjmU6XLw==
-  dependencies:
-    "@andromedaprotocol/icons" "0.1.20"
-    "@andromedaprotocol/theme" "0.4.9"
-    "@andromedaprotocol/utils" "^0.2.5"
-    "@andromedaprotocol/visually-hidden" "^0.2.4"
-
-"@andromedaprotocol/icons@0.1.20":
-  version "0.1.20"
-  resolved "https://registry.yarnpkg.com/@andromedaprotocol/icons/-/icons-0.1.20.tgz#0fe050c764719c8e1947d39958ccbac7ef763d37"
-  integrity sha512-XUg9IiBMxfhJOepo8vmhkOke1K6JpwkAsJtM5wvFdvQXUnRakUk0u4CnJGgtpRQ5u14dlrD28k513PCBt5MD5g==
-  dependencies:
-    "@andromedaprotocol/icon" "0.2.27"
-    "@andromedaprotocol/theme" "0.4.9"
-    "@andromedaprotocol/utils" "^0.2.5"
-    "@andromedaprotocol/visually-hidden" "^0.2.4"
-
 "@andromedaprotocol/image@0.2.2":
   version "0.2.2"
   resolved "https://registry.yarnpkg.com/@andromedaprotocol/image/-/image-0.2.2.tgz#3c8bfd80a007470f0c43bf04093f9aa329b3c469"
