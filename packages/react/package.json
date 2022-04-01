@@ -1,6 +1,6 @@
 {
   "name": "@andromedaprotocol/react",
-  "version": "0.2.23",
+  "version": "0.2.24",
   "sideEffects": false,
   "license": "MIT",
   "main": "dist/cjs/index.js",
@@ -38,7 +38,7 @@
     "react-dom": "^17.0.2"
   },
   "dependencies": {
-    "@andromedaprotocol/alert": "0.2.19",
+    "@andromedaprotocol/alert": "0.2.20",
     "@andromedaprotocol/avatar": "0.2.8",
     "@andromedaprotocol/badge": "0.2.9",
     "@andromedaprotocol/breadcrumb": "0.2.11",
@@ -55,13 +55,13 @@
     "@andromedaprotocol/image": "0.2.5",
     "@andromedaprotocol/kbd": "0.2.3",
     "@andromedaprotocol/link": "0.2.3",
-    "@andromedaprotocol/message": "0.2.14",
-    "@andromedaprotocol/notification": "0.2.14",
+    "@andromedaprotocol/message": "0.2.15",
+    "@andromedaprotocol/notification": "0.2.15",
     "@andromedaprotocol/radio": "0.2.3",
     "@andromedaprotocol/spinner": "0.2.4",
     "@andromedaprotocol/switch": "0.2.3",
     "@andromedaprotocol/table": "0.2.7",
-    "@andromedaprotocol/tag": "0.2.11",
+    "@andromedaprotocol/tag": "0.2.12",
     "@andromedaprotocol/text": "0.1.1",
     "@andromedaprotocol/theme": "0.4.9",
     "@andromedaprotocol/utils": "^0.2.5"

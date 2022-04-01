@@ -3,6 +3,14 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [0.2.24](https://github.com/andromedaprotocol/design-system/compare/@andromedaprotocol/react@0.2.21...@andromedaprotocol/react@0.2.24) (2022-04-01)
+
+**Note:** Version bump only for package @andromedaprotocol/react
+
+
+
+
+
 ## [0.2.21](https://github.com/andromedaprotocol/design-system/compare/@andromedaprotocol/react@0.2.20...@andromedaprotocol/react@0.2.21) (2022-03-31)
 
 **Note:** Version bump only for package @andromedaprotocol/react

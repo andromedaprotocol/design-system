@@ -3,6 +3,14 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [0.2.25](https://github.com/andromedaprotocol/design-system/compare/@andromedaprotocol/icon@0.2.21...@andromedaprotocol/icon@0.2.25) (2022-04-01)
+
+**Note:** Version bump only for package @andromedaprotocol/icon
+
+
+
+
+
 ## [0.2.21](https://github.com/andromedaprotocol/design-system/compare/@andromedaprotocol/icon@0.2.15...@andromedaprotocol/icon@0.2.21) (2022-04-01)
 
 **Note:** Version bump only for package @andromedaprotocol/icon
