@@ -1,6 +1,6 @@
 {
   "name": "@andromedaprotocol/icon",
-  "version": "0.2.16",
+  "version": "0.2.17",
   "sideEffects": false,
   "license": "MIT",
   "main": "dist/cjs/index.js",
@@ -37,7 +37,7 @@
     "react": "^17.0.2"
   },
   "dependencies": {
-    "@andromedaprotocol/icons": "0.1.8",
+    "@andromedaprotocol/icons": "0.1.9",
     "@andromedaprotocol/theme": "0.4.9",
     "@andromedaprotocol/utils": "^0.2.5",
     "@andromedaprotocol/visually-hidden": "^0.2.4"
