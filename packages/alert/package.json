@@ -37,7 +37,7 @@
     "react": "^17.0.2"
   },
   "dependencies": {
-    "@andromedaprotocol/icon": "0.2.21",
+    "@andromedaprotocol/icon": "0.2.26",
     "@andromedaprotocol/theme": "0.4.9",
     "@andromedaprotocol/utils": "^0.2.5"
   },
