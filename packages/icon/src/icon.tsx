@@ -1,5 +1,5 @@
 import * as React from "react";
-//import { IconNameMapper } from "@andromedaprotocol/icons/IconNameMapper";
+import { IconNameMapper } from "@andromedaprotocol/icons/IconNameMapper";
 import { DefaultProps } from "@andromedaprotocol/theme";
 import { cx, __DEV__ } from "@andromedaprotocol/utils";
 // import VisuallyHidden from "@andromedaprotocol/visually-hidden";
@@ -32,13 +32,10 @@ export const Icon = React.forwardRef<any, IconProps>((props, ref) => {
   const [IconComponent, setIconComponent] = React.useState<any>();
 
   const loadModule = async () => {
-    /**
     const icon = (await import("@andromedaprotocol/icons"))[
-      "fallback"
-      //IconNameMapper[name] === undefined ? "fallback" : IconNameMapper[name]
+      IconNameMapper[name] === undefined ? "fallback" : IconNameMapper[name]
     ];
-     */
-    setIconComponent(null);
+    setIconComponent(icon);
   };
   React.useEffect(() => {
     loadModule();
