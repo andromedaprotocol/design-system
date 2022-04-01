@@ -71,5 +71,6 @@ fs.readdir(path.join(__dirname, ICON_DIR), (err, files) => {
     fs.appendFileSync(SRC_ICON_INDEX, `export * from './${componentName}';\n`);
   });
 
+  fs.appendFileSync(SRC_ICON_INDEX, `export * from './IconNameMapper';\n`);
   fs.appendFileSync(path.join(__dirname, SRC_ICON_MAPPER), `\n}`);
 });

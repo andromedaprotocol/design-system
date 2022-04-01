@@ -1,5 +1,5 @@
 import * as React from "react";
-import { IconNameMapper } from "@andromedaprotocol/icons/IconNameMapper";
+import { IconNameMapper } from "@andromedaprotocol/icons";
 import { DefaultProps } from "@andromedaprotocol/theme";
 import { cx, __DEV__ } from "@andromedaprotocol/utils";
 // import VisuallyHidden from "@andromedaprotocol/visually-hidden";

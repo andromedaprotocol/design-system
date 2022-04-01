@@ -584,3 +584,4 @@ export * from './ZapOff';
 export * from './Zap';
 export * from './ZoomIn';
 export * from './ZoomOut';
+export * from './IconNameMapper';
