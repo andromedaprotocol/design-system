@@ -1,34 +1,28 @@
-import {
-  Icon,
-  InfoIcon,
-  XCircleIcon,
-  CheckCircleIcon,
-  ExclamationIcon,
-} from "@andromedaprotocol/icon";
+import { Icon } from "@andromedaprotocol/icon";
 import { createToast, useToastOptions } from "@andromedaprotocol/toast";
 import { cx as clsx, __DEV__ } from "@andromedaprotocol/utils";
 import * as React from "react";
 
 const statuses = {
   info: {
-    icon: "InfoIcon",
+    icon: "info",
     cx: "message-icon-info",
     label: "info",
   },
   success: {
-    icon: "CheckCircleIcon",
+    icon: "check-circle-2",
     cx: "message-icon-success",
     label: "check-circle",
   },
   error: {
-    icon: "XCircleIcon",
+    icon: "alert-circle",
     cx: "message-icon-error",
-    label: "x-circle",
+    label: "alert-circle",
   },
   warning: {
-    icon: "ExclamationIcon",
+    icon: "alert-triangle",
     cx: "message-icon-warning",
-    label: "exclamationIcon",
+    label: "alert-triangle",
   },
 };
 
@@ -52,7 +46,7 @@ const Message = React.forwardRef<HTMLDivElement, MessageProps>(
             customIcon
           ) : (
             <Icon
-              name="icon"
+              name={`${customIcon || icon}`}
               label={label}
               className={clsx("message-icon w-5 h-5", cx)}
             />

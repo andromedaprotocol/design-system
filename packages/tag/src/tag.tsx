@@ -1,5 +1,5 @@
 import { DefaultProps } from "@andromedaprotocol/theme";
-import { Icon, XIcon } from "@andromedaprotocol/icon";
+import { Icon } from "@andromedaprotocol/icon";
 import { cx, __DEV__ } from "@andromedaprotocol/utils";
 import * as React from "react";
 
@@ -24,7 +24,7 @@ export const TagCloseButton = React.forwardRef<
     aria-disabled={disabled}
     {...props}
   >
-    <Icon name="xicon" label="x" className={cx("w-3.5 h-3.5", iconClassName)} />
+    <Icon name="x" label="x" className={cx("w-3.5 h-3.5", iconClassName)} />
   </button>
 ));
 

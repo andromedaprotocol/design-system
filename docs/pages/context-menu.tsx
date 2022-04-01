@@ -45,7 +45,7 @@ const demoList = [
           "dark:focus:bg-neutral-700"
         )}
       >
-        <Icon as={ArrowsExpandIcon} label="arrows-expand" className="w-4 h-4 mr-2" />
+        <Icon name="expand" label="arrows-expand" className="w-4 h-4 mr-2" />
         <span className="flex-1 mr-2">Fullscreen</span>
         <Kbd>⌘F</Kbd>
       </ContextMenu.Item>
@@ -55,7 +55,7 @@ const demoList = [
           "focus:bg-neutral-100 dark:focus:bg-neutral-700"
         )}
       >
-        <Icon as={DuplicateIcon} label="duplicate" className="w-4 h-4 mr-2" />
+        <Icon name="copy" label="duplicate" className="w-4 h-4 mr-2" />
         <span className="flex-1 mr-2">Copy</span>
         <Kbd>⌘⇧C</Kbd>
       </ContextMenu.Item>
@@ -65,7 +65,7 @@ const demoList = [
           "focus:bg-neutral-100 dark:focus:bg-neutral-700"
         )}
       >
-        <Icon as={ShareIcon} label="share" className="w-4 h-4 mr-2" />
+        <Icon name="share-2" label="share" className="w-4 h-4 mr-2" />
         <span className="flex-1 mr-2">Share</span>
       </ContextMenu.Item>
       <ContextMenu.Separator className="h-px my-1 bg-neutral-200 dark:bg-neutral-700" />
@@ -75,7 +75,7 @@ const demoList = [
           "focus:bg-neutral-100 dark:focus:bg-neutral-700"
         )}
       >
-        <Icon as={CalendarIcon} label="calendar" className="w-4 h-4 mr-2" />
+        <Icon name="calendar" label="calendar" className="w-4 h-4 mr-2" />
         <span className="flex-1 mr-2">Due Date</span>
         <Kbd>⌘D</Kbd>
       </ContextMenu.Item>
@@ -87,9 +87,9 @@ const demoList = [
             "focus:bg-neutral-100 dark:focus:bg-neutral-700"
           )}
         >
-          <Icon as={TagIcon} label="tag" className="w-4 h-4 mr-2" />
+          <Icon name="tag" label="tag" className="w-4 h-4 mr-2" />
           <span className="flex-1 mr-2">Labels</span>
-          <Icon as={ChevronRightIcon} label="chevron-right" className="w-3 h-3 ml-2" />
+          <Icon name="chevron-right" label="chevron-right" className="w-3 h-3 ml-2" />
         </ContextMenu.TriggerItem>
         <ContextMenu.Content
           className={cx(
@@ -135,7 +135,7 @@ const demoList = [
           "focus:bg-neutral-100 dark:focus:bg-neutral-700"
         )}
       >
-        <Icon as={HashtagIcon} label="hastag" className="w-4 h-4 mr-2" />
+        <Icon name="hash" label="hastag" className="w-4 h-4 mr-2" />
         <span className="flex-1 mr-2">Unsubscribe</span>
         <Kbd>⌘⇧U</Kbd>
       </ContextMenu.Item>

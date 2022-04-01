@@ -1,7 +1,6 @@
 import { Table, Thead, Tbody, Tfoot, Td, Th, Tr } from "../src";
 import { Checkbox } from "@andromedaprotocol/react";
 import { Icon } from "@andromedaprotocol/react";
-import { InfoIcon } from "@andromedaprotocol/icon";
 
 export default {
   title: "Table",
@@ -32,7 +31,7 @@ export const basic = () => (
               <Icon
                 name="info"
                 label="info"
-                className="text-blue-500 w-9 h-9"
+                className="text-blue-500 w-6 h-6"
               />
             </div>
             <div className="flex flex-col ml-2">
@@ -53,7 +52,7 @@ export const basic = () => (
               <Icon
                 name="info"
                 label="info"
-                className="text-blue-500 w-9 h-9"
+                className="text-blue-500 w-6 h-6"
               />
             </div>
             <div className="flex flex-col ml-2">
@@ -74,7 +73,7 @@ export const basic = () => (
               <Icon
                 name="info"
                 label="info"
-                className="text-blue-500 w-9 h-9"
+                className="text-blue-500 w-6 h-6"
               />
             </div>
             <div className="flex flex-col ml-2">
@@ -95,7 +94,7 @@ export const basic = () => (
               <Icon
                 name="info"
                 label="info"
-                className="text-blue-500 w-9 h-9"
+                className="text-blue-500 w-6 h-6"
               />
             </div>
             <div className="flex flex-col ml-2">

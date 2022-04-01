@@ -9,9 +9,9 @@ const propList = [
     value: "icon",
     propTypes: [
       {
-        property: "as",
-        type: ["React.ElementType"],
-        default: "QuestionCircleIcon",
+        property: "name",
+        type: ["string"],
+        default: "help-circle",
         values: [],
         description: "The element or component to use",
       },
@@ -47,10 +47,10 @@ const demoList = [
       {
         name: "icon.tsx",
         code: `<div className="flex flex-wrap w-full p-8 space-x-4">
-  <Icon as={InfoIcon} label="info" className="w-6 h-6 text-blue-500" />
-  <Icon as={CheckCircleIcon} label="check-circle" className="w-6 h-6 text-green-500" />
-  <Icon as={XCircleIcon} label="x-circle" className="w-6 h-6 text-red-500" />
-  <Icon as={ExclamationIcon} label="exclamationIcon" className="w-6 h-6 text-yellow-500" />
+  <Icon name="info" label="info" className="w-6 h-6 text-blue-500" />
+  <Icon name="check-circle-2" label="check-circle" className="w-6 h-6 text-green-500" />
+  <Icon name="alert-circle" label="alert-circle" className="w-6 h-6 text-red-500" />
+  <Icon name="alert-triangle" label="exclamationIcon" className="w-6 h-6 text-yellow-500" />
 </div>`,
         readOnly: false,
       },

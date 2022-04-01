@@ -1,36 +1,29 @@
 import { Button } from "@andromedaprotocol/button";
-import {
-  Icon,
-  InfoIcon,
-  XIcon,
-  XCircleIcon,
-  CheckCircleIcon,
-  ExclamationIcon,
-} from "@andromedaprotocol/icon";
+import { Icon } from "@andromedaprotocol/icon";
 import { createToast, useToastOptions } from "@andromedaprotocol/toast";
 import { cx as clsx, __DEV__ } from "@andromedaprotocol/utils";
 import * as React from "react";
 
 const statuses = {
   info: {
-    icon: InfoIcon,
+    icon: "info",
     cx: "notification-icon-info",
     label: "info",
   },
   success: {
-    icon: CheckCircleIcon,
+    icon: "check-circle-2",
     cx: "notification-icon-success",
     label: "check-circle",
   },
   error: {
-    icon: XCircleIcon,
+    icon: "alert-circle",
     cx: "notification-icon-error",
-    label: "x-circle",
+    label: "alert-circle",
   },
   warning: {
-    icon: ExclamationIcon,
+    icon: "alert-triangle",
     cx: "notification-icon-warning",
-    label: "exclamationIcon",
+    label: "alert-triangle",
   },
 };
 
@@ -62,7 +55,11 @@ const Notification = React.forwardRef<HTMLDivElement, NotificationProps>(
             {customIcon ? (
               customIcon
             ) : (
-              <Icon label={label} name={`${customIcon || icon}`} className="w-5 h-5" />
+              <Icon
+                label={label}
+                name={`${customIcon || icon}`}
+                className="w-5 h-5"
+              />
             )}
           </span>
         )}
@@ -95,7 +92,7 @@ const Notification = React.forwardRef<HTMLDivElement, NotificationProps>(
                 customCloseIcon
               ) : (
                 <Icon
-                  name="xicon"
+                  name="x"
                   label="x"
                   className="text-current align-text-bottom h-3.5 w-3.5"
                 />

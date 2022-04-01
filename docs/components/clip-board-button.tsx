@@ -1,4 +1,3 @@
-import { DuplicateIcon, CheckIcon } from "@heroicons/react/outline";
 import { IconButton, Icon, IconButtonProps } from "@andromedaprotocol/react";
 import * as React from "react";
 import useClipboard from "react-use-clipboard";
@@ -18,13 +17,9 @@ export function ClipBoardButton({
   return (
     <IconButton variant="solid" onClick={setCopied} {...props}>
       {isCopied ? (
-        <Icon
-          as={CheckIcon}
-          className="w-5 h-5 text-primary-200"
-          label="check"
-        />
+        <Icon name="check" className="w-5 h-5 text-primary-200" label="check" />
       ) : (
-        <Icon as={DuplicateIcon} className="w-5 h-5" label="duplicate" />
+        <Icon name="copy" className="w-5 h-5" label="duplicate" />
       )}
     </IconButton>
   );

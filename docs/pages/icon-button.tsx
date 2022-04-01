@@ -42,16 +42,16 @@ const demoList = [
         name: "icon-button.tsx",
         code: `<div className="flex flex-wrap w-full p-8 space-x-4">
   <IconButton>
-    <Icon as={GiftIcon} label="gift" className="w-4 h-4" />
+    <Icon name="gift" label="gift" className="w-4 h-4" />
   </IconButton>
   <IconButton variant="solid">
-    <Icon as={GiftIcon} label="gift" className="w-4 h-4" />
+    <Icon name="gift" label="gift" className="w-4 h-4" />
   </IconButton>
   <IconButton variant="light">
-    <Icon as={GiftIcon} label="gift" className="w-4 h-4" />
+    <Icon name="gift" label="gift" className="w-4 h-4" />
   </IconButton>
   <IconButton variant="ghost">
-    <Icon as={GiftIcon} label="gift" className="w-4 h-4" />
+    <Icon name="gift" label="gift" className="w-4 h-4" />
   </IconButton>
 </div>`,
         readOnly: false,
@@ -65,19 +65,19 @@ const demoList = [
         name: "icon-button.tsx",
         code: `<div className="flex flex-wrap w-full p-8 space-x-4">
   <IconButton size="xs" variant="solid" color="primary">
-    <Icon as={GiftIcon} label="gift" className="w-3.5 h-3.5" />
+    <Icon name="gift" label="gift" className="w-3.5 h-3.5" />
   </IconButton>
   <IconButton size="sm" variant="solid" color="primary">
-    <Icon as={GiftIcon} label="gift" className="w-4 h-4" />
+    <Icon name="gift" label="gift" className="w-4 h-4" />
   </IconButton>
   <IconButton size="md" variant="solid" color="primary">
-    <Icon as={GiftIcon} label="gift" className="w-4 h-4" />
+    <Icon name="gift" label="gift" className="w-4 h-4" />
   </IconButton>
   <IconButton size="lg" variant="solid" color="primary">
-    <Icon as={GiftIcon} label="gift" className="w-6 h-6" />
+    <Icon name="gift" label="gift" className="w-6 h-6" />
   </IconButton>
   <IconButton size="xl" variant="solid" color="primary">
-    <Icon as={GiftIcon} label="gift" className="w-8 h-8" />
+    <Icon name="gift" label="gift" className="w-8 h-8" />
   </IconButton>
 </div>`,
         readOnly: false,

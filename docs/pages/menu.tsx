@@ -283,7 +283,7 @@ const demoList = [
                 )}
               >
                 <Icon
-                  as={ArrowsExpandIcon}
+                  name="expand"
                   label="arrows-expand"
                   className={cx("w-4 h-4 mr-2", active ? "" : "text-neutral-500")}
                 />
@@ -305,7 +305,7 @@ const demoList = [
                 )}
               >
                 <Icon
-                  as={DuplicateIcon}
+                  name="copy"
                   label="duplicate"
                   className={cx("w-4 h-4 mr-2", active ? "" : "text-neutral-500")}
                 />
@@ -327,7 +327,7 @@ const demoList = [
                 )}
               >
                 <Icon
-                  as={ShareIcon}
+                  name="share-2"
                   label="share"
                   className={cx("w-4 h-4 mr-2", active ? "" : "text-neutral-500")}
                 />
@@ -352,7 +352,7 @@ const demoList = [
                 )}
               >
                 <Icon
-                  as={CalendarIcon}
+                  name="calendar"
                   label="calendar"
                   className={cx("w-4 h-4 mr-2", active ? "" : "text-neutral-500")}
                 />
@@ -374,7 +374,7 @@ const demoList = [
                 )}
               >
                 <Icon
-                  as={TagIcon}
+                  name="tag"
                   label="tag"
                   className={cx("w-4 h-4 mr-2", active ? "" : "text-neutral-500")}
                 />
@@ -395,7 +395,7 @@ const demoList = [
                 )}
               >
                 <Icon
-                  as={HashtagIcon}
+                  name="hash"
                   label="hastag"
                   className={cx("w-4 h-4 mr-2", active ? "" : "text-neutral-500")}
                 />

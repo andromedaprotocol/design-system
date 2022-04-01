@@ -71,7 +71,7 @@ const demoList = [
                   "absolute text-sm cursor-base text-gray-600 dark:text-gray-400 hover:text-primary-500 top-4 right-4"
                 )}
               >
-                <XIcon className="w-4 h-4" />
+                <Icon name="x" className="w-4 h-4" />
               </button>
               <div className="flex-1 px-6 py-2">
                 <p className="text-base font-normal text-neutral-500">
@@ -147,7 +147,7 @@ const demoList = [
                 onClick={handleClose}
                 className="absolute text-sm text-gray-600 cursor-base dark:text-gray-400 hover:text-primary-500 top-4 right-4"
               >
-                <XIcon className="w-4 h-4" />
+                <Icon name="x" className="w-4 h-4" />
               </button>
               <Divider
                 orientation="horizontal"

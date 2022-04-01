@@ -22,10 +22,6 @@ import {
   Icon,
   Dot,
   Image,
-  InfoIcon,
-  XCircleIcon,
-  CheckCircleIcon,
-  ExclamationIcon,
   Alert,
   Spinner,
   useMessage,
@@ -51,7 +47,6 @@ import {
   HashtagIcon,
   CheckIcon,
   SelectorIcon,
-  XIcon,
   SunIcon,
   StarIcon,
   MoonIcon,
@@ -70,17 +65,17 @@ function RadioGroupDemo() {
     {
       value: "light",
       name: "Light",
-      icon: SunIcon,
+      icon: "sun",
     },
     {
       value: "dark",
       name: "Dark",
-      icon: MoonIcon,
+      icon: "moon",
     },
     {
       value: "system",
       name: "System",
-      icon: StarIcon,
+      icon: "star",
     },
   ];
 
@@ -107,7 +102,11 @@ function RadioGroupDemo() {
                   }
              `}
           >
-            <Icon as={item.icon} label="radio-group" className="w-4 h-4 mr-1" />
+            <Icon
+              name={item.icon}
+              label="radio-group"
+              className="w-4 h-4 mr-1"
+            />
             <span>{item.name}</span>
           </RadioGroup.Option>
         ))}
@@ -154,7 +153,7 @@ function Complexity() {
                   )}
                 >
                   <Icon
-                    as={ArrowsExpandIcon}
+                    name="expand"
                     label="arrows-expand"
                     className={cx(
                       "w-4 h-4 mr-2",
@@ -179,7 +178,7 @@ function Complexity() {
                   )}
                 >
                   <Icon
-                    as={DuplicateIcon}
+                    name="copy"
                     label="duplicate"
                     className={cx(
                       "w-4 h-4 mr-2",
@@ -204,7 +203,7 @@ function Complexity() {
                   )}
                 >
                   <Icon
-                    as={ShareIcon}
+                    name="share-2"
                     label="share"
                     className={cx(
                       "w-4 h-4 mr-2",
@@ -232,7 +231,7 @@ function Complexity() {
                   )}
                 >
                   <Icon
-                    as={CalendarIcon}
+                    name="calendar"
                     label="calendar"
                     className={cx(
                       "w-4 h-4 mr-2",
@@ -257,7 +256,7 @@ function Complexity() {
                   )}
                 >
                   <Icon
-                    as={TagIcon}
+                    name="tag"
                     label="tag"
                     className={cx(
                       "w-4 h-4 mr-2",
@@ -281,7 +280,7 @@ function Complexity() {
                   )}
                 >
                   <Icon
-                    as={HashtagIcon}
+                    name="hash"
                     label="hashtag"
                     className={cx(
                       "w-4 h-4 mr-2",
@@ -318,7 +317,7 @@ function DialogDemo() {
           "absolute text-sm cursor-base text-gray-600 dark:text-gray-400 hover:text-primary-400 hover:text-primary-500 top-4 right-4"
         )}
       >
-        <XIcon className="w-4 h-4" />
+        <Icon name="x" className="w-4 h-4" />
       </button>
       <Divider
         orientation="horizontal"
@@ -357,13 +356,13 @@ function TabsDemo() {
       value: "tab1",
       name: "Account",
       content: "Tab one content",
-      icon: UserCircleIcon,
+      icon: "user",
     },
     {
       value: "tab2",
       name: "Notifications",
       content: "Tab second content",
-      icon: BellIcon,
+      icon: "bell",
     },
     // {
     //   value: "tab3",
@@ -397,7 +396,7 @@ function TabsDemo() {
               "dark:selected:border-primary-500"
             )}
           >
-            <Icon as={tab.icon} label="icon" className="w-4 h-4 mr-2" />
+            <Icon name={tab.icon} label="icon" className="w-4 h-4 mr-2" />
             <span>{tab.name}</span>
             {tab.value === "tab2" && <Badge className="ml-2">18</Badge>}
           </Tabs.Trigger>

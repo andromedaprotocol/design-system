@@ -29,19 +29,22 @@ const demoList = [
       value: "tab1",
       name: "Account",
       content: "Tab one content",
-      icon: UserCircleIcon,
+      icon: "user",
+      label: "user",
     },
     {
       value: "tab2",
       name: "Notifications",
       content: "Tab second content",
-      icon: BellIcon,
+      icon: "bell",
+      label: "bell",
     },
     {
       value: "tab3",
       name: "Security",
       content: "Tab third content",
-      icon: ShieldCheckIcon,
+      icon: "shield-check",
+      label: "shield-check",
     },
   ];
 
@@ -104,21 +107,21 @@ const demoList = [
       value: "tab1",
       name: "Account",
       content: "Tab one content",
-      icon: UserCircleIcon,
-      label: "user-circle",
+      icon: "user",
+      label: "user",
     },
     {
       value: "tab2",
       name: "Notifications",
       content: "Tab second content",
-      icon: BellIcon,
+      icon: "bell",
       label: "bell",
     },
     {
       value: "tab3",
       name: "Security",
       content: "Tab third content",
-      icon: ShieldCheckIcon,
+      icon: "shield-check",
       label: "shield-check",
     },
   ];
@@ -148,7 +151,7 @@ const demoList = [
                 "dark:selected:border-primary-500"
               )}
             >
-              <Icon as={tab.icon} label={tab.label} className="w-4 h-4 mr-2" />
+              <Icon name={tab.icon} label={tab.label} className="w-4 h-4 mr-2" />
               <span>{tab.name}</span>
               {tab.value === "tab2" && (
                 <Badge className="ml-2">18</Badge>
@@ -186,19 +189,22 @@ const demoList = [
       value: "tab1",
       name: "Account",
       content: "Tab one content",
-      icon: UserCircleIcon,
+      icon: "user",
+      label: "user",
     },
     {
       value: "tab2",
       name: "Notifications",
       content: "Tab second content",
-      icon: BellIcon,
+      icon: "bell",
+      label: "bell",
     },
     {
       value: "tab3",
       name: "Security",
       content: "Tab third content",
-      icon: ShieldCheckIcon,
+      icon: "shield-check",
+      label: "shield-check",
     },
   ];
 
@@ -264,21 +270,21 @@ const demoList = [
       value: "tab1",
       name: "Account",
       content: "Tab one content",
-      icon: UserCircleIcon,
-      label: "user-circle",
+      icon: "user",
+      label: "user",
     },
     {
       value: "tab2",
       name: "Notifications",
       content: "Tab second content",
-      icon: BellIcon,
+      icon: "bell",
       label: "bell",
     },
     {
       value: "tab3",
       name: "Security",
       content: "Tab third content",
-      icon: ShieldCheckIcon,
+      icon: "shield-check",
       label: "shield-check",
     },
   ];
@@ -310,7 +316,7 @@ const demoList = [
                 "dark:selected:bg-base dark:selected:text-neutral-100",
               )}
             >
-              <Icon as={tab.icon} label={tab.label} className="w-4 h-4 mr-2" />
+              <Icon name={tab.icon} label={tab.label} className="w-4 h-4 mr-2" />
               <span>{tab.name}</span>
               {tab.value === "tab2" && (
                 <Badge className="ml-2">18</Badge>
@@ -349,19 +355,22 @@ const demoList = [
       value: "tab1",
       name: "Account",
       content: "Tab one content",
-      icon: UserCircleIcon,
+      icon: "user",
+      label: "user",
     },
     {
       value: "tab2",
       name: "Notifications",
       content: "Tab second content",
-      icon: BellIcon,
+      icon: "bell",
+      label: "bell",
     },
     {
       value: "tab3",
       name: "Security",
       content: "Tab third content",
-      icon: ShieldCheckIcon,
+      icon: "shield-check",
+      label: "shield-check",
     },
   ];
 

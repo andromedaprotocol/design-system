@@ -1,5 +1,4 @@
 import { Icon, cx } from "@andromedaprotocol/react";
-import { ChevronUpIcon } from "@heroicons/react/outline";
 import * as Tabs from "@radix-ui/react-tabs";
 import * as React from "react";
 import { LiveProvider, LiveContext, LiveError } from "react-live";
@@ -114,7 +113,7 @@ function Editor({
             >
               <Icon
                 role="tablist"
-                as={ChevronUpIcon}
+                name="chevron-up"
                 label="chevron-up"
                 className={cx(
                   "w-4 h-4",

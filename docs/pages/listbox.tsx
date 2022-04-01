@@ -67,7 +67,7 @@ const demoList = [
               <span className="text-sm truncate">{selectedPerson}</span>
               <span className="absolute flex items-center ml-3 pointer-events-none right-1">
                 <Icon
-                  as={SelectorIcon}
+                  name="chevrons-up-down"
                   className={cx(
                     "w-4 h-4",
                     open ? "text-primary-500" : "text-gray-400"
@@ -190,7 +190,7 @@ const demoList = [
               <span className="text-sm truncate">{selectedPerson}</span>
               <span className="absolute flex items-center ml-3 pointer-events-none right-1">
                 <Icon
-                  as={SelectorIcon}
+                  name="chevrons-up-down"
                   className={cx(
                     "w-4 h-4",
                     open ? "text-primary-500" : "text-gray-400"
@@ -248,7 +248,7 @@ const demoList = [
                         {selected && (
                           <span className="absolute inset-y-0 left-0 flex items-center justify-center w-10">
                             <Icon
-                              as={CheckIcon}
+                              name="check"
                               label="check"
                               className="w-5 h-5 text-primary-500"
                             />

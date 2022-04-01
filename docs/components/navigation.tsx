@@ -1,13 +1,6 @@
 import { Transition } from "@headlessui/react";
-import {
-  ViewGridIcon,
-  BeakerIcon,
-  ColorSwatchIcon,
-} from "@heroicons/react/outline";
 import { Button, Icon, cx } from "@andromedaprotocol/react";
 import * as React from "react";
-
-import { Github, Twitter } from "@libs/react-feather";
 
 import { NavLink } from "./nav-link";
 import {
@@ -19,23 +12,23 @@ import components from "./components";
 
 export const mainNavigation = [
   {
-    icon: ViewGridIcon,
+    icon: "layout-grid",
     title: "Getting Started",
     path: "/",
   },
   {
-    icon: ViewGridIcon,
+    icon: "layout-grid",
     title: "Getting Started",
     path: "/getting-started",
     hidden: true,
   },
   {
-    icon: BeakerIcon,
+    icon: "flask-conical",
     title: "Theming",
     path: "/theming",
   },
   {
-    icon: ColorSwatchIcon,
+    icon: "palette",
     title: "Color Mode",
     path: "/color-mode",
   },
@@ -96,7 +89,13 @@ export function Navigation() {
                       className="w-full"
                       // variant="solid"
                       // @ts-ignore
-                      leftIcon={<Github size={16} className="mr-2" />}
+                      leftIcon={
+                        <Icon
+                          name="github"
+                          label="github"
+                          className="mr-2 w-6 h-6"
+                        />
+                      }
                     >
                       Github
                     </Button>
@@ -105,7 +104,13 @@ export function Navigation() {
                     <Button
                       className="w-full"
                       // @ts-ignore
-                      leftIcon={<Twitter size={16} className="mr-2" />}
+                      leftIcon={
+                        <Icon
+                          name="twitter"
+                          label="twitter"
+                          className="mr-2 w-6 h-6"
+                        />
+                      }
                       variant="solid"
                       color="blue"
                     >
@@ -135,7 +140,7 @@ export function Navigation() {
                             onClick={() => slideMode && setOpen(false)}
                           >
                             <Icon
-                              as={link.icon || undefined}
+                              name={link.icon || undefined}
                               label=""
                               className="w-5 h-5 mr-2 text-primary-500"
                             />

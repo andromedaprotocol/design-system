@@ -159,7 +159,7 @@ const demoList = [
     />
     <Input placeholder="ben@gmail.com" />
     <Input.RightElement
-      children={<Icon as={GiftIcon} label="gift" className="w-4 h-4 text-green-500" />}
+      children={<Icon name="gift" label="gift" className="w-4 h-4 text-green-500" />}
     />
   </Input.Group>
 </div>`,

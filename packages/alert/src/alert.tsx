@@ -1,5 +1,5 @@
 import { cx, __DEV__ } from "@andromedaprotocol/utils";
-import { Icon, XIcon } from "@andromedaprotocol/icon";
+import { Icon } from "@andromedaprotocol/icon";
 import { DefaultProps } from "@andromedaprotocol/theme";
 import * as React from "react";
 
@@ -41,7 +41,7 @@ export const AlertCloseButton = React.forwardRef<
       className={cx(classes, className)}
     >
       <Icon
-        name="xicon"
+        name="x"
         label="x"
         className="inline-block w-4 h-4 text-current align-text-bottom fill-current"
       />

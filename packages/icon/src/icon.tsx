@@ -3,10 +3,9 @@ import { IconNameMapper } from "@andromedaprotocol/icons";
 import { DefaultProps } from "@andromedaprotocol/theme";
 import { cx, __DEV__ } from "@andromedaprotocol/utils";
 import VisuallyHidden from "@andromedaprotocol/visually-hidden";
-import { QuestionCircleIcon } from "./core";
 
 export interface IconProps extends DefaultProps {
-  as?: React.ElementType;
+  name: string;
   inline?: boolean;
   role?: string;
   color?: string;
@@ -15,12 +14,10 @@ export interface IconProps extends DefaultProps {
    * reader users, similar to `alt` text for `img` tags.
    */
   label: string;
-  name: string;
 }
 
 export const Icon = React.forwardRef<any, IconProps>((props, ref) => {
   const {
-    as: Comp = QuestionCircleIcon,
     name,
     inline = true,
     className,
@@ -33,7 +30,7 @@ export const Icon = React.forwardRef<any, IconProps>((props, ref) => {
 
   const loadModule = async () => {
     const icon = (await import("@andromedaprotocol/icons"))[
-      IconNameMapper[name] === undefined ? "fallback" : IconNameMapper[name]
+      IconNameMapper[name] === undefined ? "help-circle" : IconNameMapper[name]
     ];
     setIconComponent(icon);
   };

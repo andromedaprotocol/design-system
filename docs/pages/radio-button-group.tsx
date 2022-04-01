@@ -98,19 +98,19 @@ const demo2 =
     {
       value: "light",
       name: "Light",
-      icon: SunIcon,
+      icon: "sun",
       label: "sun",
     },
     {
       value: "dark",
       name: "Dark",
-      icon: MoonIcon,
+      icon: "moon",
       label: "moon",
     },
     {
       value: "system",
       name: "System",
-      icon: StarIcon,
+      icon: "star",
       label: "star",
     },
   ];
@@ -144,7 +144,7 @@ const demo2 =
   "\n" +
   `             \`}
             >
-              <Icon as={item.icon} label={item.label} className="w-4 h-4 mr-1" />
+              <Icon name={item.icon} label={item.label} className="w-4 h-4 mr-1" />
               <span>{item.name}</span>
             </RadioGroup.Option>
           ))}
