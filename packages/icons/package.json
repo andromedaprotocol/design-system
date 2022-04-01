@@ -1,6 +1,6 @@
 {
   "name": "@andromedaprotocol/icons",
-  "version": "0.1.16",
+  "version": "0.1.17",
   "sideEffects": false,
   "license": "MIT",
   "main": "dist/cjs/index.js",
@@ -42,7 +42,7 @@
     "ts-node": "^10.7.0"
   },
   "dependencies": {
-    "@andromedaprotocol/icon": "0.2.23",
+    "@andromedaprotocol/icon": "0.2.24",
     "@andromedaprotocol/theme": "0.4.9",
     "@andromedaprotocol/utils": "^0.2.5",
     "@andromedaprotocol/visually-hidden": "^0.2.4"
