@@ -32,19 +32,23 @@ export const Icon = React.forwardRef<any, IconProps>((props, ref) => {
   const [IconComponent, setIconComponent] = React.useState<any>();
 
   const loadModule = async () => {
-    //const icon = (await import("@andromedaprotocol/icons"))[
+    /**
+    const icon = (await import("@andromedaprotocol/icons"))[
+      "fallback"
       //IconNameMapper[name] === undefined ? "fallback" : IconNameMapper[name]
     ];
-    //setIconComponent(icon);
+     */
+    setIconComponent(null);
   };
   React.useEffect(() => {
-    //loadModule();
+    loadModule();
   });
 
   return (
     <>
       {IconComponent && (
         <IconComponent
+          ref={ref}
           className={cx(inline ? "icon-inline" : "icon-block", className)}
           role={role}
           aria-hidden={true}
