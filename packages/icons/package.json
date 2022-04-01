@@ -33,11 +33,13 @@
     "test:cov": "yarn test --coverage",
     "lint:src": "eslint src --ext .ts,.tsx --config ../../.eslintrc",
     "lint:types": "tsc --noEmit",
-    "svgr": "rimraf src && svgr -d src/ assets/ --typescript --memo --icon --svg-props fill=currentColor"
+    "generate": "ts-node --project scripts/tsconfig.json scripts/generate.ts"
   },
   "devDependencies": {
-    "@svgr/cli": "^6.2.1",
-    "react": "^17.0.2"
+    "handlebars": "^4.7.7",
+    "react": "^17.0.2",
+    "svg-parser": "^2.0.4",
+    "ts-node": "^10.7.0"
   },
   "dependencies": {
     "@andromedaprotocol/theme": "0.4.9",

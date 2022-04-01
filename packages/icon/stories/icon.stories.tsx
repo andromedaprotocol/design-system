@@ -1,5 +1,4 @@
 import { Icon } from "../src";
-import { Globe } from "@andromedaprotocol/icons";
 
 export default {
   title: "Icon",
