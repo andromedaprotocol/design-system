@@ -32,13 +32,13 @@ export const Icon = React.forwardRef<any, IconProps>((props, ref) => {
   const [IconComponent, setIconComponent] = React.useState<any>();
 
   const loadModule = async () => {
-    const icon = (await import("@andromedaprotocol/icons"))[
+    //const icon = (await import("@andromedaprotocol/icons"))[
       //IconNameMapper[name] === undefined ? "fallback" : IconNameMapper[name]
     ];
-    setIconComponent(icon);
+    //setIconComponent(icon);
   };
   React.useEffect(() => {
-    loadModule();
+    //loadModule();
   });
 
   return (
