@@ -2,7 +2,7 @@ import * as React from "react";
 import { IconNameMapper } from "@andromedaprotocol/icons";
 import { DefaultProps } from "@andromedaprotocol/theme";
 import { cx, __DEV__ } from "@andromedaprotocol/utils";
-// import VisuallyHidden from "@andromedaprotocol/visually-hidden";
+import VisuallyHidden from "@andromedaprotocol/visually-hidden";
 import { QuestionCircleIcon } from "./core";
 
 export interface IconProps extends DefaultProps {
@@ -44,14 +44,17 @@ export const Icon = React.forwardRef<any, IconProps>((props, ref) => {
   return (
     <>
       {IconComponent && (
-        <IconComponent
-          ref={ref}
-          className={cx(inline ? "icon-inline" : "icon-block", className)}
-          role={role}
-          aria-hidden={true}
-          focusable={false}
-          {...rest}
-        />
+        <>
+          <IconComponent
+            ref={ref}
+            className={cx(inline ? "icon-inline" : "icon-block", className)}
+            role={role}
+            aria-hidden={true}
+            focusable={false}
+            {...rest}
+          />
+          <VisuallyHidden>{label}</VisuallyHidden>
+        </>
       )}
     </>
   );

@@ -13,18 +13,22 @@ export default {
 };
 
 export const basic = () => (
-  <div className="flex space-x-6">
+  <div className="grid grid-cols-3 md:grid-cols-4 gap-6 text-center ">
     {iconKeys.map((iconKey) => {
       return (
-        <>
+        <span className="border py-4">
           <Icon
             key={iconKey}
             name={iconKey}
             label={iconKey}
-            className="w-6 h-6 text-blue-500"
+            className="w-16 h-16 text-primary-500"
           />
-          <div>{iconKey}</div>
-        </>
+          <div>
+            <small>
+              <strong>{iconKey}</strong>
+            </small>
+          </div>
+        </span>
       );
     })}
   </div>
