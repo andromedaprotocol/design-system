@@ -38,7 +38,7 @@
   },
   "dependencies": {
     "@andromedaprotocol/button": "0.2.16",
-    "@andromedaprotocol/icon": "0.2.27",
+    "@andromedaprotocol/icon": "0.2.29",
     "@andromedaprotocol/theme": "0.4.9",
     "@andromedaprotocol/toast": "0.2.3",
     "@andromedaprotocol/utils": "^0.2.5"
