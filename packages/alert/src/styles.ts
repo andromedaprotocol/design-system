@@ -16,5 +16,5 @@ export const useAlertCloseButton = createMemoClass(() => {
 });
 
 export const useAlertClass = createMemoClass((props) => {
-  return cx("alert", variantClasses[props.variant]);
+  return cx("alert flex-col justify-start items-start text-start md:flex-row", variantClasses[props.variant]);
 });

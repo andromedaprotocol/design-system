@@ -19,7 +19,7 @@ export const useButtonClass = createMemoClass((props) => {
     solid: "btn-solid",
     ghost: "btn-ghost",
     light: "btn-light",
-    link: "btn-link",
+    link: "btn-link no-underline",
   };
 
   const colors: colorOptions = {

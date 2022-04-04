@@ -211,7 +211,7 @@ function buttonLight(colors) {
 function buttonLink(colors) {
   return {
     "&-link": {
-      "@apply leading-normal text-neutral-600 hover:underline active:text-neutral-700": {},
+      "@apply leading-normal text-neutral-600 active:text-neutral-700": {},
       "@apply focus:z-base focus:ring-2 focus:ring-primary-500": {},
       // dark colors
       "@apply dark:text-neutral-200": {},

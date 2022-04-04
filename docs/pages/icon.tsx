@@ -18,7 +18,7 @@ const propList = [
       {
         property: "inline",
         type: ["boolean"],
-        default: false,
+        default: true,
         values: [],
         description: "Makes icon inline",
       },
