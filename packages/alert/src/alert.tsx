@@ -3,7 +3,7 @@ import { Icon } from "@andromedaprotocol/icon";
 import { DefaultProps } from "@andromedaprotocol/theme";
 import * as React from "react";
 
-import { useAlertClass, useAlertCloseButton } from "./styles";
+import { useAlertClass, useAlertCloseButton, useAlertIconClass } from "./styles";
 
 interface AlertContext {
   color?: string;
@@ -58,10 +58,13 @@ interface IAlertProps extends DefaultProps {
   color?: string;
   /** Controls alert appearance */
   variant?: "subtle" | "solid" | "left-accent";
-  mark?: "news" | "icon";
+  mark?: "string" | "icon";
   title?:string;
   more?:boolean;
   children?: React.ReactNode;
+  badge?:string;
+  detail?:() => {};
+  link?:string;
 }
 
 export interface AlertProps
@@ -69,54 +72,60 @@ export interface AlertProps
     IAlertProps {}
 
 const statuses = {
-  normal: {
+  gray: {
     icon: "info",
-    styles: "alert-icon-info bg-gray-100 text-gray-500 border-gray-300",
+    styles: "alert-icon-info",
     label: "info",
     new_styles : "text-white bg-gray-700 px-2.5 py-0.5",
     new_back : "bg-gray-200",
-    new_title : "text-gray-700",
+    new_title : "",
   },
-  info: {
+  primary: {
     icon: "info",
-    styles: "alert-icon-info bg-primary-100 text-primary-500 border-primary-300",
+    styles: "alert-icon-info",
     label: "info",
     new_styles : "text-white bg-primary-700 px-2.5 py-0.5",
     new_back : "bg-primary-200 p-1",
-    new_title : "text-primary-700",
+    new_title : "",
   },
   success: {
     icon: "check-circle",
-    styles: "alert-icon-success bg-green-100 text-green-500 border-green-300",
+    styles: "alert-icon-success",
     label: "check-circle",
     new_styles : "text-white bg-green-700 px-2.5 py-0.5",
     new_back : "bg-green-200 p-1",
-    new_title : "text-green-700",
+    new_title : "",
   },
   error: {
     icon: "alert-circle",
-    styles: "alert-icon-error bg-pink-100 text-pink-500 border-pink-300",
+    styles: "alert-icon-error",
     label: "alert-circle",
     new_styles : "text-white bg-pink-700 px-2.5 py-0.5",
     new_back : "bg-pink-200",
-    new_title : "text-pink-700",
+    new_title : "",
   },
   warning: {
     icon: "alert-triangle",
-    styles: "alert-icon-warning bg-yellow-100 text-yellow-500 border-yellow-300",
+    styles: "alert-icon-warning",
     label: "alert-triangle",
     new_styles : "text-white bg-yellow-700 px-2.5 py-0.5",
     new_back : "bg-yellow-200",
-    new_title : "text-yellow-700",
+    new_title : "",
   },
 };
 
 export const Alert = React.forwardRef<HTMLDivElement, AlertProps>(
   (props, ref) => {
-    const { color = "normal", variant = "subtle", className, children, mark ,title,more, ...rest } = props;
+    const { color = "primary", variant = "subtle", className, children, mark ,badge = 'New',title,more,link,detail, ...rest } = props;
     const classes = useAlertClass({
       variant,
+      color
     });
+
+    const iconClasses = useAlertIconClass({
+      variant,
+      color
+    })
 
     const context = { color };
     const { icon, styles, label, new_styles , new_back,new_title} = statuses[color] || {};
@@ -129,29 +138,29 @@ export const Alert = React.forwardRef<HTMLDivElement, AlertProps>(
           className={cx(classes, className,styles)}
           {...rest}
         >
-          { mark === 'news' && (
+          { mark === 'string' && (
               <div className={cx("flex flex-row p-1 mr-3 rounded-full justify-center text-center", new_back)}>
-                  <div className={cx("rounded-full flex justify-center items-center", new_styles)}>New</div>
+                  <div className={cx("rounded-full flex justify-center items-center", new_styles)}>{badge}</div>
                   <div className={cx("ml-3 mr-2", new_title)}>{title}</div>
               </div>
             )
           }
           { mark === 'icon' && (
-              <div className={cx("flex flex-row p-1 mr-2 rounded-full justify-center text-center")}>
+              <div className={cx("flex flex-row p-1 mr-2 rounded-full justify-center text-center",iconClasses)}>
                   <div className="flex w-4 h-4 m-auto"><Icon name={icon} label=""/></div>
                   <div className={cx("ml-3 mr-2", new_title)}>{title}</div>
               </div>
             )
           }
-          <div className={`${mark ? 'ml-4 mt-3 md:m-auto md:ml-2.5' : ''}`}>
+          <div className={`${mark ? 'mt-3 md:m-auto md:ml-2.5' : ''}`}>
             {children}
           </div>
           {
             more && (
               <div className="mt-3 ml-0 cursor-pointer md:m-auto md:mr-0">
-                <span className="ml-4 md:ml-3">Learn more</span>
+                <span className="md:ml-3" onClick={detail}>Learn more</span>
                 <span className="ml-3">View changes</span>
-                <span className="ml-1"><Icon className="w-3 h-3" name='arrow-right' label={""}/></span>
+                <a className="no-underline" href={(link ? link : '')}><span className="ml-1"><Icon className="w-3 h-3" name='arrow-right' label={""}/></span></a>
               </div>
             )
           }
