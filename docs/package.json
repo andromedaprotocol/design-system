@@ -1,6 +1,6 @@
 {
   "name": "@andromedaprotocol/docs",
-  "version": "0.10.30",
+  "version": "0.10.31",
   "private": true,
   "scripts": {
     "type-check": "tsc",
@@ -12,8 +12,8 @@
     "export": "next build && next export"
   },
   "dependencies": {
-    "@andromedaprotocol/core": "0.6.14",
-    "@andromedaprotocol/react": "0.2.26",
+    "@andromedaprotocol/core": "0.6.15",
+    "@andromedaprotocol/react": "0.2.27",
     "@headlessui/react": "1.4.0",
     "@heroicons/react": "^1.0.1",
     "@mdx-js/loader": "^1.6.22",
