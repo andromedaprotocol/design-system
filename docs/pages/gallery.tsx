@@ -597,7 +597,7 @@ export default function Gallery() {
               <Alert.CloseButton className="alert-close-button-yellow" />
             </Alert>
 
-            <Alert color="orange" variant="subtle">
+            <Alert color="secondary" variant="subtle">
               Flash message goes here.
               <Alert.CloseButton />
             </Alert>

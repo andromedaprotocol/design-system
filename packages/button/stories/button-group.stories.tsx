@@ -11,7 +11,6 @@ export default {
 
 export const basic = () => (
   <div className="space-y-4">
-
     <div>
       <Button.Group variant="solid" color="primary" className="space-x-2">
         <Button>Button</Button>
@@ -22,7 +21,7 @@ export const basic = () => (
     </div>
 
     <div>
-      <Button.Group variant="solid" color="orange" className="space-x-2">
+      <Button.Group variant="solid" color="secondary" className="space-x-2">
         <Button>Button</Button>
         <Button>Button</Button>
         <Button>Button</Button>
@@ -53,35 +52,34 @@ export const basic = () => (
 );
 
 export const attached = () => (
-    <div className="space-y-4">
-      <div>
-        <Button.Group variant="solid" attached>
-          <Button>Button</Button>
-          <Button>Button</Button>
-          <Button>Button</Button>
-          <Button>Button</Button>
-        </Button.Group>
-      </div>
-  
-      <div>
-        <Button.Group variant="solid" attached>
-          <IconButton>
-            <Announcement size={16} />
-          </IconButton>
-  
-          <IconButton>
-            <Announcement size={16} />
-          </IconButton>
-  
-          <IconButton>
-            <Announcement size={16} />
-          </IconButton>
-  
-          <IconButton>
-            <Announcement size={16} />
-          </IconButton>
-        </Button.Group>
-      </div>
-  
+  <div className="space-y-4">
+    <div>
+      <Button.Group variant="solid" attached>
+        <Button>Button</Button>
+        <Button>Button</Button>
+        <Button>Button</Button>
+        <Button>Button</Button>
+      </Button.Group>
     </div>
-  );
+
+    <div>
+      <Button.Group variant="solid" attached>
+        <IconButton>
+          <Announcement size={16} />
+        </IconButton>
+
+        <IconButton>
+          <Announcement size={16} />
+        </IconButton>
+
+        <IconButton>
+          <Announcement size={16} />
+        </IconButton>
+
+        <IconButton>
+          <Announcement size={16} />
+        </IconButton>
+      </Button.Group>
+    </div>
+  </div>
+);
