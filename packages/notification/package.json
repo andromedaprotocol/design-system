@@ -1,6 +1,6 @@
 {
   "name": "@andromedaprotocol/notification",
-  "version": "0.2.19",
+  "version": "0.2.20",
   "sideEffects": false,
   "license": "MIT",
   "main": "dist/cjs/index.js",

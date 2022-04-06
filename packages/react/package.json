@@ -1,6 +1,6 @@
 {
   "name": "@andromedaprotocol/react",
-  "version": "0.2.29",
+  "version": "0.2.30",
   "sideEffects": false,
   "license": "MIT",
   "main": "dist/cjs/index.js",
@@ -55,7 +55,7 @@
     "@andromedaprotocol/kbd": "0.2.3",
     "@andromedaprotocol/link": "0.2.3",
     "@andromedaprotocol/message": "0.2.18",
-    "@andromedaprotocol/notification": "0.2.19",
+    "@andromedaprotocol/notification": "0.2.20",
     "@andromedaprotocol/radio": "0.2.3",
     "@andromedaprotocol/spinner": "0.2.4",
     "@andromedaprotocol/switch": "0.2.3",

@@ -3,6 +3,14 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [0.10.37](https://github.com/andromedaprotocol/design-system/compare/@andromedaprotocol/docs@0.10.36...@andromedaprotocol/docs@0.10.37) (2022-04-06)
+
+**Note:** Version bump only for package @andromedaprotocol/docs
+
+
+
+
+
 ## [0.10.36](https://github.com/andromedaprotocol/design-system/compare/@andromedaprotocol/docs@0.10.35...@andromedaprotocol/docs@0.10.36) (2022-04-06)
 
 **Note:** Version bump only for package @andromedaprotocol/docs
