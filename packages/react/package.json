@@ -38,11 +38,11 @@
     "react-dom": "^17.0.2"
   },
   "dependencies": {
-    "@andromedaprotocol/alert": "0.2.24",
+    "@andromedaprotocol/alert": "0.2.27",
     "@andromedaprotocol/avatar": "0.2.8",
     "@andromedaprotocol/badge": "0.2.9",
     "@andromedaprotocol/breadcrumb": "0.2.11",
-    "@andromedaprotocol/button": "0.2.17",
+    "@andromedaprotocol/button": "0.2.20",
     "@andromedaprotocol/card": "0.2.4",
     "@andromedaprotocol/checkbox": "0.2.17",
     "@andromedaprotocol/code": "0.2.9",
