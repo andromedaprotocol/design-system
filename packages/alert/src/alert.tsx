@@ -59,7 +59,7 @@ if (__DEV__) {
 
 interface IAlertProps extends DefaultProps {
   /* The color of the alert. */
-  color?: string;
+  color?: "gray" | "primary" | "success" | "warning" | "error" | string;
   /** Controls alert appearance */
   variant?: "subtle" | "solid" | "left-accent";
   mark?: "string" | "icon";

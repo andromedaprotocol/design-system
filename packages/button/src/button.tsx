@@ -21,7 +21,7 @@ interface IButtonProps extends DefaultProps {
   /* Adds icon after button label */
   rightIcon?: React.ReactElement;
   /* Set the button color */
-  color?: "primary" | "secondary" | "grey" | string;
+  color?: "primary" | "secondary" | "error" | "grey" | string;
   /* Size of the button */
   size?: "xs" | "sm" | "md" | "lg" | "xl";
   /** Controls button appearance */
