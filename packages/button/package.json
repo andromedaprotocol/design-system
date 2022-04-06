@@ -1,6 +1,6 @@
 {
   "name": "@andromedaprotocol/button",
-  "version": "0.2.18",
+  "version": "0.2.19",
   "sideEffects": false,
   "license": "MIT",
   "main": "dist/cjs/index.js",
