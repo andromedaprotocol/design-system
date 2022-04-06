@@ -1,6 +1,6 @@
 {
   "name": "@andromedaprotocol/react",
-  "version": "0.2.27",
+  "version": "0.2.28",
   "sideEffects": false,
   "license": "MIT",
   "main": "dist/cjs/index.js",
@@ -38,7 +38,7 @@
     "react-dom": "^17.0.2"
   },
   "dependencies": {
-    "@andromedaprotocol/alert": "0.2.23",
+    "@andromedaprotocol/alert": "0.2.24",
     "@andromedaprotocol/avatar": "0.2.8",
     "@andromedaprotocol/badge": "0.2.9",
     "@andromedaprotocol/breadcrumb": "0.2.11",
