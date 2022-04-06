@@ -7,22 +7,22 @@ import * as React from "react";
 const statuses = {
   info: {
     icon: "info",
-    cx: "notification-icon-info",
+    cx: "notification-icon-info bg-primary-100",
     label: "info",
   },
   success: {
-    icon: "check-circle-2",
-    cx: "notification-icon-success",
+    icon: "check-circle",
+    cx: "notification-icon-success bg-green-100",
     label: "check-circle",
   },
   error: {
     icon: "alert-circle",
-    cx: "notification-icon-error",
+    cx: "notification-icon-error bg-pink-100",
     label: "alert-circle",
   },
   warning: {
     icon: "alert-triangle",
-    cx: "notification-icon-warning",
+    cx: "notification-icon-warning bg-yellow-100",
     label: "alert-triangle",
   },
 };
@@ -51,7 +51,7 @@ const Notification = React.forwardRef<HTMLDivElement, NotificationProps>(
     return (
       <div ref={ref} className={clsx("notification", className)}>
         {((icon && cx) || customIcon) && (
-          <span className={clsx("notification-icon", cx)}>
+          <span className={clsx("notification-icon rounded-full w-10 h-10 text-center flex flex-row justify-center items-center", cx)}>
             {customIcon ? (
               customIcon
             ) : (
@@ -68,20 +68,14 @@ const Notification = React.forwardRef<HTMLDivElement, NotificationProps>(
           <span className="notification-content-description">
             {description}
           </span>
+          {onUndo && (
+              <a className="mt-2 font-normal cursor-pointer" onClick={onUndo}>
+              {undoText}
+              </a>
+          )}
         </div>
         <div className="notification-action">
-          {onUndo && (
-            <Button
-              variant="link"
-              color="primary"
-              className="notification-action-undo"
-              onClick={() => {
-                onUndo();
-              }}
-            >
-              {undoText}
-            </Button>
-          )}
+          
 
           {closeable && (
             <button

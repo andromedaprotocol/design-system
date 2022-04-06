@@ -13,10 +13,10 @@ export default {
 };
 
 export const basic = () => (
-  <div className="grid grid-cols-3 md:grid-cols-4 gap-6 text-center ">
+  <div className="grid grid-cols-3 gap-6 text-center md:grid-cols-4 ">
     {iconKeys.map((iconKey) => {
       return (
-        <span className="border py-4">
+        <span className="py-4 border">
           <Icon
             key={iconKey}
             name={iconKey}

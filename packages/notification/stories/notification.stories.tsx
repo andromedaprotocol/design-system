@@ -17,11 +17,7 @@ export const basic = () => {
       description: "Toast message goes here.",
       status: status,
       position: "top",
-      //   duration: 10000000,
-      // icon: <Icon size={20} as={Announcement} />,
-      // closeIcon: <Icon size={16} as={Announcement} />,
-      undoText: "Quay lại",
-      // closeable: false,
+      undoText: "Under Action",
       onUndo: () => {},
     });
   };

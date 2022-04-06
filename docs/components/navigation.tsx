@@ -93,7 +93,7 @@ export function Navigation() {
                         <Icon
                           name="github"
                           label="github"
-                          className="mr-2 w-6 h-6"
+                          className="w-6 h-6 mr-2"
                         />
                       }
                     >
@@ -108,7 +108,7 @@ export function Navigation() {
                         <Icon
                           name="twitter"
                           label="twitter"
-                          className="mr-2 w-6 h-6"
+                          className="w-6 h-6 mr-2"
                         />
                       }
                       variant="solid"
