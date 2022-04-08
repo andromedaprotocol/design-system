@@ -1,6 +1,6 @@
 module.exports = Badge = (colors) => ({
   ".badge": {
-    "@apply inline-block text-xs font-medium leading-4 text-center whitespace-nowrap": {},
+    "@apply inline-block text-xs font-medium leading-4 text-center whitespace-nowrap flex justify-center items-center": {},
 
     "&-light": {
       "@apply text-neutral-900 bg-neutral-200 border border-transparent": {},
@@ -38,17 +38,25 @@ module.exports = Badge = (colors) => ({
     },
 
     "&-sm": {
+      "@apply px-2 py-0.5": {},
       minWidth: "14px",
       height: "14px",
-      padding: 0,
       lineHeight: "12px",
       borderRadius: "2em",
     },
 
     "&-md": {
-      "@apply px-1.5 py-0": {},
+      "@apply px-2.5 py-0.5": {},
       minWidth: "20px",
       height: "20px",
+      lineHeight: "18px",
+      borderRadius: "2em",
+    },
+
+    "&-lg": {
+      "@apply px-3 py-1": {},
+      minWidth: "20px",
+      height: "22px",
       lineHeight: "18px",
       borderRadius: "2em",
     },
