@@ -1,4 +1,3 @@
-import { Button } from "@andromedaprotocol/button";
 import { Icon } from "@andromedaprotocol/icon";
 import { createToast, useToastOptions } from "@andromedaprotocol/toast";
 import { cx as clsx, __DEV__ } from "@andromedaprotocol/utils";
@@ -51,7 +50,12 @@ const Notification = React.forwardRef<HTMLDivElement, NotificationProps>(
     return (
       <div ref={ref} className={clsx("notification", className)}>
         {((icon && cx) || customIcon) && (
-          <span className={clsx("notification-icon rounded-full w-10 h-10 text-center flex flex-row justify-center items-center", cx)}>
+          <span
+            className={clsx(
+              "notification-icon rounded-full w-10 h-10 text-center flex flex-row justify-center items-center",
+              cx
+            )}
+          >
             {customIcon ? (
               customIcon
             ) : (
@@ -69,14 +73,12 @@ const Notification = React.forwardRef<HTMLDivElement, NotificationProps>(
             {description}
           </span>
           {onUndo && (
-              <a className="mt-2 font-normal cursor-pointer" onClick={onUndo}>
+            <a className="mt-2 font-normal cursor-pointer" onClick={onUndo}>
               {undoText}
-              </a>
+            </a>
           )}
         </div>
         <div className="notification-action">
-          
-
           {closeable && (
             <button
               onClick={onClose}

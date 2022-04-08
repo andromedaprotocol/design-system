@@ -5,7 +5,7 @@ import * as React from "react";
 
 import { useButtonClass } from "./styles";
 
-interface IButtonProps extends DefaultProps{
+interface IButtonProps extends DefaultProps {
   /* Shows loading spinner */
   loading?: boolean;
   /* Makes button disabled */
@@ -21,7 +21,7 @@ interface IButtonProps extends DefaultProps{
   /* Adds icon after button label */
   rightIcon?: React.ReactElement;
   /* Set the button color */
-  color?: "primary" | "orange" | "secondary" | "grey" | string;
+  color?: "primary" | "secondary" | "error" | "grey" | string;
   /* Size of the button */
   size?: "xs" | "sm" | "md" | "lg" | "xl";
   /** Controls button appearance */
@@ -31,7 +31,8 @@ interface IButtonProps extends DefaultProps{
 }
 
 export interface ButtonProps
-  extends React.ButtonHTMLAttributes<HTMLButtonElement>, IButtonProps {}
+  extends React.ButtonHTMLAttributes<HTMLButtonElement>,
+    IButtonProps {}
 
 export const Button = React.forwardRef<HTMLButtonElement, ButtonProps>(
   (props, ref) => {

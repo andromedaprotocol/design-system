@@ -57,11 +57,11 @@ const demoList = [
       {
         name: "alert.tsx",
         code: `<div className="flex flex-col w-full p-8 space-y-4">
-  <Alert variant="solid" color="orange">Flash message goes here.</Alert>
+  <Alert variant="solid" color="primary">Flash message goes here.</Alert>
 
-  <Alert variant="subtle" color="orange">Flash message goes here.</Alert>
+  <Alert variant="subtle" color="primary">Flash message goes here.</Alert>
 
-  <Alert variant="left-accent" color="orange">Flash message goes here.</Alert>
+  <Alert variant="left-accent" color="primary">Flash message goes here.</Alert>
 </div>`,
         readOnly: false,
       },

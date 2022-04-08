@@ -592,17 +592,12 @@ export default function Gallery() {
         </div>
         <div className="grid grid-cols-2 gap-16 mt-8">
           <div className="w-full space-y-4">
-            <Alert variant="solid" className="alert-yellow">
-              Flash message goes here.
-              <Alert.CloseButton className="alert-close-button-yellow" />
-            </Alert>
-
-            <Alert color="orange" variant="subtle">
+            <Alert variant="solid">
               Flash message goes here.
               <Alert.CloseButton />
             </Alert>
 
-            <Alert color="red" variant="left-accent">
+            <Alert color="error" variant="subtle">
               Flash message goes here.
               <Alert.CloseButton />
             </Alert>

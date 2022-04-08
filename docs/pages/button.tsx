@@ -161,11 +161,11 @@ const demoList = [
       {
         name: "button.tsx",
         code: `<div className="flex flex-wrap w-full p-8 space-x-2">
-  <Button color="orange">Button</Button>
-  <Button variant="solid" color="orange">Button</Button>
-  <Button variant="light" color="orange">Button</Button>
-  <Button variant="ghost" color="orange">Button</Button>
-  <Button variant="link" color="orange">Button</Button>
+  <Button color="secondary">Button</Button>
+  <Button variant="solid" color="secondary">Button</Button>
+  <Button variant="light" color="secondary">Button</Button>
+  <Button variant="ghost" color="secondary">Button</Button>
+  <Button variant="link" color="secondary">Button</Button>
 </div>`,
         readOnly: false,
       },

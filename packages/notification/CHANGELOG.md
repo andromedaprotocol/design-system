@@ -3,6 +3,30 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [0.2.20](https://github.com/andromedaprotocol/design-system/compare/@andromedaprotocol/notification@0.2.19...@andromedaprotocol/notification@0.2.20) (2022-04-06)
+
+**Note:** Version bump only for package @andromedaprotocol/notification
+
+
+
+
+
+## [0.2.19](https://github.com/andromedaprotocol/design-system/compare/@andromedaprotocol/notification@0.2.18...@andromedaprotocol/notification@0.2.19) (2022-04-06)
+
+**Note:** Version bump only for package @andromedaprotocol/notification
+
+
+
+
+
+## [0.2.18](https://github.com/andromedaprotocol/design-system/compare/@andromedaprotocol/notification@0.2.18...@andromedaprotocol/notification@0.2.18) (2022-04-06)
+
+**Note:** Version bump only for package @andromedaprotocol/notification
+
+
+
+
+
 ## [0.2.17](https://github.com/andromedaprotocol/design-system/compare/@andromedaprotocol/notification@0.2.16...@andromedaprotocol/notification@0.2.17) (2022-04-01)
 
 **Note:** Version bump only for package @andromedaprotocol/notification

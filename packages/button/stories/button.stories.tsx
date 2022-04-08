@@ -45,7 +45,7 @@ export const solid = () => (
     <Button variant="solid" color="primary">
       Button
     </Button>
-    <Button variant="solid" color="orange">
+    <Button variant="solid" color="secondary">
       Button
     </Button>
     <Button
@@ -89,7 +89,7 @@ export const ghost = () => (
     <Button variant="ghost" color="primary">
       Button
     </Button>
-    <Button variant="ghost" color="orange">
+    <Button variant="ghost" color="secondary">
       Button
     </Button>
     <Button
@@ -129,11 +129,13 @@ export const ghost = () => (
 
 export const light = () => (
   <div className="flex space-x-2">
-    <Button variant="light" color="primary">Button</Button>
     <Button variant="light" color="primary">
       Button
     </Button>
-    <Button variant="light" color="orange">
+    <Button variant="light" color="primary">
+      Button
+    </Button>
+    <Button variant="light" color="secondary">
       Button
     </Button>
     <Button
@@ -177,7 +179,7 @@ export const link = () => (
     <Button variant="link" color="primary">
       Button
     </Button>
-    <Button variant="link" color="orange">
+    <Button variant="link" color="secondary">
       Button
     </Button>
     <Button
