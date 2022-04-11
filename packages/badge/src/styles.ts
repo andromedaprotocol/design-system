@@ -13,18 +13,40 @@ const variantClasses: variantOptions = {
   solid: "badge-solid",
   outline: "badge-outline",
   light: "badge-light",
+  white : "badge-white",
 };
+
+const colorClasses = {
+    solid: "badge-solid",
+    outline: "badge-outline",
+    light: "badge-light",
+    white : "badge-white",
+}
 
 const sizes: sizeOptions = {
   sm: "badge-sm",
   md: "badge-md",
+  lg: "badge-lg",
 };
 
 export const useBadgeClass = createMemoClass((props) => {
   return cx(
-    "badge",
+    variantClasses[props.variant],
+    "badge font-medium",
     props.hasShadow && "badge-shadow",
     sizes[props.size],
-    variantClasses[props.variant]
+  );
+});
+
+const GroupClasses = {
+  solid: "badge-solid",
+  light: "badge-light",
+}
+
+
+export const useBadgeGroupClass = createMemoClass((props) => {
+  return cx(
+    "badge-group",
+    GroupClasses[props.variant]
   );
 });

@@ -1,6 +1,9 @@
 import { cx, __DEV__ } from "@andromedaprotocol/utils";
 import { Icon } from "@andromedaprotocol/icon";
 import { DefaultProps } from "@andromedaprotocol/theme";
+import { Badge } from "@andromedaprotocol/badge";
+import { BadgeGroup } from "@andromedaprotocol/badge";
+
 import * as React from "react";
 
 import {
@@ -62,13 +65,10 @@ interface IAlertProps extends DefaultProps {
   color?: "gray" | "primary" | "success" | "warning" | "error" | string;
   /** Controls alert appearance */
   variant?: "subtle" | "solid" | "left-accent";
-  mark?: "string" | "icon";
-  title?: string;
-  more?: boolean;
+  more?:boolean;
   children?: React.ReactNode;
-  badge?: string;
-  detail?: () => {};
-  link?: string;
+  detail?:() => {};
+  link?:string;
 }
 
 export interface AlertProps
@@ -120,19 +120,7 @@ const statuses = {
 
 export const Alert = React.forwardRef<HTMLDivElement, AlertProps>(
   (props, ref) => {
-    const {
-      color = "primary",
-      variant = "subtle",
-      className,
-      children,
-      mark,
-      badge = "New",
-      title,
-      more,
-      link,
-      detail,
-      ...rest
-    } = props;
+    const { color = "primary", variant = "subtle", className, children, more,link,detail, ...rest } = props;
     const classes = useAlertClass({
       variant,
       color,
@@ -155,20 +143,18 @@ export const Alert = React.forwardRef<HTMLDivElement, AlertProps>(
           className={cx(classes, className, styles)}
           {...rest}
         >
-          {mark === "string" && (
-            <div
-              className={cx(
-                "flex flex-row p-1 mr-3 rounded-full justify-center text-center",
-                new_back
-              )}
-            >
-              <div
-                className={cx(
-                  "rounded-full flex justify-center items-center",
-                  new_styles
-                )}
-              >
-                {badge}
+          {/* { mark && (
+            <BadgeGroup variant="solid" color="primary" position="right">
+              <label>We’ve just released a new feature</label>
+              <Badge color="primary" variant="light">Success</Badge>
+            </BadgeGroup>
+          )
+
+          }
+          { mark === 'string' && (
+              <div className={cx("flex flex-row p-1 mr-3 rounded-full justify-center text-center", new_back)}>
+                  <div className={cx("rounded-full flex justify-center items-center", new_styles)}>{badge}</div>
+                  <div className={cx("ml-3 mr-2", new_title)}>{title}</div>
               </div>
               <div className={cx("ml-3 mr-2", new_title)}>{title}</div>
             </div>
@@ -183,10 +169,9 @@ export const Alert = React.forwardRef<HTMLDivElement, AlertProps>(
               <div className="flex w-4 h-4 m-auto">
                 <Icon name={icon} label="" />
               </div>
-              <div className={cx("ml-3 mr-2", new_title)}>{title}</div>
-            </div>
-          )}
-          <div className={`${mark ? "mt-3 md:m-auto md:ml-2.5" : ""}`}>
+            )
+          } */}
+          <div className={cx('flex flex-row space-x-4 items-center','')}>
             {children}
           </div>
           {/** TODO */

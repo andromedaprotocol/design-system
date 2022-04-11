@@ -6,11 +6,11 @@ import { useBadgeClass } from "./styles";
 
 interface IBadgeProps extends DefaultProps {
   /* The color of badge */
-  color?: string;
+  color?: "primary" | "success" | "error" | "warning" | "gray" | string;
   /* Controls badge appearance */
-  variant?: "solid" | "light";
+  variant?: "solid" | "light" | "outline" | "white";
   /* The size of badge */
-  size?: "sm" | "md";
+  size?: "sm" | "md" | "lg";
   /* If `true` badge has shadow */
   hasShadow?: boolean;
 }
@@ -22,20 +22,19 @@ export interface BadgeProps
 export const Badge = React.forwardRef<HTMLSpanElement, BadgeProps>(
   (props, ref) => {
     const {
-      color,
+      color = "primary",
       variant = "light",
       className,
       size = "md",
       hasShadow = false,
       ...rest
     } = props;
-
-    const classes = useBadgeClass({ variant, hasShadow, size });
+    const classes = useBadgeClass({ variant, hasShadow, size, color });
     return (
       <span
         ref={ref}
+        data-color={`${color}`}
         className={cx(classes, className)}
-        data-color={color ? color : undefined}
         {...rest}
       />
     );
