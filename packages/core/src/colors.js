@@ -14,6 +14,19 @@ module.exports = {
     900: withOpacity("--vc-colors-primary-900"),
   },
 
+  success: {
+    50: "rgba(255, 255, 0, 1)",
+    100: "rgba(255, 255, 0, 1)",
+    200: "rgba(255, 255, 0, 1)",
+    300: "rgba(255, 255, 0, 1)",
+    400: "rgba(255, 255, 0, 1)",
+    500: "rgba(255, 255, 0, 1)",
+    600: "rgba(255, 255, 0, 1)",
+    700: "rgba(255, 255, 0, 1)",
+    800: "rgba(255, 255, 0, 1)",
+    900: "rgba(255, 255, 0, 1)",
+  },
+
   neutral: {
     50: withOpacity("--vc-colors-neutral-50"),
     100: withOpacity("--vc-colors-neutral-100"),

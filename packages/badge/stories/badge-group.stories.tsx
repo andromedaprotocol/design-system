@@ -77,11 +77,11 @@ export const colored = () => (
   <div className="flex flex-col space-y-3">
     <div className="flex flex-row space-x-3">
       <BadgeGroup color="primary">
-        <Badge color="primary" variant="white">Success</Badge>
+        <Badge color="primary" variant="solid">Success</Badge>
         <label>We’ve just released a new feature</label>
       </BadgeGroup>
       <BadgeGroup color="primary" size="lg">
-        <Badge color="primary" variant="white" size="lg">Success</Badge>
+        <Badge color="primary" variant="light" size="lg">Success</Badge>
         <label>We’ve just released a new feature</label>
       </BadgeGroup>
       <BadgeGroup color="primary" position="right">
@@ -96,7 +96,7 @@ export const colored = () => (
 
     <div className="flex flex-row space-x-3">
       <BadgeGroup color="success">
-        <Badge color="success" variant="white">Success</Badge>
+        <Badge color="success" variant="solid">Success</Badge>
         <label>We’ve just released a new feature</label>
       </BadgeGroup>
       <BadgeGroup color="success" size="lg">
@@ -115,7 +115,7 @@ export const colored = () => (
 
     <div className="flex flex-row space-x-3">
       <BadgeGroup color="warning">
-        <Badge color="warning" variant="white">Success</Badge>
+        <Badge color="warning" variant="solid">Success</Badge>
         <label>We’ve just released a new feature</label>
       </BadgeGroup>
       <BadgeGroup color="warning" size="lg">
@@ -134,7 +134,7 @@ export const colored = () => (
 
     <div className="flex flex-row space-x-3">
       <BadgeGroup color="error">
-        <Badge color="error" variant="white">Success</Badge>
+        <Badge color="error" variant="solid">Success</Badge>
         <label>We’ve just released a new feature</label>
       </BadgeGroup>
       <BadgeGroup color="error" size="lg">

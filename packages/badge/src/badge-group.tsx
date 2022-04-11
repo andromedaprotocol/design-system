@@ -33,7 +33,8 @@ export const BadgeGroup = React.forwardRef<HTMLSpanElement, BadgeGroupProps>(
     return (
       <div
         role="group"
-        className={cx('badge-group font-medium', classes, fontSize, pos)}
+        data-color={color}
+        className={cx(classes, fontSize, pos)}
         {...rest}
       >
         {children}

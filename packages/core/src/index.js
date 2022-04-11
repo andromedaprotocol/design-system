@@ -6,6 +6,7 @@ const withOpacity = require("./with-opacity");
 const Alert = require("./components/alert");
 const Avatar = require("./components/avatar");
 const Badge = require("./components/badge");
+const BadgeGroup = require("./components/badge-group");
 const Breadcrumb = require("./components/breadcrumb");
 const ButtonGroup = require("./components/button-group");
 const Button = require("./components/button");
@@ -28,6 +29,7 @@ const components = [
   Alert,
   Avatar,
   Badge,
+  BadgeGroup,
   Breadcrumb,
   ButtonGroup,
   Button,
@@ -46,8 +48,7 @@ const components = [
   Switch,
   Tag,
 ];
-
-const defaultColors = ["primary"];
+const defaultColors = ["primary", "success", "error", "warning", "gray", "classifier", "ado", "module"];
 
 module.exports = plugin.withOptions(
   function(options = { colors: [], cssBase: true }) {

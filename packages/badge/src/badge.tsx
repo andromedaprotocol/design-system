@@ -29,11 +29,11 @@ export const Badge = React.forwardRef<HTMLSpanElement, BadgeProps>(
       hasShadow = false,
       ...rest
     } = props;
-
     const classes = useBadgeClass({ variant, hasShadow, size, color });
     return (
       <span
         ref={ref}
+        data-color={`${color}`}
         className={cx(classes, className)}
         {...rest}
       />
