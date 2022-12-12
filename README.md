@@ -48,4 +48,4 @@ All contributions are welcome. Even, if you notice wrong information, typos, or 
 
 ## License
 
-MIT License © 2022 [Andromeda](https://github.com/andromedaprotocol)
+[Terms and Conditions](https://github.com/andromedaprotocol/andromeda-core/blob/Add-Licensing/LICENSE/LICENSE.md)
