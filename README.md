@@ -46,6 +46,6 @@ After cloning this repo, run:
 
 All contributions are welcome. Even, if you notice wrong information, typos, or grammar mistake (English is not my primary language). Feel free to open an issue or create a pull request.
 
-## License
+## Licensing
 
-[Terms and Conditions](https://github.com/andromedaprotocol/andromeda-core/blob/Add-Licensing/LICENSE/LICENSE.md)
+[Terms and Conditions](https://github.com/andromedaprotocol/andromeda-core/blob/development/LICENSE/LICENSE.md)
